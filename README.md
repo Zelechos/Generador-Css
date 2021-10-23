@@ -4,3 +4,4 @@ Un Proyect de Inteligencia Artificial para generar estilos CSS en base a un arch
 
 ## Itinerario del Proyecto
 --------------------------------------------------------------------
+![](https://raw.githubusercontent.com/Zelechos/Generador-Css/main/assets/Itinerario%20de%20Proyecto.jpeg)
