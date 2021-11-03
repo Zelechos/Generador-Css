@@ -9,3 +9,13 @@ Un Proyect de Inteligencia Artificial para generar estilos CSS en base a un arch
 ## Documentacion del Proyecto
 --------------------------------------------------------------------
 [Documento del Proyecto](https://docs.google.com/document/d/1_G_6ib9mBZGtH7s2uOg_oM1QPAmYayBG-QSPX9U3nkE/edit?usp=sharing)
+
+
+## Videos del Proyecto
+--------------------------------------------------------------------
+[canal sensio](https://www.youtube.com/c/sensio-ia/videos)
+
+
+## Recursos Proyecto
+--------------------------------------------------------------------
+[web de sensio](https://juansensio.com/blog)
