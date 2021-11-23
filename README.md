@@ -1,8 +1,6 @@
 # Generador-Css {ENTREGA EL 30 DE NOVIEMBRE APURATEEEE!!!!!!!!}
 --------------------------------------------------------------------
-[Colab Project](https://colab.research.google.com/github/Zelechos/Generador-Css/blob/main/GeneradorCSS.ipynb)
 
---------------------------------------------------------------------
 Un Proyect de Inteligencia Artificial para generar estilos CSS en base a un archivo HTML este modelo es creado como proyecto para la Materia de IA 3 Desarrollo de Aplicaciones Inteligentes 
 
 ## Itinerario del Proyecto
