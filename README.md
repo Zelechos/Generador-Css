@@ -20,3 +20,8 @@ Un Proyect de Inteligencia Artificial para generar estilos CSS en base a un arch
 ## Recursos Proyecto
 --------------------------------------------------------------------
 [web de sensio](https://juansensio.com/blog)
+
+
+## Video de Referencia
+--------------------------------------------------------------------
+[Aladin person transformers](https://www.youtube.com/watch?v=U0s0f995w14&list=PLhhyoLH6IjfxeoooqP9rhU3HJIAVAJ3Vz&index=40)
