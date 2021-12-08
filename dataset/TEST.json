@@ -21,11 +21,11 @@
             "selector" : "@font-face"
         },
         {
-            "style" : "body {margin: 0px;background: #EF5350;}",
+            "style" : "body{margin: 0px;background: #EF5350;}",
             "selector" : "body"
         },
         {
-            "style" : ".logo {transform: scale(0.7);margin-top: 45px;}",
+            "style" : ".logo{transform: scale(0.7);margin-top: 45px;}",
             "selector" : ".logo"
         },
         {
