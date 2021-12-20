@@ -1,6 +1,6 @@
 # Generador-Css {ENTREGA EL 12 DE ENERO}
 --------------------------------------------------------------------
-Un Proyect de Inteligencia Artificial para generar estilos CSS en base a un archivo HTML este modelo es creado como proyecto para la Materia de IA 3 Desarrollo de Aplicaciones Inteligentes 
+Es un Modelo de Inteligencia Artificial dedicado para generar estilos CSS en base a un archivo HTML este modelo es creado como proyecto para la Materia de IA 3 Desarrollo de Aplicaciones Inteligentes 
 
 ## Itinerario del Proyecto
 --------------------------------------------------------------------
