@@ -18,5 +18,5 @@ Es un Modelo de Inteligencia Artificial dedicado para generar estilos CSS en bas
 
 ## Recursos Proyecto
 --------------------------------------------------------------------
-[web de sensio](https://juansensio.com/blog)
-[ANÁLISIS DETALLADO DE SENSIBILIDAD Y ESPECIFICIDAD](https://gist.github.com/Zelechos/f82f9c94ddea824f40dae3ac026c544a)
+- [web de sensio](https://juansensio.com/blog)
+- [ANÁLISIS DETALLADO DE SENSIBILIDAD Y ESPECIFICIDAD](https://gist.github.com/Zelechos/f82f9c94ddea824f40dae3ac026c544a)
