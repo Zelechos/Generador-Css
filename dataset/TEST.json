@@ -299,6 +299,68 @@
          { 
            "style" : "a { text-decoration : none ; display : inline-block ; width : 45px ; height : 45px ; border-radius : 50% ; background : transparent ; border : 1px dashed #fff ; color : #fff ; margin : 5px } ",
            "selector" : "a"
-        }  
+        }  ,
+        { 
+          "style" : "body { overflow-x : hidden ; font-family : Roboto Slab , Helvetica Neue , Helvetica , Arial ,sans-serif ; } ",
+          "selector" : "body"
+        }  ,
+        { 
+          "style" : "p{font-size:14px;line-height:1.75}",
+          "selector" : "p"
+        }  ,
+        { 
+          "style" : ".img-centered{margin:0 auto}",
+          "selector" : ".img-centered"
+        }  ,
+        { 
+          "style" : ".bg-light-gray{background-color:#f7f7f7}",
+          "selector" : ".bg-light-gray"
+        }  ,
+        { 
+          "style" : ".bg-darkest-gray{background-color:#222}",
+          "selector" : ".bg-darkest-gray"
+        }  ,
+        { 
+          "style" : ".btn-primary{border-color:#fff;text-transform:uppercase;font-family:Montserrat,Helvetica Neue, Helvetica,Arial,sans-serif;font-weight:700;color:#fff;background-color:#3BA9E8}",
+          "selector" : ".btn-primary"
+        }  ,
+        { 
+          "style" : ".navbar-default{border-color:transparent;background-color:#222}",
+          "selector" : ".navbar-default"
+        }  ,
+        { 
+          "style" : ".navbar-default.navbar-brand{font-family:'Anton',sans-serif;color:#fff}",
+          "selector" : ".navbar-default.navbar-brand"
+        }  ,
+        { 
+          "style" : ".navbar-default.navbar-collapse{border-color:rgba(255,255,255,.02)}",
+          "selector" : ".navbar-default.navbar-collapse"
+        }  ,
+        { 
+          "style" : ".navbar-default.nav li a{text-transform:uppercase;font-family:Montserrat,Helvetica Neue,Helvetica,Arial,sans-serif;font-weight:400;letter-spacing:1px;color:#fff}",
+          "selector" : ".navbar-default.nav li a"
+        }  ,
+        { 
+          "style" : ".nav li a{text-transform:uppercase;font-family:Montserrat,Helvetica Neue,Helvetica,Arial,sans-serif;font-weight:400;letter-spacing:1px;color:#fff}",
+          "selector" : ".nav li a"
+        }  ,
+        { 
+          "style" : ".button{display:inline-block;text-align:center;vertical-align:middle;padding:16px 24px;border:1px solid #a12727;border-radius:8px;background:#ff4a4a;background:-webkit-gradient(linear,left top,left bottom,from(#ff4a4a),to(#992727));background:-moz-linear-gradient(top,#ff4a4a,#992727);background:linear-gradient(to bottom,#ff4a4a,#992727);-webkit-box-shadow:#ff5959 0 0 0 0;-moz-box-shadow:#ff5959 0 0 0 0;box-shadow:#ff5959 0 0 0 0;text-shadow:#591717 1px 1px 1px;font:normal normal bold 22px verdana;color:#fff;text-decoration:none}",
+          "selector" : ".button"
+        }  ,
+        { 
+          "style" : ".button{display:inline-block;text-align:center;vertical-align:middle;padding:16px 24px;border:1px solid #0e2c7a;border-radius:8px;background:#1a53e5;background:-webkit-gradient(linear,left top,left bottom,from(#1a53e5),to(#0e2c7a));background:-moz-linear-gradient(top,#1a53e5,#0e2c7a);background:linear-gradient(to bottom,#1a53e5,#0e2c7a);-webkit-box-shadow:#1f64ff 0 0 0 0;-moz-box-shadow:#1f64ff 0 0 0 0;box-shadow:#1f64ff 0 0 0 0;text-shadow:#081a48 1px 1px 1px;font:normal normal bold 22px verdana;color:#fff;text-decoration:none}",
+          "selector" : ".button"
+        }  ,
+        { 
+          "style" : ".btn{display:inline-block;text-align:center;vertical-align:middle;padding:16px 24px;border:1px solid #0e2c7a;border-radius:8px;background:#1a53e5;background:-webkit-gradient(linear,left top,left bottom,from(#1a53e5),to(#0e2c7a));background:-moz-linear-gradient(top,#1a53e5,#0e2c7a);background:linear-gradient(to bottom,#1a53e5,#0e2c7a);-webkit-box-shadow:#1f64ff 0 0 0 0;-moz-box-shadow:#1f64ff 0 0 0 0;box-shadow:#1f64ff 0 0 0 0;text-shadow:#081a48 1px 1px 1px;font:normal normal bold 22px verdana;color:#fff;text-decoration:none}",
+          "selector" : ".button"
+        }  ,
+        { 
+          "style" : ".btn{display:inline-block;text-align:center;vertical-align:middle;padding:16px 24px;border:1px solid #a12727;border-radius:8px;background:#ff4a4a;background:-webkit-gradient(linear,left top,left bottom,from(#ff4a4a),to(#992727));background:-moz-linear-gradient(top,#ff4a4a,#992727);background:linear-gradient(to bottom,#ff4a4a,#992727);-webkit-box-shadow:#ff5959 0 0 0 0;-moz-box-shadow:#ff5959 0 0 0 0;box-shadow:#ff5959 0 0 0 0;text-shadow:#591717 1px 1px 1px;font:normal normal bold 22px verdana;color:#fff;text-decoration:none}",
+          "selector" : ".button"
+        }
     ]
  }  
+
+ // Falta resfactorizar Los espacios desde la linea 307
