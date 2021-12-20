@@ -7,17 +7,16 @@ Es un Modelo de Inteligencia Artificial dedicado para generar estilos CSS en bas
 ![](https://raw.githubusercontent.com/Zelechos/Generador-Css/main/assets/Itinerario%20de%20Proyecto.jpeg)
 
 ## [Documentacion del Proyecto](https://docs.google.com/document/d/1_G_6ib9mBZGtH7s2uOg_oM1QPAmYayBG-QSPX9U3nkE/edit?usp=sharing)
---------------------------------------------------------------------
-[ANÁLISIS DETALLADO DE SENSIBILIDAD Y ESPECIFICIDAD](https://gist.github.com/Zelechos/f82f9c94ddea824f40dae3ac026c544a)
 
-## Videos del Proyecto
+
+## Canales De Youtube de Referencia
 --------------------------------------------------------------------
-[canal sensio](https://www.youtube.com/c/sensio-ia/videos)
+- [Canal sensio](https://www.youtube.com/c/sensio-ia/videos)
+- [Canal PythonEngineer](https://www.youtube.com/c/PythonEngineer/search)
+- [Canal Aladdin Persson](https://www.youtube.com/channel/UCkzW5JSFwvKRjXABI-UTAkQ)
+
 
 ## Recursos Proyecto
 --------------------------------------------------------------------
 [web de sensio](https://juansensio.com/blog)
-
-## Video de Referencia
---------------------------------------------------------------------
-[Aladin person transformers](https://www.youtube.com/watch?v=U0s0f995w14&list=PLhhyoLH6IjfxeoooqP9rhU3HJIAVAJ3Vz&index=40)
+[ANÁLISIS DETALLADO DE SENSIBILIDAD Y ESPECIFICIDAD](https://gist.github.com/Zelechos/f82f9c94ddea824f40dae3ac026c544a)
