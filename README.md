@@ -20,3 +20,7 @@ Es un Modelo de Inteligencia Artificial dedicado para generar estilos CSS en bas
 --------------------------------------------------------------------
 - [web de sensio](https://juansensio.com/blog)
 - [ANÁLISIS DETALLADO DE SENSIBILIDAD Y ESPECIFICIDAD](https://gist.github.com/Zelechos/f82f9c94ddea824f40dae3ac026c544a)
+
+## Tests
+--------------------------------------------------------------------
+- [Test_2](https://github.com/CyberZHG/keras-transformer)
