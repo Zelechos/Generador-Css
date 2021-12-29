@@ -57,6 +57,126 @@
           "selector" : ".text"
        } ,
        { 
+         "style" : "body { font-family: 'IBM Plex Sans', sans-serif ; font-weight:294 ; background-color:#234145 ; font-size:16px ; }",
+         "selector" : ".body"
+       } ,
+       { 
+         "style" : "body { font-family: 'IBM Plex Sans', sans-serif ; font-weight:258 ; background-color:#A27756 ; font-size:17px ; }",
+         "selector" : ".body"
+       } ,
+       { 
+         "style" : "body { font-family: 'IBM Plex Sans', sans-serif ; font-weight:252 ; background-color:#190477 ; font-size:19px ; }",
+         "selector" : ".body"
+       } ,
+       { 
+         "style" : "body { font-family: 'IBM Plex Sans', sans-serif ; font-weight:258 ; background-color:#7BC5BB ; font-size:15px ; }",
+         "selector" : ".body"
+       } ,
+       { 
+         "style" : "body { font-family: 'IBM Plex Sans', sans-serif ; font-weight:295 ; background-color:#964810 ; font-size:20px ; }",
+         "selector" : ".body"
+       } ,
+       { 
+         "style" : "body { font-family: 'IBM Plex Sans', sans-serif ; font-weight:255 ; background-color:#543A0B ; font-size:21px ; }",
+         "selector" : ".body"
+       } ,
+       { 
+         "style" : "body { font-family: 'IBM Plex Sans', sans-serif ; font-weight:274 ; background-color:#31B279 ; font-size:19px ; }",
+         "selector" : ".body"
+       } ,
+       { 
+         "style" : "body { font-family: 'IBM Plex Sans', sans-serif ; font-weight:298 ; background-color:#2C5185 ; font-size:21px ; }",
+         "selector" : ".body"
+       } ,
+       { 
+         "style" : "body { font-family: 'IBM Plex Sans', sans-serif ; font-weight:264 ; background-color:#D958D0 ; font-size:21px ; }",
+         "selector" : ".body"
+       } ,
+       { 
+         "style" : "body { font-family: 'IBM Plex Sans', sans-serif ; font-weight:283 ; background-color:#345CD4 ; font-size:24px ; }",
+         "selector" : ".body"
+       } ,
+       { 
+         "style" : "body { font-family: 'IBM Plex Sans', sans-serif ; font-weight:261 ; background-color:#D05017 ; font-size:17px ; }",
+         "selector" : ".body"
+       } ,
+       { 
+         "style" : "body { font-family: 'IBM Plex Sans', sans-serif ; font-weight:295 ; background-color:#48909D ; font-size:16px ; }",
+         "selector" : ".body"
+       } ,
+       { 
+         "style" : "body { font-family: 'IBM Plex Sans', sans-serif ; font-weight:255 ; background-color:#195583 ; font-size:21px ; }",
+         "selector" : ".body"
+       } ,
+       { 
+         "style" : "body { font-family: 'IBM Plex Sans', sans-serif ; font-weight:280 ; background-color:#512514 ; font-size:18px ; }",
+         "selector" : ".body"
+       } ,
+       { 
+         "style" : "body { font-family: 'IBM Plex Sans', sans-serif ; font-weight:296 ; background-color:#550790 ; font-size:23px ; }",
+         "selector" : ".body"
+       } ,
+       { 
+         "style" : "body { font-family: 'IBM Plex Sans', sans-serif ; font-weight:299 ; background-color:#5B4D15 ; font-size:19px ; }",
+         "selector" : ".body"
+       } ,
+       { 
+         "style" : "body { font-family: 'IBM Plex Sans', sans-serif ; font-weight:289 ; background-color:#91207C ; font-size:23px ; }",
+         "selector" : ".body"
+       } ,
+       { 
+         "style" : "body { font-family: 'IBM Plex Sans', sans-serif ; font-weight:290 ; background-color:#D2B2C6 ; font-size:17px ; }",
+         "selector" : ".body"
+       } ,
+       { 
+         "style" : "body { font-family: 'IBM Plex Sans', sans-serif ; font-weight:267 ; background-color:#2A9C5D ; font-size:19px ; }",
+         "selector" : ".body"
+       } ,
+       { 
+         "style" : "body { font-family: 'IBM Plex Sans', sans-serif ; font-weight:285 ; background-color:#2C8428 ; font-size:23px ; }",
+         "selector" : ".body"
+       } ,
+       { 
+         "style" : "body { font-family: 'IBM Plex Sans', sans-serif ; font-weight:282 ; background-color:#9B1353 ; font-size:18px ; }",
+         "selector" : ".body"
+       } ,
+       { 
+         "style" : "body { font-family: 'IBM Plex Sans', sans-serif ; font-weight:298 ; background-color:#76654C ; font-size:17px ; }",
+         "selector" : ".body"
+       } ,
+       { 
+         "style" : "body { font-family: 'IBM Plex Sans', sans-serif ; font-weight:259 ; background-color:#371522 ; font-size:20px ; }",
+         "selector" : ".body"
+       } ,
+       { 
+         "style" : "body { font-family: 'IBM Plex Sans', sans-serif ; font-weight:254 ; background-color:#1C5635 ; font-size:19px ; }",
+         "selector" : ".body"
+       } ,
+       { 
+         "style" : "body { font-family: 'IBM Plex Sans', sans-serif ; font-weight:286 ; background-color:#356430 ; font-size:23px ; }",
+         "selector" : ".body"
+       } ,
+       { 
+         "style" : "body { font-family: 'IBM Plex Sans', sans-serif ; font-weight:291 ; background-color:#6AD651 ; font-size:17px ; }",
+         "selector" : ".body"
+       } ,
+       { 
+         "style" : "body { font-family: 'IBM Plex Sans', sans-serif ; font-weight:275 ; background-color:#8519B2 ; font-size:19px ; }",
+         "selector" : ".body"
+       } ,
+       { 
+         "style" : "body { font-family: 'IBM Plex Sans', sans-serif ; font-weight:253 ; background-color:#CAD822 ; font-size:22px ; }",
+         "selector" : ".body"
+       } ,
+       { 
+         "style" : "body { font-family: 'IBM Plex Sans', sans-serif ; font-weight:279 ; background-color:#853451 ; font-size:18px ; }",
+         "selector" : ".body"
+       } ,
+       { 
+         "style" : "body { font-family: 'IBM Plex Sans', sans-serif ; font-weight:281 ; background-color:#339D8B ; font-size:15px ; }",
+         "selector" : ".body"
+       } ,
+       { 
           "style" : ".text { animation: text-animation 1.75s ease ; position: fixed ;  } ",
           "selector" : ".text"
        } ,
@@ -735,6 +855,26 @@
        { 
         "style" : "* { margin:0 ; padding:0 ; box-sizing:border-box ; }",
         "selector" : "*"
+       },
+       { 
+         "style" : "body { font-family: 'IBM Plex Sans', sans-serif ; font-weight:256 ; background-color:#9252A3 ; font-size:15px ; }",
+         "selector" : ".body"
+       } ,
+       { 
+         "style" : "body { font-family: 'IBM Plex Sans', sans-serif ; font-weight:258 ; background-color:#5A5A31 ; font-size:21px ; }",
+         "selector" : ".body"
+       } ,
+       { 
+         "style" : "body { font-family: 'IBM Plex Sans', sans-serif ; font-weight:292 ; background-color:#5CD35B ; font-size:15px ; }",
+         "selector" : ".body"
+       } ,
+       { 
+         "style" : "body { font-family: 'IBM Plex Sans', sans-serif ; font-weight:279 ; background-color:#DC582B ; font-size:24px ; }",
+         "selector" : ".body"
+       } ,
+       { 
+         "style" : "body { font-family: 'IBM Plex Sans', sans-serif ; font-weight:265 ; background-color:#54737A ; font-size:16px ; }",
+         "selector" : ".body"
        }
   ]
  }   
