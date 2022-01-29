@@ -1,1 +1,7 @@
 .button-transparent { color:#0554DC ; border:1px solid #DC6D86 ; background-color:transparent ; border-radius:5px ; padding:0 17px ; cursor:pointer ; transition:all 0.3s ease-in-out ; } .button-transparent:hover { transform:scale(.8) }
+
+
+.btn { display:inline-block ; text-align:center ; vertical-align:middle ; padding:16px 24px ; border:1px solid #6872C4 ; border-radius:8px ; background:#4456A3 ; background:-webkit-gradient(linear,left top,left bottom,from(#9C5387),to(#A78440)) ; background:-moz-linear-gradient(top,#484DD9,#4A3624) ; background:linear-gradient(to bottom,#C3876C,#3D5122) ; -webkit-box-shadow:#D57279 0 0 0 0 ; -moz-box-shadow:#D12AD3 0 0 0 0 ; box-shadow:#DD744B 0 0 0 0 ; text-shadow:#C75502 1px 1px 1px ; font:normal normal bold 22px verdana ; color:#fff ; text-decoration:none }
+
+
+header { background-color:#475B9A ; position:fixed ; top:0 ; left:0 ; right:0 ; height:83px ; display:flex ; align-items:center ; box-shadow: 0 0 0 0 black ; } header * { display:inline ; } header li { border-radius:5px ; } header li { display:inline ; }
