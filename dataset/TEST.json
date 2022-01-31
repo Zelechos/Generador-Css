@@ -3352,6 +3352,167 @@
         { 
         "style" : ".button-transparent { color:#500AB5 ; border:1px solid #D9CD6B ; background-color:transparent ; border-radius:4px ; padding:0 17px ; cursor:pointer ; transition:all 0.3s ease-in-out ; } .button-transparent:hover { transform:scale(.8) } ",
         "selector" : ".button-transparent"
+      } , 
+      
+      { 
+        "style" : ".parent { border:1px solid #31C527 ; height:250px ; position:relative ; width:250px ; } .child { left:50% ; position:absolute ; top:50% ; transform:translate(-50%,-50%) ; text-align:center ; } ",
+        "selector" : ".parent"
+      } ,
+        { 
+        "style" : ".parent { border:1px solid #353C21 ; height:250px ; position:relative ; width:250px ; } .child { left:50% ; position:absolute ; top:50% ; transform:translate(-50%,-50%) ; text-align:center ; } ",
+        "selector" : ".parent"
+      } ,
+        { 
+        "style" : ".parent { border:1px solid #51B532 ; height:250px ; position:relative ; width:250px ; } .child { left:50% ; position:absolute ; top:50% ; transform:translate(-50%,-50%) ; text-align:center ; } ",
+        "selector" : ".parent"
+      } ,
+        { 
+        "style" : ".parent { border:1px solid #1DA550 ; height:250px ; position:relative ; width:250px ; } .child { left:50% ; position:absolute ; top:50% ; transform:translate(-50%,-50%) ; text-align:center ; } ",
+        "selector" : ".parent"
+      } ,
+        { 
+        "style" : ".parent { border:1px solid #302125 ; height:250px ; position:relative ; width:250px ; } .child { left:50% ; position:absolute ; top:50% ; transform:translate(-50%,-50%) ; text-align:center ; } ",
+        "selector" : ".parent"
+      } ,
+        { 
+        "style" : ".parent { border:1px solid #44B0B8 ; height:250px ; position:relative ; width:250px ; } .child { left:50% ; position:absolute ; top:50% ; transform:translate(-50%,-50%) ; text-align:center ; } ",
+        "selector" : ".parent"
+      } ,
+        { 
+        "style" : ".parent { border:1px solid #D4BD15 ; height:250px ; position:relative ; width:250px ; } .child { left:50% ; position:absolute ; top:50% ; transform:translate(-50%,-50%) ; text-align:center ; } ",
+        "selector" : ".parent"
+      } ,
+        { 
+        "style" : ".parent { border:1px solid #474AC5 ; height:250px ; position:relative ; width:250px ; } .child { left:50% ; position:absolute ; top:50% ; transform:translate(-50%,-50%) ; text-align:center ; } ",
+        "selector" : ".parent"
+      } ,
+        { 
+        "style" : ".parent { border:1px solid #B534AC ; height:250px ; position:relative ; width:250px ; } .child { left:50% ; position:absolute ; top:50% ; transform:translate(-50%,-50%) ; text-align:center ; } ",
+        "selector" : ".parent"
+      } ,
+        { 
+        "style" : ".parent { border:1px solid #D7D010 ; height:250px ; position:relative ; width:250px ; } .child { left:50% ; position:absolute ; top:50% ; transform:translate(-50%,-50%) ; text-align:center ; } ",
+        "selector" : ".parent"
+      } ,
+        { 
+        "style" : ".parent { border:1px solid #971BD0 ; height:250px ; position:relative ; width:250px ; } .child { left:50% ; position:absolute ; top:50% ; transform:translate(-50%,-50%) ; text-align:center ; } ",
+        "selector" : ".parent"
+      } ,
+        { 
+        "style" : ".parent { border:1px solid #D24B32 ; height:250px ; position:relative ; width:250px ; } .child { left:50% ; position:absolute ; top:50% ; transform:translate(-50%,-50%) ; text-align:center ; } ",
+        "selector" : ".parent"
+      } ,
+        { 
+        "style" : ".parent { border:1px solid #55D61B ; height:250px ; position:relative ; width:250px ; } .child { left:50% ; position:absolute ; top:50% ; transform:translate(-50%,-50%) ; text-align:center ; } ",
+        "selector" : ".parent"
+      } ,
+        { 
+        "style" : ".parent { border:1px solid #2BA26C ; height:250px ; position:relative ; width:250px ; } .child { left:50% ; position:absolute ; top:50% ; transform:translate(-50%,-50%) ; text-align:center ; } ",
+        "selector" : ".parent"
+      } ,
+        { 
+        "style" : ".parent { border:1px solid #511111 ; height:250px ; position:relative ; width:250px ; } .child { left:50% ; position:absolute ; top:50% ; transform:translate(-50%,-50%) ; text-align:center ; } ",
+        "selector" : ".parent"
+      } ,
+        { 
+        "style" : ".parent { border:1px solid #B9BD6B ; height:250px ; position:relative ; width:250px ; } .child { left:50% ; position:absolute ; top:50% ; transform:translate(-50%,-50%) ; text-align:center ; } ",
+        "selector" : ".parent"
+      } ,
+        { 
+        "style" : ".parent { border:1px solid #B90C00 ; height:250px ; position:relative ; width:250px ; } .child { left:50% ; position:absolute ; top:50% ; transform:translate(-50%,-50%) ; text-align:center ; } ",
+        "selector" : ".parent"
+      } ,
+        { 
+        "style" : ".parent { border:1px solid #82555A ; height:250px ; position:relative ; width:250px ; } .child { left:50% ; position:absolute ; top:50% ; transform:translate(-50%,-50%) ; text-align:center ; } ",
+        "selector" : ".parent"
+      } ,
+        { 
+        "style" : ".parent { border:1px solid #3725AB ; height:250px ; position:relative ; width:250px ; } .child { left:50% ; position:absolute ; top:50% ; transform:translate(-50%,-50%) ; text-align:center ; } ",
+        "selector" : ".parent"
+      } ,
+        { 
+        "style" : ".parent { border:1px solid #7D2363 ; height:250px ; position:relative ; width:250px ; } .child { left:50% ; position:absolute ; top:50% ; transform:translate(-50%,-50%) ; text-align:center ; } ",
+        "selector" : ".parent"
+      } ,
+        { 
+        "style" : ".parent { border:1px solid #CB446B ; height:250px ; position:relative ; width:250px ; } .child { left:50% ; position:absolute ; top:50% ; transform:translate(-50%,-50%) ; text-align:center ; } ",
+        "selector" : ".parent"
+      } ,
+        { 
+        "style" : ".parent { border:1px solid #355072 ; height:250px ; position:relative ; width:250px ; } .child { left:50% ; position:absolute ; top:50% ; transform:translate(-50%,-50%) ; text-align:center ; } ",
+        "selector" : ".parent"
+      } ,
+        { 
+        "style" : ".parent { border:1px solid #1D2D23 ; height:250px ; position:relative ; width:250px ; } .child { left:50% ; position:absolute ; top:50% ; transform:translate(-50%,-50%) ; text-align:center ; } ",
+        "selector" : ".parent"
+      } ,
+        { 
+        "style" : ".parent { border:1px solid #1A6323 ; height:250px ; position:relative ; width:250px ; } .child { left:50% ; position:absolute ; top:50% ; transform:translate(-50%,-50%) ; text-align:center ; } ",
+        "selector" : ".parent"
+      } ,
+        { 
+        "style" : ".parent { border:1px solid #3B98B8 ; height:250px ; position:relative ; width:250px ; } .child { left:50% ; position:absolute ; top:50% ; transform:translate(-50%,-50%) ; text-align:center ; } ",
+        "selector" : ".parent"
+      } ,
+        { 
+        "style" : ".parent { border:1px solid #CA1485 ; height:250px ; position:relative ; width:250px ; } .child { left:50% ; position:absolute ; top:50% ; transform:translate(-50%,-50%) ; text-align:center ; } ",
+        "selector" : ".parent"
+      } ,
+        { 
+        "style" : ".parent { border:1px solid #8A3628 ; height:250px ; position:relative ; width:250px ; } .child { left:50% ; position:absolute ; top:50% ; transform:translate(-50%,-50%) ; text-align:center ; } ",
+        "selector" : ".parent"
+      } ,
+        { 
+        "style" : ".parent { border:1px solid #413175 ; height:250px ; position:relative ; width:250px ; } .child { left:50% ; position:absolute ; top:50% ; transform:translate(-50%,-50%) ; text-align:center ; } ",
+        "selector" : ".parent"
+      } ,
+        { 
+        "style" : ".parent { border:1px solid #795542 ; height:250px ; position:relative ; width:250px ; } .child { left:50% ; position:absolute ; top:50% ; transform:translate(-50%,-50%) ; text-align:center ; } ",
+        "selector" : ".parent"
+      } ,
+        { 
+        "style" : ".parent { border:1px solid #CB930B ; height:250px ; position:relative ; width:250px ; } .child { left:50% ; position:absolute ; top:50% ; transform:translate(-50%,-50%) ; text-align:center ; } ",
+        "selector" : ".parent"
+      } ,
+        { 
+        "style" : ".parent { border:1px solid #69A813 ; height:250px ; position:relative ; width:250px ; } .child { left:50% ; position:absolute ; top:50% ; transform:translate(-50%,-50%) ; text-align:center ; } ",
+        "selector" : ".parent"
+      } ,
+        { 
+        "style" : ".parent { border:1px solid #4C9555 ; height:250px ; position:relative ; width:250px ; } .child { left:50% ; position:absolute ; top:50% ; transform:translate(-50%,-50%) ; text-align:center ; } ",
+        "selector" : ".parent"
+      } ,
+        { 
+        "style" : ".parent { border:1px solid #AD6743 ; height:250px ; position:relative ; width:250px ; } .child { left:50% ; position:absolute ; top:50% ; transform:translate(-50%,-50%) ; text-align:center ; } ",
+        "selector" : ".parent"
+      } ,
+        { 
+        "style" : ".parent { border:1px solid #72305A ; height:250px ; position:relative ; width:250px ; } .child { left:50% ; position:absolute ; top:50% ; transform:translate(-50%,-50%) ; text-align:center ; } ",
+        "selector" : ".parent"
+      } ,
+        { 
+        "style" : ".parent { border:1px solid #5535DD ; height:250px ; position:relative ; width:250px ; } .child { left:50% ; position:absolute ; top:50% ; transform:translate(-50%,-50%) ; text-align:center ; } ",
+        "selector" : ".parent"
+      } ,
+        { 
+        "style" : ".parent { border:1px solid #3895DC ; height:250px ; position:relative ; width:250px ; } .child { left:50% ; position:absolute ; top:50% ; transform:translate(-50%,-50%) ; text-align:center ; } ",
+        "selector" : ".parent"
+      } ,
+        { 
+        "style" : ".parent { border:1px solid #D62376 ; height:250px ; position:relative ; width:250px ; } .child { left:50% ; position:absolute ; top:50% ; transform:translate(-50%,-50%) ; text-align:center ; } ",
+        "selector" : ".parent"
+      } ,
+        { 
+        "style" : ".parent { border:1px solid #A0AC36 ; height:250px ; position:relative ; width:250px ; } .child { left:50% ; position:absolute ; top:50% ; transform:translate(-50%,-50%) ; text-align:center ; } ",
+        "selector" : ".parent"
+      } ,
+        { 
+        "style" : ".parent { border:1px solid #C5B6CC ; height:250px ; position:relative ; width:250px ; } .child { left:50% ; position:absolute ; top:50% ; transform:translate(-50%,-50%) ; text-align:center ; } ",
+        "selector" : ".parent"
+      } ,
+        { 
+        "style" : ".parent { border:1px solid #2A8830 ; height:250px ; position:relative ; width:250px ; } .child { left:50% ; position:absolute ; top:50% ; transform:translate(-50%,-50%) ; text-align:center ; } ",
+        "selector" : ".parent"
       }
   ]
  }   
