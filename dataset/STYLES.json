@@ -73,6 +73,34 @@
         "selector" : ".text"
      } ,
      { 
+      "style" : ".text { font-family:logofont ; font-size:124px ; color:#fff ; letter-spacing:13px ; position:fixed ; transform:translate(calc(50vw - 290px),calc(50vh + 200px)) } ",
+      "selector" : ".text"
+     } ,
+     { 
+      "style" : ".text { font-family:logofont ; font-size:124px ; color:#fff ; letter-spacing:13px ; position:fixed ; transform:translate(calc(50vw - 290px),calc(50vh + 200px)) } ",
+      "selector" : ".text"
+     } ,
+     { 
+      "style" : ".text { font-family:logofont ; font-size:124px ; color:#fff ; letter-spacing:13px ; position:fixed ; transform:translate(calc(50vw - 290px),calc(50vh + 200px)) } ",
+      "selector" : ".text"
+    } ,
+    { 
+      "style" : ".text { font-family:logofont ; font-size:124px ; color:#fff ; letter-spacing:13px ; position:fixed ; transform:translate(calc(50vw - 290px),calc(50vh + 200px)) } ",
+      "selector" : ".text"
+    } ,
+    { 
+    "style" : ".text { font-family:logofont ; font-size:124px ; color:#fff ; letter-spacing:13px ; position:fixed ; transform:translate(calc(50vw - 290px),calc(50vh + 200px)) } ",
+    "selector" : ".text"
+    } ,
+    { 
+      "style" : ".text { font-family:logofont ; font-size:124px ; color:#fff ; letter-spacing:13px ; position:fixed ; transform:translate(calc(50vw - 290px),calc(50vh + 200px)) } ",
+      "selector" : ".text"
+    } ,
+    { 
+      "style" : ".text { font-family:logofont ; font-size:124px ; color:#fff ; letter-spacing:13px ; position:fixed ; transform:translate(calc(50vw - 290px),calc(50vh + 200px)) } ",
+      "selector" : ".text"
+    } ,
+     { 
        "style" : "body { font-family: 'IBM Plex Sans', sans-serif ; font-weight:294 ; background-color:#234145 ; font-size:16px ; }",
        "selector" : "body"
      } ,
@@ -4356,6 +4384,1011 @@
       { 
       "style" : ".hover-img { background-color:#10C0DA ; color:#7C2D55 ; display:inline-block ; margin:8px ; max-width:320px ; min-width:240px ; overflow:hidden ; position:relative ; text-align:center ; width:100% ; } .hover-img * { box-sizing:border-box ; transition:all 0.45s ease ; } .hover-img:before,.hover-img:after { background-color:rgba(0,0,0,.5) ; border-top:32px solid rgba(0,0,0,.5) ; border-bottom:32px solid rgba(0,0,0,.5) ; position:absolute ; top:0 ; bottom:0 ; left:0 ; right:0 ; content:'' ; transition:all 0.3s ease ; z-index:1 ; opacity:0 ; transform:scaleY(2) ; } .hover-img img { vertical-align:top ; max-width:100% ; backface-visibility:hidden ; } .hover-img figcaption { position:absolute ; top:0 ; bottom:0 ; left:0 ; right:0 ; align-items:center ; z-index:1 ; display:flex ; flex-direction:column ; justify-content:center ; line-height:1.1em;opacity:0 ; z-index:2 ; transition-delay:0.1s ; font-size:24px ; font-family:sans-serif ; font-weight:400 ; letter-spacing:1px ; text-transform:uppercase ; } .hover-img:hover:before,.hover-img:hover:after { transform:scale(1) ; opacity:1 ; } .hover-img:hover>img { opacity:.7 ; } .hover-img:hover figcaption { opacity:1 ; }",
       "selector" : ".hover-img"
+    } ,
+    
+    { 
+      "style" : ".hover-nav ul { list-style:none ; margin:0 ; padding:0 ; overflow:hidden ; } .hover-nav li { float:left ; } .hover-nav li a { position:relative ; display:block ; color:#fff ; text-align:center ; padding:8px 12px ; text-decoration:none ; z-index:0 ; } li a:before { position:absolute ; content:'' ; width:100% ; height:100% ; bottom:0 ; left:0 ; background-color:#34C064 ; z-index:-1 ; transform:scale(0) ; transition:transform 0.5s ease-in-out ; } li a:hover:before,li a:focus:before { transform:scale(1) ; }",
+      "selector" : ".hover-nav"
+    } ,
+      { 
+      "style" : ".hover-nav ul { list-style:none ; margin:0 ; padding:0 ; overflow:hidden ; } .hover-nav li { float:left ; } .hover-nav li a { position:relative ; display:block ; color:#fff ; text-align:center ; padding:8px 12px ; text-decoration:none ; z-index:0 ; } li a:before { position:absolute ; content:'' ; width:100% ; height:100% ; bottom:0 ; left:0 ; background-color:#55B0DB ; z-index:-1 ; transform:scale(0) ; transition:transform 0.5s ease-in-out ; } li a:hover:before,li a:focus:before { transform:scale(1) ; }",
+      "selector" : ".hover-nav"
+    } ,
+      { 
+      "style" : ".hover-nav ul { list-style:none ; margin:0 ; padding:0 ; overflow:hidden ; } .hover-nav li { float:left ; } .hover-nav li a { position:relative ; display:block ; color:#fff ; text-align:center ; padding:8px 12px ; text-decoration:none ; z-index:0 ; } li a:before { position:absolute ; content:'' ; width:100% ; height:100% ; bottom:0 ; left:0 ; background-color:#354259 ; z-index:-1 ; transform:scale(0) ; transition:transform 0.5s ease-in-out ; } li a:hover:before,li a:focus:before { transform:scale(1) ; }",
+      "selector" : ".hover-nav"
+    } ,
+      { 
+      "style" : ".hover-nav ul { list-style:none ; margin:0 ; padding:0 ; overflow:hidden ; } .hover-nav li { float:left ; } .hover-nav li a { position:relative ; display:block ; color:#fff ; text-align:center ; padding:8px 12px ; text-decoration:none ; z-index:0 ; } li a:before { position:absolute ; content:'' ; width:100% ; height:100% ; bottom:0 ; left:0 ; background-color:#817A7B ; z-index:-1 ; transform:scale(0) ; transition:transform 0.5s ease-in-out ; } li a:hover:before,li a:focus:before { transform:scale(1) ; }",
+      "selector" : ".hover-nav"
+    } ,
+      { 
+      "style" : ".hover-nav ul { list-style:none ; margin:0 ; padding:0 ; overflow:hidden ; } .hover-nav li { float:left ; } .hover-nav li a { position:relative ; display:block ; color:#fff ; text-align:center ; padding:8px 12px ; text-decoration:none ; z-index:0 ; } li a:before { position:absolute ; content:'' ; width:100% ; height:100% ; bottom:0 ; left:0 ; background-color:#7AD58B ; z-index:-1 ; transform:scale(0) ; transition:transform 0.5s ease-in-out ; } li a:hover:before,li a:focus:before { transform:scale(1) ; }",
+      "selector" : ".hover-nav"
+    } ,
+      { 
+      "style" : ".hover-nav ul { list-style:none ; margin:0 ; padding:0 ; overflow:hidden ; } .hover-nav li { float:left ; } .hover-nav li a { position:relative ; display:block ; color:#fff ; text-align:center ; padding:8px 12px ; text-decoration:none ; z-index:0 ; } li a:before { position:absolute ; content:'' ; width:100% ; height:100% ; bottom:0 ; left:0 ; background-color:#8D52B5 ; z-index:-1 ; transform:scale(0) ; transition:transform 0.5s ease-in-out ; } li a:hover:before,li a:focus:before { transform:scale(1) ; }",
+      "selector" : ".hover-nav"
+    } ,
+      { 
+      "style" : ".hover-nav ul { list-style:none ; margin:0 ; padding:0 ; overflow:hidden ; } .hover-nav li { float:left ; } .hover-nav li a { position:relative ; display:block ; color:#fff ; text-align:center ; padding:8px 12px ; text-decoration:none ; z-index:0 ; } li a:before { position:absolute ; content:'' ; width:100% ; height:100% ; bottom:0 ; left:0 ; background-color:#BD618B ; z-index:-1 ; transform:scale(0) ; transition:transform 0.5s ease-in-out ; } li a:hover:before,li a:focus:before { transform:scale(1) ; }",
+      "selector" : ".hover-nav"
+    } ,
+      { 
+      "style" : ".hover-nav ul { list-style:none ; margin:0 ; padding:0 ; overflow:hidden ; } .hover-nav li { float:left ; } .hover-nav li a { position:relative ; display:block ; color:#fff ; text-align:center ; padding:8px 12px ; text-decoration:none ; z-index:0 ; } li a:before { position:absolute ; content:'' ; width:100% ; height:100% ; bottom:0 ; left:0 ; background-color:#60CA96 ; z-index:-1 ; transform:scale(0) ; transition:transform 0.5s ease-in-out ; } li a:hover:before,li a:focus:before { transform:scale(1) ; }",
+      "selector" : ".hover-nav"
+    } ,
+      { 
+      "style" : ".hover-nav ul { list-style:none ; margin:0 ; padding:0 ; overflow:hidden ; } .hover-nav li { float:left ; } .hover-nav li a { position:relative ; display:block ; color:#fff ; text-align:center ; padding:8px 12px ; text-decoration:none ; z-index:0 ; } li a:before { position:absolute ; content:'' ; width:100% ; height:100% ; bottom:0 ; left:0 ; background-color:#92A7A3 ; z-index:-1 ; transform:scale(0) ; transition:transform 0.5s ease-in-out ; } li a:hover:before,li a:focus:before { transform:scale(1) ; }",
+      "selector" : ".hover-nav"
+    } ,
+      { 
+      "style" : ".hover-nav ul { list-style:none ; margin:0 ; padding:0 ; overflow:hidden ; } .hover-nav li { float:left ; } .hover-nav li a { position:relative ; display:block ; color:#fff ; text-align:center ; padding:8px 12px ; text-decoration:none ; z-index:0 ; } li a:before { position:absolute ; content:'' ; width:100% ; height:100% ; bottom:0 ; left:0 ; background-color:#50C16D ; z-index:-1 ; transform:scale(0) ; transition:transform 0.5s ease-in-out ; } li a:hover:before,li a:focus:before { transform:scale(1) ; }",
+      "selector" : ".hover-nav"
+    } ,
+      { 
+      "style" : ".hover-nav ul { list-style:none ; margin:0 ; padding:0 ; overflow:hidden ; } .hover-nav li { float:left ; } .hover-nav li a { position:relative ; display:block ; color:#fff ; text-align:center ; padding:8px 12px ; text-decoration:none ; z-index:0 ; } li a:before { position:absolute ; content:'' ; width:100% ; height:100% ; bottom:0 ; left:0 ; background-color:#54BDD4 ; z-index:-1 ; transform:scale(0) ; transition:transform 0.5s ease-in-out ; } li a:hover:before,li a:focus:before { transform:scale(1) ; }",
+      "selector" : ".hover-nav"
+    } ,
+      { 
+      "style" : ".hover-nav ul { list-style:none ; margin:0 ; padding:0 ; overflow:hidden ; } .hover-nav li { float:left ; } .hover-nav li a { position:relative ; display:block ; color:#fff ; text-align:center ; padding:8px 12px ; text-decoration:none ; z-index:0 ; } li a:before { position:absolute ; content:'' ; width:100% ; height:100% ; bottom:0 ; left:0 ; background-color:#4C5D31 ; z-index:-1 ; transform:scale(0) ; transition:transform 0.5s ease-in-out ; } li a:hover:before,li a:focus:before { transform:scale(1) ; }",
+      "selector" : ".hover-nav"
+    } ,
+      { 
+      "style" : ".hover-nav ul { list-style:none ; margin:0 ; padding:0 ; overflow:hidden ; } .hover-nav li { float:left ; } .hover-nav li a { position:relative ; display:block ; color:#fff ; text-align:center ; padding:8px 12px ; text-decoration:none ; z-index:0 ; } li a:before { position:absolute ; content:'' ; width:100% ; height:100% ; bottom:0 ; left:0 ; background-color:#CD0582 ; z-index:-1 ; transform:scale(0) ; transition:transform 0.5s ease-in-out ; } li a:hover:before,li a:focus:before { transform:scale(1) ; }",
+      "selector" : ".hover-nav"
+    } ,
+      { 
+      "style" : ".hover-nav ul { list-style:none ; margin:0 ; padding:0 ; overflow:hidden ; } .hover-nav li { float:left ; } .hover-nav li a { position:relative ; display:block ; color:#fff ; text-align:center ; padding:8px 12px ; text-decoration:none ; z-index:0 ; } li a:before { position:absolute ; content:'' ; width:100% ; height:100% ; bottom:0 ; left:0 ; background-color:#50972C ; z-index:-1 ; transform:scale(0) ; transition:transform 0.5s ease-in-out ; } li a:hover:before,li a:focus:before { transform:scale(1) ; }",
+      "selector" : ".hover-nav"
+    } ,
+      { 
+      "style" : ".hover-nav ul { list-style:none ; margin:0 ; padding:0 ; overflow:hidden ; } .hover-nav li { float:left ; } .hover-nav li a { position:relative ; display:block ; color:#fff ; text-align:center ; padding:8px 12px ; text-decoration:none ; z-index:0 ; } li a:before { position:absolute ; content:'' ; width:100% ; height:100% ; bottom:0 ; left:0 ; background-color:#5A90C0 ; z-index:-1 ; transform:scale(0) ; transition:transform 0.5s ease-in-out ; } li a:hover:before,li a:focus:before { transform:scale(1) ; }",
+      "selector" : ".hover-nav"
+    } ,
+      { 
+      "style" : ".hover-nav ul { list-style:none ; margin:0 ; padding:0 ; overflow:hidden ; } .hover-nav li { float:left ; } .hover-nav li a { position:relative ; display:block ; color:#fff ; text-align:center ; padding:8px 12px ; text-decoration:none ; z-index:0 ; } li a:before { position:absolute ; content:'' ; width:100% ; height:100% ; bottom:0 ; left:0 ; background-color:#272A05 ; z-index:-1 ; transform:scale(0) ; transition:transform 0.5s ease-in-out ; } li a:hover:before,li a:focus:before { transform:scale(1) ; }",
+      "selector" : ".hover-nav"
+    } ,
+      { 
+      "style" : ".hover-nav ul { list-style:none ; margin:0 ; padding:0 ; overflow:hidden ; } .hover-nav li { float:left ; } .hover-nav li a { position:relative ; display:block ; color:#fff ; text-align:center ; padding:8px 12px ; text-decoration:none ; z-index:0 ; } li a:before { position:absolute ; content:'' ; width:100% ; height:100% ; bottom:0 ; left:0 ; background-color:#B56255 ; z-index:-1 ; transform:scale(0) ; transition:transform 0.5s ease-in-out ; } li a:hover:before,li a:focus:before { transform:scale(1) ; }",
+      "selector" : ".hover-nav"
+    } ,
+      { 
+      "style" : ".hover-nav ul { list-style:none ; margin:0 ; padding:0 ; overflow:hidden ; } .hover-nav li { float:left ; } .hover-nav li a { position:relative ; display:block ; color:#fff ; text-align:center ; padding:8px 12px ; text-decoration:none ; z-index:0 ; } li a:before { position:absolute ; content:'' ; width:100% ; height:100% ; bottom:0 ; left:0 ; background-color:#42208C ; z-index:-1 ; transform:scale(0) ; transition:transform 0.5s ease-in-out ; } li a:hover:before,li a:focus:before { transform:scale(1) ; }",
+      "selector" : ".hover-nav"
+    } ,
+      { 
+      "style" : ".hover-nav ul { list-style:none ; margin:0 ; padding:0 ; overflow:hidden ; } .hover-nav li { float:left ; } .hover-nav li a { position:relative ; display:block ; color:#fff ; text-align:center ; padding:8px 12px ; text-decoration:none ; z-index:0 ; } li a:before { position:absolute ; content:'' ; width:100% ; height:100% ; bottom:0 ; left:0 ; background-color:#656515 ; z-index:-1 ; transform:scale(0) ; transition:transform 0.5s ease-in-out ; } li a:hover:before,li a:focus:before { transform:scale(1) ; }",
+      "selector" : ".hover-nav"
+    } ,
+      { 
+      "style" : ".hover-nav ul { list-style:none ; margin:0 ; padding:0 ; overflow:hidden ; } .hover-nav li { float:left ; } .hover-nav li a { position:relative ; display:block ; color:#fff ; text-align:center ; padding:8px 12px ; text-decoration:none ; z-index:0 ; } li a:before { position:absolute ; content:'' ; width:100% ; height:100% ; bottom:0 ; left:0 ; background-color:#C95327 ; z-index:-1 ; transform:scale(0) ; transition:transform 0.5s ease-in-out ; } li a:hover:before,li a:focus:before { transform:scale(1) ; }",
+      "selector" : ".hover-nav"
+    } ,
+      { 
+      "style" : ".hover-nav ul { list-style:none ; margin:0 ; padding:0 ; overflow:hidden ; } .hover-nav li { float:left ; } .hover-nav li a { position:relative ; display:block ; color:#fff ; text-align:center ; padding:8px 12px ; text-decoration:none ; z-index:0 ; } li a:before { position:absolute ; content:'' ; width:100% ; height:100% ; bottom:0 ; left:0 ; background-color:#275C8C ; z-index:-1 ; transform:scale(0) ; transition:transform 0.5s ease-in-out ; } li a:hover:before,li a:focus:before { transform:scale(1) ; }",
+      "selector" : ".hover-nav"
+    } ,
+      { 
+      "style" : ".hover-nav ul { list-style:none ; margin:0 ; padding:0 ; overflow:hidden ; } .hover-nav li { float:left ; } .hover-nav li a { position:relative ; display:block ; color:#fff ; text-align:center ; padding:8px 12px ; text-decoration:none ; z-index:0 ; } li a:before { position:absolute ; content:'' ; width:100% ; height:100% ; bottom:0 ; left:0 ; background-color:#2CA093 ; z-index:-1 ; transform:scale(0) ; transition:transform 0.5s ease-in-out ; } li a:hover:before,li a:focus:before { transform:scale(1) ; }",
+      "selector" : ".hover-nav"
+    } ,
+      { 
+      "style" : ".hover-nav ul { list-style:none ; margin:0 ; padding:0 ; overflow:hidden ; } .hover-nav li { float:left ; } .hover-nav li a { position:relative ; display:block ; color:#fff ; text-align:center ; padding:8px 12px ; text-decoration:none ; z-index:0 ; } li a:before { position:absolute ; content:'' ; width:100% ; height:100% ; bottom:0 ; left:0 ; background-color:#51AD80 ; z-index:-1 ; transform:scale(0) ; transition:transform 0.5s ease-in-out ; } li a:hover:before,li a:focus:before { transform:scale(1) ; }",
+      "selector" : ".hover-nav"
+    } ,
+      { 
+      "style" : ".hover-nav ul { list-style:none ; margin:0 ; padding:0 ; overflow:hidden ; } .hover-nav li { float:left ; } .hover-nav li a { position:relative ; display:block ; color:#fff ; text-align:center ; padding:8px 12px ; text-decoration:none ; z-index:0 ; } li a:before { position:absolute ; content:'' ; width:100% ; height:100% ; bottom:0 ; left:0 ; background-color:#088373 ; z-index:-1 ; transform:scale(0) ; transition:transform 0.5s ease-in-out ; } li a:hover:before,li a:focus:before { transform:scale(1) ; }",
+      "selector" : ".hover-nav"
+    } ,
+      { 
+      "style" : ".hover-nav ul { list-style:none ; margin:0 ; padding:0 ; overflow:hidden ; } .hover-nav li { float:left ; } .hover-nav li a { position:relative ; display:block ; color:#fff ; text-align:center ; padding:8px 12px ; text-decoration:none ; z-index:0 ; } li a:before { position:absolute ; content:'' ; width:100% ; height:100% ; bottom:0 ; left:0 ; background-color:#39B912 ; z-index:-1 ; transform:scale(0) ; transition:transform 0.5s ease-in-out ; } li a:hover:before,li a:focus:before { transform:scale(1) ; }",
+      "selector" : ".hover-nav"
+    } ,
+      { 
+      "style" : ".hover-nav ul { list-style:none ; margin:0 ; padding:0 ; overflow:hidden ; } .hover-nav li { float:left ; } .hover-nav li a { position:relative ; display:block ; color:#fff ; text-align:center ; padding:8px 12px ; text-decoration:none ; z-index:0 ; } li a:before { position:absolute ; content:'' ; width:100% ; height:100% ; bottom:0 ; left:0 ; background-color:#43C456 ; z-index:-1 ; transform:scale(0) ; transition:transform 0.5s ease-in-out ; } li a:hover:before,li a:focus:before { transform:scale(1) ; }",
+      "selector" : ".hover-nav"
+    } ,
+      { 
+      "style" : ".hover-nav ul { list-style:none ; margin:0 ; padding:0 ; overflow:hidden ; } .hover-nav li { float:left ; } .hover-nav li a { position:relative ; display:block ; color:#fff ; text-align:center ; padding:8px 12px ; text-decoration:none ; z-index:0 ; } li a:before { position:absolute ; content:'' ; width:100% ; height:100% ; bottom:0 ; left:0 ; background-color:#570A9A ; z-index:-1 ; transform:scale(0) ; transition:transform 0.5s ease-in-out ; } li a:hover:before,li a:focus:before { transform:scale(1) ; }",
+      "selector" : ".hover-nav"
+    } ,
+      { 
+      "style" : ".hover-nav ul { list-style:none ; margin:0 ; padding:0 ; overflow:hidden ; } .hover-nav li { float:left ; } .hover-nav li a { position:relative ; display:block ; color:#fff ; text-align:center ; padding:8px 12px ; text-decoration:none ; z-index:0 ; } li a:before { position:absolute ; content:'' ; width:100% ; height:100% ; bottom:0 ; left:0 ; background-color:#D0C518 ; z-index:-1 ; transform:scale(0) ; transition:transform 0.5s ease-in-out ; } li a:hover:before,li a:focus:before { transform:scale(1) ; }",
+      "selector" : ".hover-nav"
+    } ,
+      { 
+      "style" : ".hover-nav ul { list-style:none ; margin:0 ; padding:0 ; overflow:hidden ; } .hover-nav li { float:left ; } .hover-nav li a { position:relative ; display:block ; color:#fff ; text-align:center ; padding:8px 12px ; text-decoration:none ; z-index:0 ; } li a:before { position:absolute ; content:'' ; width:100% ; height:100% ; bottom:0 ; left:0 ; background-color:#644725 ; z-index:-1 ; transform:scale(0) ; transition:transform 0.5s ease-in-out ; } li a:hover:before,li a:focus:before { transform:scale(1) ; }",
+      "selector" : ".hover-nav"
+    } ,
+      { 
+      "style" : ".hover-nav ul { list-style:none ; margin:0 ; padding:0 ; overflow:hidden ; } .hover-nav li { float:left ; } .hover-nav li a { position:relative ; display:block ; color:#fff ; text-align:center ; padding:8px 12px ; text-decoration:none ; z-index:0 ; } li a:before { position:absolute ; content:'' ; width:100% ; height:100% ; bottom:0 ; left:0 ; background-color:#74AC65 ; z-index:-1 ; transform:scale(0) ; transition:transform 0.5s ease-in-out ; } li a:hover:before,li a:focus:before { transform:scale(1) ; }",
+      "selector" : ".hover-nav"
+    } ,
+      { 
+      "style" : ".hover-nav ul { list-style:none ; margin:0 ; padding:0 ; overflow:hidden ; } .hover-nav li { float:left ; } .hover-nav li a { position:relative ; display:block ; color:#fff ; text-align:center ; padding:8px 12px ; text-decoration:none ; z-index:0 ; } li a:before { position:absolute ; content:'' ; width:100% ; height:100% ; bottom:0 ; left:0 ; background-color:#17CAC2 ; z-index:-1 ; transform:scale(0) ; transition:transform 0.5s ease-in-out ; } li a:hover:before,li a:focus:before { transform:scale(1) ; }",
+      "selector" : ".hover-nav"
+    } ,
+      { 
+      "style" : ".hover-nav ul { list-style:none ; margin:0 ; padding:0 ; overflow:hidden ; } .hover-nav li { float:left ; } .hover-nav li a { position:relative ; display:block ; color:#fff ; text-align:center ; padding:8px 12px ; text-decoration:none ; z-index:0 ; } li a:before { position:absolute ; content:'' ; width:100% ; height:100% ; bottom:0 ; left:0 ; background-color:#659C65 ; z-index:-1 ; transform:scale(0) ; transition:transform 0.5s ease-in-out ; } li a:hover:before,li a:focus:before { transform:scale(1) ; }",
+      "selector" : ".hover-nav"
+    } ,
+      { 
+      "style" : ".hover-nav ul { list-style:none ; margin:0 ; padding:0 ; overflow:hidden ; } .hover-nav li { float:left ; } .hover-nav li a { position:relative ; display:block ; color:#fff ; text-align:center ; padding:8px 12px ; text-decoration:none ; z-index:0 ; } li a:before { position:absolute ; content:'' ; width:100% ; height:100% ; bottom:0 ; left:0 ; background-color:#CB9553 ; z-index:-1 ; transform:scale(0) ; transition:transform 0.5s ease-in-out ; } li a:hover:before,li a:focus:before { transform:scale(1) ; }",
+      "selector" : ".hover-nav"
+    } ,
+      { 
+      "style" : ".hover-nav ul { list-style:none ; margin:0 ; padding:0 ; overflow:hidden ; } .hover-nav li { float:left ; } .hover-nav li a { position:relative ; display:block ; color:#fff ; text-align:center ; padding:8px 12px ; text-decoration:none ; z-index:0 ; } li a:before { position:absolute ; content:'' ; width:100% ; height:100% ; bottom:0 ; left:0 ; background-color:#5225AA ; z-index:-1 ; transform:scale(0) ; transition:transform 0.5s ease-in-out ; } li a:hover:before,li a:focus:before { transform:scale(1) ; }",
+      "selector" : ".hover-nav"
+    } ,
+      { 
+      "style" : ".hover-nav ul { list-style:none ; margin:0 ; padding:0 ; overflow:hidden ; } .hover-nav li { float:left ; } .hover-nav li a { position:relative ; display:block ; color:#fff ; text-align:center ; padding:8px 12px ; text-decoration:none ; z-index:0 ; } li a:before { position:absolute ; content:'' ; width:100% ; height:100% ; bottom:0 ; left:0 ; background-color:#448C14 ; z-index:-1 ; transform:scale(0) ; transition:transform 0.5s ease-in-out ; } li a:hover:before,li a:focus:before { transform:scale(1) ; }",
+      "selector" : ".hover-nav"
+    } ,
+      { 
+      "style" : ".hover-nav ul { list-style:none ; margin:0 ; padding:0 ; overflow:hidden ; } .hover-nav li { float:left ; } .hover-nav li a { position:relative ; display:block ; color:#fff ; text-align:center ; padding:8px 12px ; text-decoration:none ; z-index:0 ; } li a:before { position:absolute ; content:'' ; width:100% ; height:100% ; bottom:0 ; left:0 ; background-color:#504723 ; z-index:-1 ; transform:scale(0) ; transition:transform 0.5s ease-in-out ; } li a:hover:before,li a:focus:before { transform:scale(1) ; }",
+      "selector" : ".hover-nav"
+    } ,
+      { 
+      "style" : ".hover-nav ul { list-style:none ; margin:0 ; padding:0 ; overflow:hidden ; } .hover-nav li { float:left ; } .hover-nav li a { position:relative ; display:block ; color:#fff ; text-align:center ; padding:8px 12px ; text-decoration:none ; z-index:0 ; } li a:before { position:absolute ; content:'' ; width:100% ; height:100% ; bottom:0 ; left:0 ; background-color:#309B85 ; z-index:-1 ; transform:scale(0) ; transition:transform 0.5s ease-in-out ; } li a:hover:before,li a:focus:before { transform:scale(1) ; }",
+      "selector" : ".hover-nav"
+    } ,
+      { 
+      "style" : ".hover-nav ul { list-style:none ; margin:0 ; padding:0 ; overflow:hidden ; } .hover-nav li { float:left ; } .hover-nav li a { position:relative ; display:block ; color:#fff ; text-align:center ; padding:8px 12px ; text-decoration:none ; z-index:0 ; } li a:before { position:absolute ; content:'' ; width:100% ; height:100% ; bottom:0 ; left:0 ; background-color:#A27161 ; z-index:-1 ; transform:scale(0) ; transition:transform 0.5s ease-in-out ; } li a:hover:before,li a:focus:before { transform:scale(1) ; }",
+      "selector" : ".hover-nav"
+    } ,
+      { 
+      "style" : ".hover-nav ul { list-style:none ; margin:0 ; padding:0 ; overflow:hidden ; } .hover-nav li { float:left ; } .hover-nav li a { position:relative ; display:block ; color:#fff ; text-align:center ; padding:8px 12px ; text-decoration:none ; z-index:0 ; } li a:before { position:absolute ; content:'' ; width:100% ; height:100% ; bottom:0 ; left:0 ; background-color:#488699 ; z-index:-1 ; transform:scale(0) ; transition:transform 0.5s ease-in-out ; } li a:hover:before,li a:focus:before { transform:scale(1) ; }",
+      "selector" : ".hover-nav"
+    } ,
+      { 
+      "style" : ".hover-nav ul { list-style:none ; margin:0 ; padding:0 ; overflow:hidden ; } .hover-nav li { float:left ; } .hover-nav li a { position:relative ; display:block ; color:#fff ; text-align:center ; padding:8px 12px ; text-decoration:none ; z-index:0 ; } li a:before { position:absolute ; content:'' ; width:100% ; height:100% ; bottom:0 ; left:0 ; background-color:#586435 ; z-index:-1 ; transform:scale(0) ; transition:transform 0.5s ease-in-out ; } li a:hover:before,li a:focus:before { transform:scale(1) ; }",
+      "selector" : ".hover-nav"
+    } ,
+      { 
+      "style" : ".hover-nav ul { list-style:none ; margin:0 ; padding:0 ; overflow:hidden ; } .hover-nav li { float:left ; } .hover-nav li a { position:relative ; display:block ; color:#fff ; text-align:center ; padding:8px 12px ; text-decoration:none ; z-index:0 ; } li a:before { position:absolute ; content:'' ; width:100% ; height:100% ; bottom:0 ; left:0 ; background-color:#525888 ; z-index:-1 ; transform:scale(0) ; transition:transform 0.5s ease-in-out ; } li a:hover:before,li a:focus:before { transform:scale(1) ; }",
+      "selector" : ".hover-nav"
+    } ,
+      { 
+      "style" : ".hover-nav ul { list-style:none ; margin:0 ; padding:0 ; overflow:hidden ; } .hover-nav li { float:left ; } .hover-nav li a { position:relative ; display:block ; color:#fff ; text-align:center ; padding:8px 12px ; text-decoration:none ; z-index:0 ; } li a:before { position:absolute ; content:'' ; width:100% ; height:100% ; bottom:0 ; left:0 ; background-color:#D2D523 ; z-index:-1 ; transform:scale(0) ; transition:transform 0.5s ease-in-out ; } li a:hover:before,li a:focus:before { transform:scale(1) ; }",
+      "selector" : ".hover-nav"
+    } ,
+      { 
+      "style" : ".hover-nav ul { list-style:none ; margin:0 ; padding:0 ; overflow:hidden ; } .hover-nav li { float:left ; } .hover-nav li a { position:relative ; display:block ; color:#fff ; text-align:center ; padding:8px 12px ; text-decoration:none ; z-index:0 ; } li a:before { position:absolute ; content:'' ; width:100% ; height:100% ; bottom:0 ; left:0 ; background-color:#508055 ; z-index:-1 ; transform:scale(0) ; transition:transform 0.5s ease-in-out ; } li a:hover:before,li a:focus:before { transform:scale(1) ; }",
+      "selector" : ".hover-nav"
+    } ,
+      { 
+      "style" : ".hover-nav ul { list-style:none ; margin:0 ; padding:0 ; overflow:hidden ; } .hover-nav li { float:left ; } .hover-nav li a { position:relative ; display:block ; color:#fff ; text-align:center ; padding:8px 12px ; text-decoration:none ; z-index:0 ; } li a:before { position:absolute ; content:'' ; width:100% ; height:100% ; bottom:0 ; left:0 ; background-color:#255244 ; z-index:-1 ; transform:scale(0) ; transition:transform 0.5s ease-in-out ; } li a:hover:before,li a:focus:before { transform:scale(1) ; }",
+      "selector" : ".hover-nav"
+    } ,
+      { 
+      "style" : ".hover-nav ul { list-style:none ; margin:0 ; padding:0 ; overflow:hidden ; } .hover-nav li { float:left ; } .hover-nav li a { position:relative ; display:block ; color:#fff ; text-align:center ; padding:8px 12px ; text-decoration:none ; z-index:0 ; } li a:before { position:absolute ; content:'' ; width:100% ; height:100% ; bottom:0 ; left:0 ; background-color:#7C7554 ; z-index:-1 ; transform:scale(0) ; transition:transform 0.5s ease-in-out ; } li a:hover:before,li a:focus:before { transform:scale(1) ; }",
+      "selector" : ".hover-nav"
+    } ,
+      { 
+      "style" : ".hover-nav ul { list-style:none ; margin:0 ; padding:0 ; overflow:hidden ; } .hover-nav li { float:left ; } .hover-nav li a { position:relative ; display:block ; color:#fff ; text-align:center ; padding:8px 12px ; text-decoration:none ; z-index:0 ; } li a:before { position:absolute ; content:'' ; width:100% ; height:100% ; bottom:0 ; left:0 ; background-color:#3D9A63 ; z-index:-1 ; transform:scale(0) ; transition:transform 0.5s ease-in-out ; } li a:hover:before,li a:focus:before { transform:scale(1) ; }",
+      "selector" : ".hover-nav"
+    } ,
+      { 
+      "style" : ".hover-nav ul { list-style:none ; margin:0 ; padding:0 ; overflow:hidden ; } .hover-nav li { float:left ; } .hover-nav li a { position:relative ; display:block ; color:#fff ; text-align:center ; padding:8px 12px ; text-decoration:none ; z-index:0 ; } li a:before { position:absolute ; content:'' ; width:100% ; height:100% ; bottom:0 ; left:0 ; background-color:#A55261 ; z-index:-1 ; transform:scale(0) ; transition:transform 0.5s ease-in-out ; } li a:hover:before,li a:focus:before { transform:scale(1) ; }",
+      "selector" : ".hover-nav"
+    } ,
+      { 
+      "style" : ".hover-nav ul { list-style:none ; margin:0 ; padding:0 ; overflow:hidden ; } .hover-nav li { float:left ; } .hover-nav li a { position:relative ; display:block ; color:#fff ; text-align:center ; padding:8px 12px ; text-decoration:none ; z-index:0 ; } li a:before { position:absolute ; content:'' ; width:100% ; height:100% ; bottom:0 ; left:0 ; background-color:#7390A6 ; z-index:-1 ; transform:scale(0) ; transition:transform 0.5s ease-in-out ; } li a:hover:before,li a:focus:before { transform:scale(1) ; }",
+      "selector" : ".hover-nav"
+    } ,
+      { 
+      "style" : ".hover-nav ul { list-style:none ; margin:0 ; padding:0 ; overflow:hidden ; } .hover-nav li { float:left ; } .hover-nav li a { position:relative ; display:block ; color:#fff ; text-align:center ; padding:8px 12px ; text-decoration:none ; z-index:0 ; } li a:before { position:absolute ; content:'' ; width:100% ; height:100% ; bottom:0 ; left:0 ; background-color:#91026A ; z-index:-1 ; transform:scale(0) ; transition:transform 0.5s ease-in-out ; } li a:hover:before,li a:focus:before { transform:scale(1) ; }",
+      "selector" : ".hover-nav"
+    } ,
+      { 
+      "style" : ".hover-nav ul { list-style:none ; margin:0 ; padding:0 ; overflow:hidden ; } .hover-nav li { float:left ; } .hover-nav li a { position:relative ; display:block ; color:#fff ; text-align:center ; padding:8px 12px ; text-decoration:none ; z-index:0 ; } li a:before { position:absolute ; content:'' ; width:100% ; height:100% ; bottom:0 ; left:0 ; background-color:#02C6C0 ; z-index:-1 ; transform:scale(0) ; transition:transform 0.5s ease-in-out ; } li a:hover:before,li a:focus:before { transform:scale(1) ; }",
+      "selector" : ".hover-nav"
+    } ,
+    
+    { 
+      "style" : ".navbar ul { list-style:none ; margin:0 ; padding:0 ; overflow:hidden ; } .navbar li { float:left ; } .navbar li a { position:relative ; display:block ; color:#fff ; text-align:center ; padding:8px 12px ; text-decoration:none ; z-index:0 ; } li a:before { position:absolute ; content:'' ; width:100% ; height:100% ; bottom:0 ; left:0 ; background-color:#DB01DC ; border-radius:10px ; z-index:-1 ; transform:scale(0) ; transition:transform 0.5s ease-in-out ; } li a:hover:before,li a:focus:before { transform:scale(1) ; }",
+      "selector" : ".navbar ul"
+    } ,
+      { 
+      "style" : ".navbar ul { list-style:none ; margin:0 ; padding:0 ; overflow:hidden ; } .navbar li { float:left ; } .navbar li a { position:relative ; display:block ; color:#fff ; text-align:center ; padding:8px 12px ; text-decoration:none ; z-index:0 ; } li a:before { position:absolute ; content:'' ; width:100% ; height:100% ; bottom:0 ; left:0 ; background-color:#5D51D6 ; border-radius:10px ; z-index:-1 ; transform:scale(0) ; transition:transform 0.5s ease-in-out ; } li a:hover:before,li a:focus:before { transform:scale(1) ; }",
+      "selector" : ".navbar ul"
+    } ,
+      { 
+      "style" : ".navbar ul { list-style:none ; margin:0 ; padding:0 ; overflow:hidden ; } .navbar li { float:left ; } .navbar li a { position:relative ; display:block ; color:#fff ; text-align:center ; padding:8px 12px ; text-decoration:none ; z-index:0 ; } li a:before { position:absolute ; content:'' ; width:100% ; height:100% ; bottom:0 ; left:0 ; background-color:#55A075 ; border-radius:10px ; z-index:-1 ; transform:scale(0) ; transition:transform 0.5s ease-in-out ; } li a:hover:before,li a:focus:before { transform:scale(1) ; }",
+      "selector" : ".navbar ul"
+    } ,
+      { 
+      "style" : ".navbar ul { list-style:none ; margin:0 ; padding:0 ; overflow:hidden ; } .navbar li { float:left ; } .navbar li a { position:relative ; display:block ; color:#fff ; text-align:center ; padding:8px 12px ; text-decoration:none ; z-index:0 ; } li a:before { position:absolute ; content:'' ; width:100% ; height:100% ; bottom:0 ; left:0 ; background-color:#41B9C3 ; border-radius:10px ; z-index:-1 ; transform:scale(0) ; transition:transform 0.5s ease-in-out ; } li a:hover:before,li a:focus:before { transform:scale(1) ; }",
+      "selector" : ".navbar ul"
+    } ,
+      { 
+      "style" : ".navbar ul { list-style:none ; margin:0 ; padding:0 ; overflow:hidden ; } .navbar li { float:left ; } .navbar li a { position:relative ; display:block ; color:#fff ; text-align:center ; padding:8px 12px ; text-decoration:none ; z-index:0 ; } li a:before { position:absolute ; content:'' ; width:100% ; height:100% ; bottom:0 ; left:0 ; background-color:#CBD55C ; border-radius:10px ; z-index:-1 ; transform:scale(0) ; transition:transform 0.5s ease-in-out ; } li a:hover:before,li a:focus:before { transform:scale(1) ; }",
+      "selector" : ".navbar ul"
+    } ,
+      { 
+      "style" : ".navbar ul { list-style:none ; margin:0 ; padding:0 ; overflow:hidden ; } .navbar li { float:left ; } .navbar li a { position:relative ; display:block ; color:#fff ; text-align:center ; padding:8px 12px ; text-decoration:none ; z-index:0 ; } li a:before { position:absolute ; content:'' ; width:100% ; height:100% ; bottom:0 ; left:0 ; background-color:#53D855 ; border-radius:10px ; z-index:-1 ; transform:scale(0) ; transition:transform 0.5s ease-in-out ; } li a:hover:before,li a:focus:before { transform:scale(1) ; }",
+      "selector" : ".navbar ul"
+    } ,
+      { 
+      "style" : ".navbar ul { list-style:none ; margin:0 ; padding:0 ; overflow:hidden ; } .navbar li { float:left ; } .navbar li a { position:relative ; display:block ; color:#fff ; text-align:center ; padding:8px 12px ; text-decoration:none ; z-index:0 ; } li a:before { position:absolute ; content:'' ; width:100% ; height:100% ; bottom:0 ; left:0 ; background-color:#213C16 ; border-radius:10px ; z-index:-1 ; transform:scale(0) ; transition:transform 0.5s ease-in-out ; } li a:hover:before,li a:focus:before { transform:scale(1) ; }",
+      "selector" : ".navbar ul"
+    } ,
+      { 
+      "style" : ".navbar ul { list-style:none ; margin:0 ; padding:0 ; overflow:hidden ; } .navbar li { float:left ; } .navbar li a { position:relative ; display:block ; color:#fff ; text-align:center ; padding:8px 12px ; text-decoration:none ; z-index:0 ; } li a:before { position:absolute ; content:'' ; width:100% ; height:100% ; bottom:0 ; left:0 ; background-color:#C18926 ; border-radius:10px ; z-index:-1 ; transform:scale(0) ; transition:transform 0.5s ease-in-out ; } li a:hover:before,li a:focus:before { transform:scale(1) ; }",
+      "selector" : ".navbar ul"
+    } ,
+      { 
+      "style" : ".navbar ul { list-style:none ; margin:0 ; padding:0 ; overflow:hidden ; } .navbar li { float:left ; } .navbar li a { position:relative ; display:block ; color:#fff ; text-align:center ; padding:8px 12px ; text-decoration:none ; z-index:0 ; } li a:before { position:absolute ; content:'' ; width:100% ; height:100% ; bottom:0 ; left:0 ; background-color:#64DA2D ; border-radius:10px ; z-index:-1 ; transform:scale(0) ; transition:transform 0.5s ease-in-out ; } li a:hover:before,li a:focus:before { transform:scale(1) ; }",
+      "selector" : ".navbar ul"
+    } ,
+      { 
+      "style" : ".navbar ul { list-style:none ; margin:0 ; padding:0 ; overflow:hidden ; } .navbar li { float:left ; } .navbar li a { position:relative ; display:block ; color:#fff ; text-align:center ; padding:8px 12px ; text-decoration:none ; z-index:0 ; } li a:before { position:absolute ; content:'' ; width:100% ; height:100% ; bottom:0 ; left:0 ; background-color:#654CB7 ; border-radius:10px ; z-index:-1 ; transform:scale(0) ; transition:transform 0.5s ease-in-out ; } li a:hover:before,li a:focus:before { transform:scale(1) ; }",
+      "selector" : ".navbar ul"
+    } ,
+      { 
+      "style" : ".navbar ul { list-style:none ; margin:0 ; padding:0 ; overflow:hidden ; } .navbar li { float:left ; } .navbar li a { position:relative ; display:block ; color:#fff ; text-align:center ; padding:8px 12px ; text-decoration:none ; z-index:0 ; } li a:before { position:absolute ; content:'' ; width:100% ; height:100% ; bottom:0 ; left:0 ; background-color:#008B0B ; border-radius:10px ; z-index:-1 ; transform:scale(0) ; transition:transform 0.5s ease-in-out ; } li a:hover:before,li a:focus:before { transform:scale(1) ; }",
+      "selector" : ".navbar ul"
+    } ,
+      { 
+      "style" : ".navbar ul { list-style:none ; margin:0 ; padding:0 ; overflow:hidden ; } .navbar li { float:left ; } .navbar li a { position:relative ; display:block ; color:#fff ; text-align:center ; padding:8px 12px ; text-decoration:none ; z-index:0 ; } li a:before { position:absolute ; content:'' ; width:100% ; height:100% ; bottom:0 ; left:0 ; background-color:#5B56CC ; border-radius:10px ; z-index:-1 ; transform:scale(0) ; transition:transform 0.5s ease-in-out ; } li a:hover:before,li a:focus:before { transform:scale(1) ; }",
+      "selector" : ".navbar ul"
+    } ,
+      { 
+      "style" : ".navbar ul { list-style:none ; margin:0 ; padding:0 ; overflow:hidden ; } .navbar li { float:left ; } .navbar li a { position:relative ; display:block ; color:#fff ; text-align:center ; padding:8px 12px ; text-decoration:none ; z-index:0 ; } li a:before { position:absolute ; content:'' ; width:100% ; height:100% ; bottom:0 ; left:0 ; background-color:#926AC9 ; border-radius:10px ; z-index:-1 ; transform:scale(0) ; transition:transform 0.5s ease-in-out ; } li a:hover:before,li a:focus:before { transform:scale(1) ; }",
+      "selector" : ".navbar ul"
+    } ,
+      { 
+      "style" : ".navbar ul { list-style:none ; margin:0 ; padding:0 ; overflow:hidden ; } .navbar li { float:left ; } .navbar li a { position:relative ; display:block ; color:#fff ; text-align:center ; padding:8px 12px ; text-decoration:none ; z-index:0 ; } li a:before { position:absolute ; content:'' ; width:100% ; height:100% ; bottom:0 ; left:0 ; background-color:#1125D4 ; border-radius:10px ; z-index:-1 ; transform:scale(0) ; transition:transform 0.5s ease-in-out ; } li a:hover:before,li a:focus:before { transform:scale(1) ; }",
+      "selector" : ".navbar ul"
+    } ,
+      { 
+      "style" : ".navbar ul { list-style:none ; margin:0 ; padding:0 ; overflow:hidden ; } .navbar li { float:left ; } .navbar li a { position:relative ; display:block ; color:#fff ; text-align:center ; padding:8px 12px ; text-decoration:none ; z-index:0 ; } li a:before { position:absolute ; content:'' ; width:100% ; height:100% ; bottom:0 ; left:0 ; background-color:#220DD2 ; border-radius:10px ; z-index:-1 ; transform:scale(0) ; transition:transform 0.5s ease-in-out ; } li a:hover:before,li a:focus:before { transform:scale(1) ; }",
+      "selector" : ".navbar ul"
+    } ,
+      { 
+      "style" : ".navbar ul { list-style:none ; margin:0 ; padding:0 ; overflow:hidden ; } .navbar li { float:left ; } .navbar li a { position:relative ; display:block ; color:#fff ; text-align:center ; padding:8px 12px ; text-decoration:none ; z-index:0 ; } li a:before { position:absolute ; content:'' ; width:100% ; height:100% ; bottom:0 ; left:0 ; background-color:#C02520 ; border-radius:10px ; z-index:-1 ; transform:scale(0) ; transition:transform 0.5s ease-in-out ; } li a:hover:before,li a:focus:before { transform:scale(1) ; }",
+      "selector" : ".navbar ul"
+    } ,
+      { 
+      "style" : ".navbar ul { list-style:none ; margin:0 ; padding:0 ; overflow:hidden ; } .navbar li { float:left ; } .navbar li a { position:relative ; display:block ; color:#fff ; text-align:center ; padding:8px 12px ; text-decoration:none ; z-index:0 ; } li a:before { position:absolute ; content:'' ; width:100% ; height:100% ; bottom:0 ; left:0 ; background-color:#370693 ; border-radius:10px ; z-index:-1 ; transform:scale(0) ; transition:transform 0.5s ease-in-out ; } li a:hover:before,li a:focus:before { transform:scale(1) ; }",
+      "selector" : ".navbar ul"
+    } ,
+      { 
+      "style" : ".navbar ul { list-style:none ; margin:0 ; padding:0 ; overflow:hidden ; } .navbar li { float:left ; } .navbar li a { position:relative ; display:block ; color:#fff ; text-align:center ; padding:8px 12px ; text-decoration:none ; z-index:0 ; } li a:before { position:absolute ; content:'' ; width:100% ; height:100% ; bottom:0 ; left:0 ; background-color:#102657 ; border-radius:10px ; z-index:-1 ; transform:scale(0) ; transition:transform 0.5s ease-in-out ; } li a:hover:before,li a:focus:before { transform:scale(1) ; }",
+      "selector" : ".navbar ul"
+    } ,
+      { 
+      "style" : ".navbar ul { list-style:none ; margin:0 ; padding:0 ; overflow:hidden ; } .navbar li { float:left ; } .navbar li a { position:relative ; display:block ; color:#fff ; text-align:center ; padding:8px 12px ; text-decoration:none ; z-index:0 ; } li a:before { position:absolute ; content:'' ; width:100% ; height:100% ; bottom:0 ; left:0 ; background-color:#9063A6 ; border-radius:10px ; z-index:-1 ; transform:scale(0) ; transition:transform 0.5s ease-in-out ; } li a:hover:before,li a:focus:before { transform:scale(1) ; }",
+      "selector" : ".navbar ul"
+    } ,
+      { 
+      "style" : ".navbar ul { list-style:none ; margin:0 ; padding:0 ; overflow:hidden ; } .navbar li { float:left ; } .navbar li a { position:relative ; display:block ; color:#fff ; text-align:center ; padding:8px 12px ; text-decoration:none ; z-index:0 ; } li a:before { position:absolute ; content:'' ; width:100% ; height:100% ; bottom:0 ; left:0 ; background-color:#B61A57 ; border-radius:10px ; z-index:-1 ; transform:scale(0) ; transition:transform 0.5s ease-in-out ; } li a:hover:before,li a:focus:before { transform:scale(1) ; }",
+      "selector" : ".navbar ul"
+    } ,
+      { 
+      "style" : ".navbar ul { list-style:none ; margin:0 ; padding:0 ; overflow:hidden ; } .navbar li { float:left ; } .navbar li a { position:relative ; display:block ; color:#fff ; text-align:center ; padding:8px 12px ; text-decoration:none ; z-index:0 ; } li a:before { position:absolute ; content:'' ; width:100% ; height:100% ; bottom:0 ; left:0 ; background-color:#609DD0 ; border-radius:10px ; z-index:-1 ; transform:scale(0) ; transition:transform 0.5s ease-in-out ; } li a:hover:before,li a:focus:before { transform:scale(1) ; }",
+      "selector" : ".navbar ul"
+    } ,
+      { 
+      "style" : ".navbar ul { list-style:none ; margin:0 ; padding:0 ; overflow:hidden ; } .navbar li { float:left ; } .navbar li a { position:relative ; display:block ; color:#fff ; text-align:center ; padding:8px 12px ; text-decoration:none ; z-index:0 ; } li a:before { position:absolute ; content:'' ; width:100% ; height:100% ; bottom:0 ; left:0 ; background-color:#1753C6 ; border-radius:10px ; z-index:-1 ; transform:scale(0) ; transition:transform 0.5s ease-in-out ; } li a:hover:before,li a:focus:before { transform:scale(1) ; }",
+      "selector" : ".navbar ul"
+    } ,
+      { 
+      "style" : ".navbar ul { list-style:none ; margin:0 ; padding:0 ; overflow:hidden ; } .navbar li { float:left ; } .navbar li a { position:relative ; display:block ; color:#fff ; text-align:center ; padding:8px 12px ; text-decoration:none ; z-index:0 ; } li a:before { position:absolute ; content:'' ; width:100% ; height:100% ; bottom:0 ; left:0 ; background-color:#05D2B9 ; border-radius:10px ; z-index:-1 ; transform:scale(0) ; transition:transform 0.5s ease-in-out ; } li a:hover:before,li a:focus:before { transform:scale(1) ; }",
+      "selector" : ".navbar ul"
+    } ,
+      { 
+      "style" : ".navbar ul { list-style:none ; margin:0 ; padding:0 ; overflow:hidden ; } .navbar li { float:left ; } .navbar li a { position:relative ; display:block ; color:#fff ; text-align:center ; padding:8px 12px ; text-decoration:none ; z-index:0 ; } li a:before { position:absolute ; content:'' ; width:100% ; height:100% ; bottom:0 ; left:0 ; background-color:#308813 ; border-radius:10px ; z-index:-1 ; transform:scale(0) ; transition:transform 0.5s ease-in-out ; } li a:hover:before,li a:focus:before { transform:scale(1) ; }",
+      "selector" : ".navbar ul"
+    } ,
+      { 
+      "style" : ".navbar ul { list-style:none ; margin:0 ; padding:0 ; overflow:hidden ; } .navbar li { float:left ; } .navbar li a { position:relative ; display:block ; color:#fff ; text-align:center ; padding:8px 12px ; text-decoration:none ; z-index:0 ; } li a:before { position:absolute ; content:'' ; width:100% ; height:100% ; bottom:0 ; left:0 ; background-color:#08665B ; border-radius:10px ; z-index:-1 ; transform:scale(0) ; transition:transform 0.5s ease-in-out ; } li a:hover:before,li a:focus:before { transform:scale(1) ; }",
+      "selector" : ".navbar ul"
+    } ,
+      { 
+      "style" : ".navbar ul { list-style:none ; margin:0 ; padding:0 ; overflow:hidden ; } .navbar li { float:left ; } .navbar li a { position:relative ; display:block ; color:#fff ; text-align:center ; padding:8px 12px ; text-decoration:none ; z-index:0 ; } li a:before { position:absolute ; content:'' ; width:100% ; height:100% ; bottom:0 ; left:0 ; background-color:#1A93B2 ; border-radius:10px ; z-index:-1 ; transform:scale(0) ; transition:transform 0.5s ease-in-out ; } li a:hover:before,li a:focus:before { transform:scale(1) ; }",
+      "selector" : ".navbar ul"
+    } ,
+      { 
+      "style" : ".navbar ul { list-style:none ; margin:0 ; padding:0 ; overflow:hidden ; } .navbar li { float:left ; } .navbar li a { position:relative ; display:block ; color:#fff ; text-align:center ; padding:8px 12px ; text-decoration:none ; z-index:0 ; } li a:before { position:absolute ; content:'' ; width:100% ; height:100% ; bottom:0 ; left:0 ; background-color:#07B0D1 ; border-radius:10px ; z-index:-1 ; transform:scale(0) ; transition:transform 0.5s ease-in-out ; } li a:hover:before,li a:focus:before { transform:scale(1) ; }",
+      "selector" : ".navbar ul"
+    } ,
+      { 
+      "style" : ".navbar ul { list-style:none ; margin:0 ; padding:0 ; overflow:hidden ; } .navbar li { float:left ; } .navbar li a { position:relative ; display:block ; color:#fff ; text-align:center ; padding:8px 12px ; text-decoration:none ; z-index:0 ; } li a:before { position:absolute ; content:'' ; width:100% ; height:100% ; bottom:0 ; left:0 ; background-color:#CB5D85 ; border-radius:10px ; z-index:-1 ; transform:scale(0) ; transition:transform 0.5s ease-in-out ; } li a:hover:before,li a:focus:before { transform:scale(1) ; }",
+      "selector" : ".navbar ul"
+    } ,
+      { 
+      "style" : ".navbar ul { list-style:none ; margin:0 ; padding:0 ; overflow:hidden ; } .navbar li { float:left ; } .navbar li a { position:relative ; display:block ; color:#fff ; text-align:center ; padding:8px 12px ; text-decoration:none ; z-index:0 ; } li a:before { position:absolute ; content:'' ; width:100% ; height:100% ; bottom:0 ; left:0 ; background-color:#924678 ; border-radius:10px ; z-index:-1 ; transform:scale(0) ; transition:transform 0.5s ease-in-out ; } li a:hover:before,li a:focus:before { transform:scale(1) ; }",
+      "selector" : ".navbar ul"
+    } ,
+      { 
+      "style" : ".navbar ul { list-style:none ; margin:0 ; padding:0 ; overflow:hidden ; } .navbar li { float:left ; } .navbar li a { position:relative ; display:block ; color:#fff ; text-align:center ; padding:8px 12px ; text-decoration:none ; z-index:0 ; } li a:before { position:absolute ; content:'' ; width:100% ; height:100% ; bottom:0 ; left:0 ; background-color:#BA4958 ; border-radius:10px ; z-index:-1 ; transform:scale(0) ; transition:transform 0.5s ease-in-out ; } li a:hover:before,li a:focus:before { transform:scale(1) ; }",
+      "selector" : ".navbar ul"
+    } ,
+      { 
+      "style" : ".navbar ul { list-style:none ; margin:0 ; padding:0 ; overflow:hidden ; } .navbar li { float:left ; } .navbar li a { position:relative ; display:block ; color:#fff ; text-align:center ; padding:8px 12px ; text-decoration:none ; z-index:0 ; } li a:before { position:absolute ; content:'' ; width:100% ; height:100% ; bottom:0 ; left:0 ; background-color:#06DD31 ; border-radius:10px ; z-index:-1 ; transform:scale(0) ; transition:transform 0.5s ease-in-out ; } li a:hover:before,li a:focus:before { transform:scale(1) ; }",
+      "selector" : ".navbar ul"
+    } ,
+      { 
+      "style" : ".navbar ul { list-style:none ; margin:0 ; padding:0 ; overflow:hidden ; } .navbar li { float:left ; } .navbar li a { position:relative ; display:block ; color:#fff ; text-align:center ; padding:8px 12px ; text-decoration:none ; z-index:0 ; } li a:before { position:absolute ; content:'' ; width:100% ; height:100% ; bottom:0 ; left:0 ; background-color:#D5B974 ; border-radius:10px ; z-index:-1 ; transform:scale(0) ; transition:transform 0.5s ease-in-out ; } li a:hover:before,li a:focus:before { transform:scale(1) ; }",
+      "selector" : ".navbar ul"
+    } ,
+      { 
+      "style" : ".navbar ul { list-style:none ; margin:0 ; padding:0 ; overflow:hidden ; } .navbar li { float:left ; } .navbar li a { position:relative ; display:block ; color:#fff ; text-align:center ; padding:8px 12px ; text-decoration:none ; z-index:0 ; } li a:before { position:absolute ; content:'' ; width:100% ; height:100% ; bottom:0 ; left:0 ; background-color:#C6735B ; border-radius:10px ; z-index:-1 ; transform:scale(0) ; transition:transform 0.5s ease-in-out ; } li a:hover:before,li a:focus:before { transform:scale(1) ; }",
+      "selector" : ".navbar ul"
+    } ,
+      { 
+      "style" : ".navbar ul { list-style:none ; margin:0 ; padding:0 ; overflow:hidden ; } .navbar li { float:left ; } .navbar li a { position:relative ; display:block ; color:#fff ; text-align:center ; padding:8px 12px ; text-decoration:none ; z-index:0 ; } li a:before { position:absolute ; content:'' ; width:100% ; height:100% ; bottom:0 ; left:0 ; background-color:#6015D4 ; border-radius:10px ; z-index:-1 ; transform:scale(0) ; transition:transform 0.5s ease-in-out ; } li a:hover:before,li a:focus:before { transform:scale(1) ; }",
+      "selector" : ".navbar ul"
+    } ,
+      { 
+      "style" : ".navbar ul { list-style:none ; margin:0 ; padding:0 ; overflow:hidden ; } .navbar li { float:left ; } .navbar li a { position:relative ; display:block ; color:#fff ; text-align:center ; padding:8px 12px ; text-decoration:none ; z-index:0 ; } li a:before { position:absolute ; content:'' ; width:100% ; height:100% ; bottom:0 ; left:0 ; background-color:#65B20C ; border-radius:10px ; z-index:-1 ; transform:scale(0) ; transition:transform 0.5s ease-in-out ; } li a:hover:before,li a:focus:before { transform:scale(1) ; }",
+      "selector" : ".navbar ul"
+    } ,
+      { 
+      "style" : ".navbar ul { list-style:none ; margin:0 ; padding:0 ; overflow:hidden ; } .navbar li { float:left ; } .navbar li a { position:relative ; display:block ; color:#fff ; text-align:center ; padding:8px 12px ; text-decoration:none ; z-index:0 ; } li a:before { position:absolute ; content:'' ; width:100% ; height:100% ; bottom:0 ; left:0 ; background-color:#72505A ; border-radius:10px ; z-index:-1 ; transform:scale(0) ; transition:transform 0.5s ease-in-out ; } li a:hover:before,li a:focus:before { transform:scale(1) ; }",
+      "selector" : ".navbar ul"
+    } ,
+      { 
+      "style" : ".navbar ul { list-style:none ; margin:0 ; padding:0 ; overflow:hidden ; } .navbar li { float:left ; } .navbar li a { position:relative ; display:block ; color:#fff ; text-align:center ; padding:8px 12px ; text-decoration:none ; z-index:0 ; } li a:before { position:absolute ; content:'' ; width:100% ; height:100% ; bottom:0 ; left:0 ; background-color:#6114CC ; border-radius:10px ; z-index:-1 ; transform:scale(0) ; transition:transform 0.5s ease-in-out ; } li a:hover:before,li a:focus:before { transform:scale(1) ; }",
+      "selector" : ".navbar ul"
+    } ,
+      { 
+      "style" : ".navbar ul { list-style:none ; margin:0 ; padding:0 ; overflow:hidden ; } .navbar li { float:left ; } .navbar li a { position:relative ; display:block ; color:#fff ; text-align:center ; padding:8px 12px ; text-decoration:none ; z-index:0 ; } li a:before { position:absolute ; content:'' ; width:100% ; height:100% ; bottom:0 ; left:0 ; background-color:#A52D8A ; border-radius:10px ; z-index:-1 ; transform:scale(0) ; transition:transform 0.5s ease-in-out ; } li a:hover:before,li a:focus:before { transform:scale(1) ; }",
+      "selector" : ".navbar ul"
+    } ,
+      { 
+      "style" : ".navbar ul { list-style:none ; margin:0 ; padding:0 ; overflow:hidden ; } .navbar li { float:left ; } .navbar li a { position:relative ; display:block ; color:#fff ; text-align:center ; padding:8px 12px ; text-decoration:none ; z-index:0 ; } li a:before { position:absolute ; content:'' ; width:100% ; height:100% ; bottom:0 ; left:0 ; background-color:#200970 ; border-radius:10px ; z-index:-1 ; transform:scale(0) ; transition:transform 0.5s ease-in-out ; } li a:hover:before,li a:focus:before { transform:scale(1) ; }",
+      "selector" : ".navbar ul"
+    } ,
+      { 
+      "style" : ".navbar ul { list-style:none ; margin:0 ; padding:0 ; overflow:hidden ; } .navbar li { float:left ; } .navbar li a { position:relative ; display:block ; color:#fff ; text-align:center ; padding:8px 12px ; text-decoration:none ; z-index:0 ; } li a:before { position:absolute ; content:'' ; width:100% ; height:100% ; bottom:0 ; left:0 ; background-color:#C08539 ; border-radius:10px ; z-index:-1 ; transform:scale(0) ; transition:transform 0.5s ease-in-out ; } li a:hover:before,li a:focus:before { transform:scale(1) ; }",
+      "selector" : ".navbar ul"
+    } ,
+      { 
+      "style" : ".navbar ul { list-style:none ; margin:0 ; padding:0 ; overflow:hidden ; } .navbar li { float:left ; } .navbar li a { position:relative ; display:block ; color:#fff ; text-align:center ; padding:8px 12px ; text-decoration:none ; z-index:0 ; } li a:before { position:absolute ; content:'' ; width:100% ; height:100% ; bottom:0 ; left:0 ; background-color:#455463 ; border-radius:10px ; z-index:-1 ; transform:scale(0) ; transition:transform 0.5s ease-in-out ; } li a:hover:before,li a:focus:before { transform:scale(1) ; }",
+      "selector" : ".navbar ul"
+    } ,
+      { 
+      "style" : ".navbar ul { list-style:none ; margin:0 ; padding:0 ; overflow:hidden ; } .navbar li { float:left ; } .navbar li a { position:relative ; display:block ; color:#fff ; text-align:center ; padding:8px 12px ; text-decoration:none ; z-index:0 ; } li a:before { position:absolute ; content:'' ; width:100% ; height:100% ; bottom:0 ; left:0 ; background-color:#9A92D4 ; border-radius:10px ; z-index:-1 ; transform:scale(0) ; transition:transform 0.5s ease-in-out ; } li a:hover:before,li a:focus:before { transform:scale(1) ; }",
+      "selector" : ".navbar ul"
+    } ,
+      { 
+      "style" : ".navbar ul { list-style:none ; margin:0 ; padding:0 ; overflow:hidden ; } .navbar li { float:left ; } .navbar li a { position:relative ; display:block ; color:#fff ; text-align:center ; padding:8px 12px ; text-decoration:none ; z-index:0 ; } li a:before { position:absolute ; content:'' ; width:100% ; height:100% ; bottom:0 ; left:0 ; background-color:#3355A8 ; border-radius:10px ; z-index:-1 ; transform:scale(0) ; transition:transform 0.5s ease-in-out ; } li a:hover:before,li a:focus:before { transform:scale(1) ; }",
+      "selector" : ".navbar ul"
+    } ,
+      { 
+      "style" : ".navbar ul { list-style:none ; margin:0 ; padding:0 ; overflow:hidden ; } .navbar li { float:left ; } .navbar li a { position:relative ; display:block ; color:#fff ; text-align:center ; padding:8px 12px ; text-decoration:none ; z-index:0 ; } li a:before { position:absolute ; content:'' ; width:100% ; height:100% ; bottom:0 ; left:0 ; background-color:#893BCC ; border-radius:10px ; z-index:-1 ; transform:scale(0) ; transition:transform 0.5s ease-in-out ; } li a:hover:before,li a:focus:before { transform:scale(1) ; }",
+      "selector" : ".navbar ul"
+    } ,
+      { 
+      "style" : ".navbar ul { list-style:none ; margin:0 ; padding:0 ; overflow:hidden ; } .navbar li { float:left ; } .navbar li a { position:relative ; display:block ; color:#fff ; text-align:center ; padding:8px 12px ; text-decoration:none ; z-index:0 ; } li a:before { position:absolute ; content:'' ; width:100% ; height:100% ; bottom:0 ; left:0 ; background-color:#59107C ; border-radius:10px ; z-index:-1 ; transform:scale(0) ; transition:transform 0.5s ease-in-out ; } li a:hover:before,li a:focus:before { transform:scale(1) ; }",
+      "selector" : ".navbar ul"
+    } ,
+      { 
+      "style" : ".navbar ul { list-style:none ; margin:0 ; padding:0 ; overflow:hidden ; } .navbar li { float:left ; } .navbar li a { position:relative ; display:block ; color:#fff ; text-align:center ; padding:8px 12px ; text-decoration:none ; z-index:0 ; } li a:before { position:absolute ; content:'' ; width:100% ; height:100% ; bottom:0 ; left:0 ; background-color:#9686A2 ; border-radius:10px ; z-index:-1 ; transform:scale(0) ; transition:transform 0.5s ease-in-out ; } li a:hover:before,li a:focus:before { transform:scale(1) ; }",
+      "selector" : ".navbar ul"
+    } ,
+      { 
+      "style" : ".navbar ul { list-style:none ; margin:0 ; padding:0 ; overflow:hidden ; } .navbar li { float:left ; } .navbar li a { position:relative ; display:block ; color:#fff ; text-align:center ; padding:8px 12px ; text-decoration:none ; z-index:0 ; } li a:before { position:absolute ; content:'' ; width:100% ; height:100% ; bottom:0 ; left:0 ; background-color:#8A0545 ; border-radius:10px ; z-index:-1 ; transform:scale(0) ; transition:transform 0.5s ease-in-out ; } li a:hover:before,li a:focus:before { transform:scale(1) ; }",
+      "selector" : ".navbar ul"
+    } ,
+      { 
+      "style" : ".navbar ul { list-style:none ; margin:0 ; padding:0 ; overflow:hidden ; } .navbar li { float:left ; } .navbar li a { position:relative ; display:block ; color:#fff ; text-align:center ; padding:8px 12px ; text-decoration:none ; z-index:0 ; } li a:before { position:absolute ; content:'' ; width:100% ; height:100% ; bottom:0 ; left:0 ; background-color:#25C432 ; border-radius:10px ; z-index:-1 ; transform:scale(0) ; transition:transform 0.5s ease-in-out ; } li a:hover:before,li a:focus:before { transform:scale(1) ; }",
+      "selector" : ".navbar ul"
+    } ,
+      { 
+      "style" : ".navbar ul { list-style:none ; margin:0 ; padding:0 ; overflow:hidden ; } .navbar li { float:left ; } .navbar li a { position:relative ; display:block ; color:#fff ; text-align:center ; padding:8px 12px ; text-decoration:none ; z-index:0 ; } li a:before { position:absolute ; content:'' ; width:100% ; height:100% ; bottom:0 ; left:0 ; background-color:#175348 ; border-radius:10px ; z-index:-1 ; transform:scale(0) ; transition:transform 0.5s ease-in-out ; } li a:hover:before,li a:focus:before { transform:scale(1) ; }",
+      "selector" : ".navbar ul"
+    } ,
+      { 
+      "style" : ".navbar ul { list-style:none ; margin:0 ; padding:0 ; overflow:hidden ; } .navbar li { float:left ; } .navbar li a { position:relative ; display:block ; color:#fff ; text-align:center ; padding:8px 12px ; text-decoration:none ; z-index:0 ; } li a:before { position:absolute ; content:'' ; width:100% ; height:100% ; bottom:0 ; left:0 ; background-color:#69731D ; border-radius:10px ; z-index:-1 ; transform:scale(0) ; transition:transform 0.5s ease-in-out ; } li a:hover:before,li a:focus:before { transform:scale(1) ; }",
+      "selector" : ".navbar ul"
+    } ,
+    
+    { 
+      "style" : "form { border:2px solid #7D6750 ; border-radius:10px ; padding:8px ; border-radius:2px ; } form:focus-within { background:#481355 ; } label { display:inline-block ; width:72px ; } input { margin:4px 12px ; }",
+      "selector" : "form"
+    } ,
+      { 
+      "style" : "form { border:2px solid #027C54 ; border-radius:10px ; padding:8px ; border-radius:2px ; } form:focus-within { background:#A648AD ; } label { display:inline-block ; width:72px ; } input { margin:4px 12px ; }",
+      "selector" : "form"
+    } ,
+      { 
+      "style" : "form { border:2px solid #174DB3 ; border-radius:10px ; padding:8px ; border-radius:2px ; } form:focus-within { background:#57708B ; } label { display:inline-block ; width:72px ; } input { margin:4px 12px ; }",
+      "selector" : "form"
+    } ,
+      { 
+      "style" : "form { border:2px solid #854C19 ; border-radius:10px ; padding:8px ; border-radius:2px ; } form:focus-within { background:#C1344A ; } label { display:inline-block ; width:72px ; } input { margin:4px 12px ; }",
+      "selector" : "form"
+    } ,
+      { 
+      "style" : "form { border:2px solid #56C42D ; border-radius:10px ; padding:8px ; border-radius:2px ; } form:focus-within { background:#24D43A ; } label { display:inline-block ; width:72px ; } input { margin:4px 12px ; }",
+      "selector" : "form"
+    } ,
+      { 
+      "style" : "form { border:2px solid #41D1A4 ; border-radius:10px ; padding:8px ; border-radius:2px ; } form:focus-within { background:#C79D58 ; } label { display:inline-block ; width:72px ; } input { margin:4px 12px ; }",
+      "selector" : "form"
+    } ,
+      { 
+      "style" : "form { border:2px solid #566401 ; border-radius:10px ; padding:8px ; border-radius:2px ; } form:focus-within { background:#0A6776 ; } label { display:inline-block ; width:72px ; } input { margin:4px 12px ; }",
+      "selector" : "form"
+    } ,
+      { 
+      "style" : "form { border:2px solid #5527DC ; border-radius:10px ; padding:8px ; border-radius:2px ; } form:focus-within { background:#5D493A ; } label { display:inline-block ; width:72px ; } input { margin:4px 12px ; }",
+      "selector" : "form"
+    } ,
+      { 
+      "style" : "form { border:2px solid #A55063 ; border-radius:10px ; padding:8px ; border-radius:2px ; } form:focus-within { background:#5252D7 ; } label { display:inline-block ; width:72px ; } input { margin:4px 12px ; }",
+      "selector" : "form"
+    } ,
+      { 
+      "style" : "form { border:2px solid #372280 ; border-radius:10px ; padding:8px ; border-radius:2px ; } form:focus-within { background:#73CDB6 ; } label { display:inline-block ; width:72px ; } input { margin:4px 12px ; }",
+      "selector" : "form"
+    } ,
+      { 
+      "style" : "form { border:2px solid #551315 ; border-radius:10px ; padding:8px ; border-radius:2px ; } form:focus-within { background:#A779BC ; } label { display:inline-block ; width:72px ; } input { margin:4px 12px ; }",
+      "selector" : "form"
+    } ,
+      { 
+      "style" : "form { border:2px solid #5C2D5D ; border-radius:10px ; padding:8px ; border-radius:2px ; } form:focus-within { background:#9A34C6 ; } label { display:inline-block ; width:72px ; } input { margin:4px 12px ; }",
+      "selector" : "form"
+    } ,
+      { 
+      "style" : "form { border:2px solid #262A52 ; border-radius:10px ; padding:8px ; border-radius:2px ; } form:focus-within { background:#7226C6 ; } label { display:inline-block ; width:72px ; } input { margin:4px 12px ; }",
+      "selector" : "form"
+    } ,
+      { 
+      "style" : "form { border:2px solid #65B6CA ; border-radius:10px ; padding:8px ; border-radius:2px ; } form:focus-within { background:#354400 ; } label { display:inline-block ; width:72px ; } input { margin:4px 12px ; }",
+      "selector" : "form"
+    } ,
+      { 
+      "style" : "form { border:2px solid #0D4868 ; border-radius:10px ; padding:8px ; border-radius:2px ; } form:focus-within { background:#5A8129 ; } label { display:inline-block ; width:72px ; } input { margin:4px 12px ; }",
+      "selector" : "form"
+    } ,
+      { 
+      "style" : "form { border:2px solid #02547D ; border-radius:10px ; padding:8px ; border-radius:2px ; } form:focus-within { background:#58D555 ; } label { display:inline-block ; width:72px ; } input { margin:4px 12px ; }",
+      "selector" : "form"
+    } ,
+      { 
+      "style" : "form { border:2px solid #0DB293 ; border-radius:10px ; padding:8px ; border-radius:2px ; } form:focus-within { background:#586061 ; } label { display:inline-block ; width:72px ; } input { margin:4px 12px ; }",
+      "selector" : "form"
+    } ,
+      { 
+      "style" : "form { border:2px solid #AA3C20 ; border-radius:10px ; padding:8px ; border-radius:2px ; } form:focus-within { background:#4A55B7 ; } label { display:inline-block ; width:72px ; } input { margin:4px 12px ; }",
+      "selector" : "form"
+    } ,
+      { 
+      "style" : "form { border:2px solid #84C205 ; border-radius:10px ; padding:8px ; border-radius:2px ; } form:focus-within { background:#816B1A ; } label { display:inline-block ; width:72px ; } input { margin:4px 12px ; }",
+      "selector" : "form"
+    } ,
+      { 
+      "style" : "form { border:2px solid #C5DC37 ; border-radius:10px ; padding:8px ; border-radius:2px ; } form:focus-within { background:#DB2817 ; } label { display:inline-block ; width:72px ; } input { margin:4px 12px ; }",
+      "selector" : "form"
+    } ,
+      { 
+      "style" : "form { border:2px solid #34865C ; border-radius:10px ; padding:8px ; border-radius:2px ; } form:focus-within { background:#9541CA ; } label { display:inline-block ; width:72px ; } input { margin:4px 12px ; }",
+      "selector" : "form"
+    } ,
+      { 
+      "style" : "form { border:2px solid #99585D ; border-radius:10px ; padding:8px ; border-radius:2px ; } form:focus-within { background:#914631 ; } label { display:inline-block ; width:72px ; } input { margin:4px 12px ; }",
+      "selector" : "form"
+    } ,
+      { 
+      "style" : "form { border:2px solid #464C45 ; border-radius:10px ; padding:8px ; border-radius:2px ; } form:focus-within { background:#0D8A79 ; } label { display:inline-block ; width:72px ; } input { margin:4px 12px ; }",
+      "selector" : "form"
+    } ,
+      { 
+      "style" : "form { border:2px solid #510054 ; border-radius:10px ; padding:8px ; border-radius:2px ; } form:focus-within { background:#543502 ; } label { display:inline-block ; width:72px ; } input { margin:4px 12px ; }",
+      "selector" : "form"
+    } ,
+      { 
+      "style" : "form { border:2px solid #A05118 ; border-radius:10px ; padding:8px ; border-radius:2px ; } form:focus-within { background:#2C5573 ; } label { display:inline-block ; width:72px ; } input { margin:4px 12px ; }",
+      "selector" : "form"
+    } ,
+      { 
+      "style" : "form { border:2px solid #5D985C ; border-radius:10px ; padding:8px ; border-radius:2px ; } form:focus-within { background:#46CA40 ; } label { display:inline-block ; width:72px ; } input { margin:4px 12px ; }",
+      "selector" : "form"
+    } ,
+      { 
+      "style" : "form { border:2px solid #60BBC2 ; border-radius:10px ; padding:8px ; border-radius:2px ; } form:focus-within { background:#0B9638 ; } label { display:inline-block ; width:72px ; } input { margin:4px 12px ; }",
+      "selector" : "form"
+    } ,
+      { 
+      "style" : "form { border:2px solid #8A3DAA ; border-radius:10px ; padding:8px ; border-radius:2px ; } form:focus-within { background:#575615 ; } label { display:inline-block ; width:72px ; } input { margin:4px 12px ; }",
+      "selector" : "form"
+    } ,
+      { 
+      "style" : "form { border:2px solid #23466A ; border-radius:10px ; padding:8px ; border-radius:2px ; } form:focus-within { background:#340947 ; } label { display:inline-block ; width:72px ; } input { margin:4px 12px ; }",
+      "selector" : "form"
+    } ,
+      { 
+      "style" : "form { border:2px solid #C45195 ; border-radius:10px ; padding:8px ; border-radius:2px ; } form:focus-within { background:#CCAC28 ; } label { display:inline-block ; width:72px ; } input { margin:4px 12px ; }",
+      "selector" : "form"
+    } ,
+      { 
+      "style" : "form { border:2px solid #899233 ; border-radius:10px ; padding:8px ; border-radius:2px ; } form:focus-within { background:#8C7118 ; } label { display:inline-block ; width:72px ; } input { margin:4px 12px ; }",
+      "selector" : "form"
+    } ,
+      { 
+      "style" : "form { border:2px solid #059C47 ; border-radius:10px ; padding:8px ; border-radius:2px ; } form:focus-within { background:#A15DB1 ; } label { display:inline-block ; width:72px ; } input { margin:4px 12px ; }",
+      "selector" : "form"
+    } ,
+      { 
+      "style" : "form { border:2px solid #874CB3 ; border-radius:10px ; padding:8px ; border-radius:2px ; } form:focus-within { background:#86595B ; } label { display:inline-block ; width:72px ; } input { margin:4px 12px ; }",
+      "selector" : "form"
+    } ,
+      { 
+      "style" : "form { border:2px solid #451765 ; border-radius:10px ; padding:8px ; border-radius:2px ; } form:focus-within { background:#019C5A ; } label { display:inline-block ; width:72px ; } input { margin:4px 12px ; }",
+      "selector" : "form"
+    } ,
+      { 
+      "style" : "form { border:2px solid #6BB848 ; border-radius:10px ; padding:8px ; border-radius:2px ; } form:focus-within { background:#54510C ; } label { display:inline-block ; width:72px ; } input { margin:4px 12px ; }",
+      "selector" : "form"
+    } ,
+      { 
+      "style" : "form { border:2px solid #B51C21 ; border-radius:10px ; padding:8px ; border-radius:2px ; } form:focus-within { background:#52C12C ; } label { display:inline-block ; width:72px ; } input { margin:4px 12px ; }",
+      "selector" : "form"
+    } ,
+      { 
+      "style" : "form { border:2px solid #532BD5 ; border-radius:10px ; padding:8px ; border-radius:2px ; } form:focus-within { background:#D9247B ; } label { display:inline-block ; width:72px ; } input { margin:4px 12px ; }",
+      "selector" : "form"
+    } ,
+      { 
+      "style" : "form { border:2px solid #315516 ; border-radius:10px ; padding:8px ; border-radius:2px ; } form:focus-within { background:#47978B ; } label { display:inline-block ; width:72px ; } input { margin:4px 12px ; }",
+      "selector" : "form"
+    } ,
+      { 
+      "style" : "form { border:2px solid #6871AD ; border-radius:10px ; padding:8px ; border-radius:2px ; } form:focus-within { background:#7357D6 ; } label { display:inline-block ; width:72px ; } input { margin:4px 12px ; }",
+      "selector" : "form"
+    } ,
+      { 
+      "style" : "form { border:2px solid #85BB39 ; border-radius:10px ; padding:8px ; border-radius:2px ; } form:focus-within { background:#A23AC6 ; } label { display:inline-block ; width:72px ; } input { margin:4px 12px ; }",
+      "selector" : "form"
+    } ,
+      { 
+      "style" : "form { border:2px solid #C63072 ; border-radius:10px ; padding:8px ; border-radius:2px ; } form:focus-within { background:#CD1383 ; } label { display:inline-block ; width:72px ; } input { margin:4px 12px ; }",
+      "selector" : "form"
+    } ,
+      { 
+      "style" : "form { border:2px solid #7AD5C9 ; border-radius:10px ; padding:8px ; border-radius:2px ; } form:focus-within { background:#629431 ; } label { display:inline-block ; width:72px ; } input { margin:4px 12px ; }",
+      "selector" : "form"
+    } ,
+      { 
+      "style" : "form { border:2px solid #055C4B ; border-radius:10px ; padding:8px ; border-radius:2px ; } form:focus-within { background:#4D508C ; } label { display:inline-block ; width:72px ; } input { margin:4px 12px ; }",
+      "selector" : "form"
+    } ,
+      { 
+      "style" : "form { border:2px solid #9B0AC2 ; border-radius:10px ; padding:8px ; border-radius:2px ; } form:focus-within { background:#73B237 ; } label { display:inline-block ; width:72px ; } input { margin:4px 12px ; }",
+      "selector" : "form"
+    } ,
+      { 
+      "style" : "form { border:2px solid #54C745 ; border-radius:10px ; padding:8px ; border-radius:2px ; } form:focus-within { background:#78DD46 ; } label { display:inline-block ; width:72px ; } input { margin:4px 12px ; }",
+      "selector" : "form"
+    } ,
+      { 
+      "style" : "form { border:2px solid #01C157 ; border-radius:10px ; padding:8px ; border-radius:2px ; } form:focus-within { background:#CC95D6 ; } label { display:inline-block ; width:72px ; } input { margin:4px 12px ; }",
+      "selector" : "form"
+    } ,
+      { 
+      "style" : "form { border:2px solid #45C3CC ; border-radius:10px ; padding:8px ; border-radius:2px ; } form:focus-within { background:#B541AD ; } label { display:inline-block ; width:72px ; } input { margin:4px 12px ; }",
+      "selector" : "form"
+    } ,
+      { 
+      "style" : "form { border:2px solid #59BAB7 ; border-radius:10px ; padding:8px ; border-radius:2px ; } form:focus-within { background:#B3D082 ; } label { display:inline-block ; width:72px ; } input { margin:4px 12px ; }",
+      "selector" : "form"
+    } ,
+      { 
+      "style" : "form { border:2px solid #1B4210 ; border-radius:10px ; padding:8px ; border-radius:2px ; } form:focus-within { background:#C2593D ; } label { display:inline-block ; width:72px ; } input { margin:4px 12px ; }",
+      "selector" : "form"
+    } ,
+      { 
+      "style" : "form { border:2px solid #57C121 ; border-radius:10px ; padding:8px ; border-radius:2px ; } form:focus-within { background:#5A2551 ; } label { display:inline-block ; width:72px ; } input { margin:4px 12px ; }",
+      "selector" : "form"
+    } ,
+    
+    { 
+      "style" : ".card-content { width:300px ; height:280px ; padding:0 ; box-shadow:0 2px 4px 0 rgba(0,0,0,.1);border-radius:8px ; box-sizing:border-box ; overflow:hidden ; } .card-content * { transition:0.3s ease all ; } .card-content img { margin:0 ; width:300px ; height:224px ; object-fit:cover ; display:block ; } .card-content h3 { margin:0 ; padding:12px 12px 48px ; line-height:32px ; font-weight:500 ; font-size:20px ; } .card-content .focus-content { display:block ; padding:8px 12px ; } .card-content p { margin:0 ; line-height:1.5 ; } .card-content:hover img,.card-content:focus-within img { margin-top:-80px ; } .card-content:hover h3,.card-content:focus-within h3 { padding:8px 12px 0 ; }",
+      "selector" : ".card-content"
+    } ,
+      { 
+      "style" : ".card-content { width:300px ; height:280px ; padding:0 ; box-shadow:0 2px 4px 0 rgba(0,0,0,.1);border-radius:8px ; box-sizing:border-box ; overflow:hidden ; } .card-content * { transition:0.3s ease all ; } .card-content img { margin:0 ; width:300px ; height:224px ; object-fit:cover ; display:block ; } .card-content h3 { margin:0 ; padding:12px 12px 48px ; line-height:32px ; font-weight:500 ; font-size:20px ; } .card-content .focus-content { display:block ; padding:8px 12px ; } .card-content p { margin:0 ; line-height:1.5 ; } .card-content:hover img,.card-content:focus-within img { margin-top:-80px ; } .card-content:hover h3,.card-content:focus-within h3 { padding:8px 12px 0 ; }",
+      "selector" : ".card-content"
+    } ,
+      { 
+      "style" : ".card-content { width:300px ; height:280px ; padding:0 ; box-shadow:0 2px 4px 0 rgba(0,0,0,.1);border-radius:8px ; box-sizing:border-box ; overflow:hidden ; } .card-content * { transition:0.3s ease all ; } .card-content img { margin:0 ; width:300px ; height:224px ; object-fit:cover ; display:block ; } .card-content h3 { margin:0 ; padding:12px 12px 48px ; line-height:32px ; font-weight:500 ; font-size:20px ; } .card-content .focus-content { display:block ; padding:8px 12px ; } .card-content p { margin:0 ; line-height:1.5 ; } .card-content:hover img,.card-content:focus-within img { margin-top:-80px ; } .card-content:hover h3,.card-content:focus-within h3 { padding:8px 12px 0 ; }",
+      "selector" : ".card-content"
+    } ,
+      { 
+      "style" : ".card-content { width:300px ; height:280px ; padding:0 ; box-shadow:0 2px 4px 0 rgba(0,0,0,.1);border-radius:8px ; box-sizing:border-box ; overflow:hidden ; } .card-content * { transition:0.3s ease all ; } .card-content img { margin:0 ; width:300px ; height:224px ; object-fit:cover ; display:block ; } .card-content h3 { margin:0 ; padding:12px 12px 48px ; line-height:32px ; font-weight:500 ; font-size:20px ; } .card-content .focus-content { display:block ; padding:8px 12px ; } .card-content p { margin:0 ; line-height:1.5 ; } .card-content:hover img,.card-content:focus-within img { margin-top:-80px ; } .card-content:hover h3,.card-content:focus-within h3 { padding:8px 12px 0 ; }",
+      "selector" : ".card-content"
+    } ,
+      { 
+      "style" : ".card-content { width:300px ; height:280px ; padding:0 ; box-shadow:0 2px 4px 0 rgba(0,0,0,.1);border-radius:8px ; box-sizing:border-box ; overflow:hidden ; } .card-content * { transition:0.3s ease all ; } .card-content img { margin:0 ; width:300px ; height:224px ; object-fit:cover ; display:block ; } .card-content h3 { margin:0 ; padding:12px 12px 48px ; line-height:32px ; font-weight:500 ; font-size:20px ; } .card-content .focus-content { display:block ; padding:8px 12px ; } .card-content p { margin:0 ; line-height:1.5 ; } .card-content:hover img,.card-content:focus-within img { margin-top:-80px ; } .card-content:hover h3,.card-content:focus-within h3 { padding:8px 12px 0 ; }",
+      "selector" : ".card-content"
+    } ,
+      { 
+      "style" : ".card-content { width:300px ; height:280px ; padding:0 ; box-shadow:0 2px 4px 0 rgba(0,0,0,.1);border-radius:8px ; box-sizing:border-box ; overflow:hidden ; } .card-content * { transition:0.3s ease all ; } .card-content img { margin:0 ; width:300px ; height:224px ; object-fit:cover ; display:block ; } .card-content h3 { margin:0 ; padding:12px 12px 48px ; line-height:32px ; font-weight:500 ; font-size:20px ; } .card-content .focus-content { display:block ; padding:8px 12px ; } .card-content p { margin:0 ; line-height:1.5 ; } .card-content:hover img,.card-content:focus-within img { margin-top:-80px ; } .card-content:hover h3,.card-content:focus-within h3 { padding:8px 12px 0 ; }",
+      "selector" : ".card-content"
+    } ,
+      { 
+      "style" : ".card-content { width:300px ; height:280px ; padding:0 ; box-shadow:0 2px 4px 0 rgba(0,0,0,.1);border-radius:8px ; box-sizing:border-box ; overflow:hidden ; } .card-content * { transition:0.3s ease all ; } .card-content img { margin:0 ; width:300px ; height:224px ; object-fit:cover ; display:block ; } .card-content h3 { margin:0 ; padding:12px 12px 48px ; line-height:32px ; font-weight:500 ; font-size:20px ; } .card-content .focus-content { display:block ; padding:8px 12px ; } .card-content p { margin:0 ; line-height:1.5 ; } .card-content:hover img,.card-content:focus-within img { margin-top:-80px ; } .card-content:hover h3,.card-content:focus-within h3 { padding:8px 12px 0 ; }",
+      "selector" : ".card-content"
+    } ,
+      { 
+      "style" : ".card-content { width:300px ; height:280px ; padding:0 ; box-shadow:0 2px 4px 0 rgba(0,0,0,.1);border-radius:8px ; box-sizing:border-box ; overflow:hidden ; } .card-content * { transition:0.3s ease all ; } .card-content img { margin:0 ; width:300px ; height:224px ; object-fit:cover ; display:block ; } .card-content h3 { margin:0 ; padding:12px 12px 48px ; line-height:32px ; font-weight:500 ; font-size:20px ; } .card-content .focus-content { display:block ; padding:8px 12px ; } .card-content p { margin:0 ; line-height:1.5 ; } .card-content:hover img,.card-content:focus-within img { margin-top:-80px ; } .card-content:hover h3,.card-content:focus-within h3 { padding:8px 12px 0 ; }",
+      "selector" : ".card-content"
+    } ,
+      { 
+      "style" : ".card-content { width:300px ; height:280px ; padding:0 ; box-shadow:0 2px 4px 0 rgba(0,0,0,.1);border-radius:8px ; box-sizing:border-box ; overflow:hidden ; } .card-content * { transition:0.3s ease all ; } .card-content img { margin:0 ; width:300px ; height:224px ; object-fit:cover ; display:block ; } .card-content h3 { margin:0 ; padding:12px 12px 48px ; line-height:32px ; font-weight:500 ; font-size:20px ; } .card-content .focus-content { display:block ; padding:8px 12px ; } .card-content p { margin:0 ; line-height:1.5 ; } .card-content:hover img,.card-content:focus-within img { margin-top:-80px ; } .card-content:hover h3,.card-content:focus-within h3 { padding:8px 12px 0 ; }",
+      "selector" : ".card-content"
+    } ,
+      { 
+      "style" : ".card-content { width:300px ; height:280px ; padding:0 ; box-shadow:0 2px 4px 0 rgba(0,0,0,.1);border-radius:8px ; box-sizing:border-box ; overflow:hidden ; } .card-content * { transition:0.3s ease all ; } .card-content img { margin:0 ; width:300px ; height:224px ; object-fit:cover ; display:block ; } .card-content h3 { margin:0 ; padding:12px 12px 48px ; line-height:32px ; font-weight:500 ; font-size:20px ; } .card-content .focus-content { display:block ; padding:8px 12px ; } .card-content p { margin:0 ; line-height:1.5 ; } .card-content:hover img,.card-content:focus-within img { margin-top:-80px ; } .card-content:hover h3,.card-content:focus-within h3 { padding:8px 12px 0 ; }",
+      "selector" : ".card-content"
+    } ,
+      { 
+      "style" : ".card-content { width:300px ; height:280px ; padding:0 ; box-shadow:0 2px 4px 0 rgba(0,0,0,.1);border-radius:8px ; box-sizing:border-box ; overflow:hidden ; } .card-content * { transition:0.3s ease all ; } .card-content img { margin:0 ; width:300px ; height:224px ; object-fit:cover ; display:block ; } .card-content h3 { margin:0 ; padding:12px 12px 48px ; line-height:32px ; font-weight:500 ; font-size:20px ; } .card-content .focus-content { display:block ; padding:8px 12px ; } .card-content p { margin:0 ; line-height:1.5 ; } .card-content:hover img,.card-content:focus-within img { margin-top:-80px ; } .card-content:hover h3,.card-content:focus-within h3 { padding:8px 12px 0 ; }",
+      "selector" : ".card-content"
+    } ,
+      { 
+      "style" : ".card-content { width:300px ; height:280px ; padding:0 ; box-shadow:0 2px 4px 0 rgba(0,0,0,.1);border-radius:8px ; box-sizing:border-box ; overflow:hidden ; } .card-content * { transition:0.3s ease all ; } .card-content img { margin:0 ; width:300px ; height:224px ; object-fit:cover ; display:block ; } .card-content h3 { margin:0 ; padding:12px 12px 48px ; line-height:32px ; font-weight:500 ; font-size:20px ; } .card-content .focus-content { display:block ; padding:8px 12px ; } .card-content p { margin:0 ; line-height:1.5 ; } .card-content:hover img,.card-content:focus-within img { margin-top:-80px ; } .card-content:hover h3,.card-content:focus-within h3 { padding:8px 12px 0 ; }",
+      "selector" : ".card-content"
+    } ,
+      { 
+      "style" : ".card-content { width:300px ; height:280px ; padding:0 ; box-shadow:0 2px 4px 0 rgba(0,0,0,.1);border-radius:8px ; box-sizing:border-box ; overflow:hidden ; } .card-content * { transition:0.3s ease all ; } .card-content img { margin:0 ; width:300px ; height:224px ; object-fit:cover ; display:block ; } .card-content h3 { margin:0 ; padding:12px 12px 48px ; line-height:32px ; font-weight:500 ; font-size:20px ; } .card-content .focus-content { display:block ; padding:8px 12px ; } .card-content p { margin:0 ; line-height:1.5 ; } .card-content:hover img,.card-content:focus-within img { margin-top:-80px ; } .card-content:hover h3,.card-content:focus-within h3 { padding:8px 12px 0 ; }",
+      "selector" : ".card-content"
+    } ,
+      { 
+      "style" : ".card-content { width:300px ; height:280px ; padding:0 ; box-shadow:0 2px 4px 0 rgba(0,0,0,.1);border-radius:8px ; box-sizing:border-box ; overflow:hidden ; } .card-content * { transition:0.3s ease all ; } .card-content img { margin:0 ; width:300px ; height:224px ; object-fit:cover ; display:block ; } .card-content h3 { margin:0 ; padding:12px 12px 48px ; line-height:32px ; font-weight:500 ; font-size:20px ; } .card-content .focus-content { display:block ; padding:8px 12px ; } .card-content p { margin:0 ; line-height:1.5 ; } .card-content:hover img,.card-content:focus-within img { margin-top:-80px ; } .card-content:hover h3,.card-content:focus-within h3 { padding:8px 12px 0 ; }",
+      "selector" : ".card-content"
+    } ,
+      { 
+      "style" : ".card-content { width:300px ; height:280px ; padding:0 ; box-shadow:0 2px 4px 0 rgba(0,0,0,.1);border-radius:8px ; box-sizing:border-box ; overflow:hidden ; } .card-content * { transition:0.3s ease all ; } .card-content img { margin:0 ; width:300px ; height:224px ; object-fit:cover ; display:block ; } .card-content h3 { margin:0 ; padding:12px 12px 48px ; line-height:32px ; font-weight:500 ; font-size:20px ; } .card-content .focus-content { display:block ; padding:8px 12px ; } .card-content p { margin:0 ; line-height:1.5 ; } .card-content:hover img,.card-content:focus-within img { margin-top:-80px ; } .card-content:hover h3,.card-content:focus-within h3 { padding:8px 12px 0 ; }",
+      "selector" : ".card-content"
+    } ,
+      { 
+      "style" : ".card-content { width:300px ; height:280px ; padding:0 ; box-shadow:0 2px 4px 0 rgba(0,0,0,.1);border-radius:8px ; box-sizing:border-box ; overflow:hidden ; } .card-content * { transition:0.3s ease all ; } .card-content img { margin:0 ; width:300px ; height:224px ; object-fit:cover ; display:block ; } .card-content h3 { margin:0 ; padding:12px 12px 48px ; line-height:32px ; font-weight:500 ; font-size:20px ; } .card-content .focus-content { display:block ; padding:8px 12px ; } .card-content p { margin:0 ; line-height:1.5 ; } .card-content:hover img,.card-content:focus-within img { margin-top:-80px ; } .card-content:hover h3,.card-content:focus-within h3 { padding:8px 12px 0 ; }",
+      "selector" : ".card-content"
+    } ,
+      { 
+      "style" : ".card-content { width:300px ; height:280px ; padding:0 ; box-shadow:0 2px 4px 0 rgba(0,0,0,.1);border-radius:8px ; box-sizing:border-box ; overflow:hidden ; } .card-content * { transition:0.3s ease all ; } .card-content img { margin:0 ; width:300px ; height:224px ; object-fit:cover ; display:block ; } .card-content h3 { margin:0 ; padding:12px 12px 48px ; line-height:32px ; font-weight:500 ; font-size:20px ; } .card-content .focus-content { display:block ; padding:8px 12px ; } .card-content p { margin:0 ; line-height:1.5 ; } .card-content:hover img,.card-content:focus-within img { margin-top:-80px ; } .card-content:hover h3,.card-content:focus-within h3 { padding:8px 12px 0 ; }",
+      "selector" : ".card-content"
+    } ,
+      { 
+      "style" : ".card-content { width:300px ; height:280px ; padding:0 ; box-shadow:0 2px 4px 0 rgba(0,0,0,.1);border-radius:8px ; box-sizing:border-box ; overflow:hidden ; } .card-content * { transition:0.3s ease all ; } .card-content img { margin:0 ; width:300px ; height:224px ; object-fit:cover ; display:block ; } .card-content h3 { margin:0 ; padding:12px 12px 48px ; line-height:32px ; font-weight:500 ; font-size:20px ; } .card-content .focus-content { display:block ; padding:8px 12px ; } .card-content p { margin:0 ; line-height:1.5 ; } .card-content:hover img,.card-content:focus-within img { margin-top:-80px ; } .card-content:hover h3,.card-content:focus-within h3 { padding:8px 12px 0 ; }",
+      "selector" : ".card-content"
+    } ,
+      { 
+      "style" : ".card-content { width:300px ; height:280px ; padding:0 ; box-shadow:0 2px 4px 0 rgba(0,0,0,.1);border-radius:8px ; box-sizing:border-box ; overflow:hidden ; } .card-content * { transition:0.3s ease all ; } .card-content img { margin:0 ; width:300px ; height:224px ; object-fit:cover ; display:block ; } .card-content h3 { margin:0 ; padding:12px 12px 48px ; line-height:32px ; font-weight:500 ; font-size:20px ; } .card-content .focus-content { display:block ; padding:8px 12px ; } .card-content p { margin:0 ; line-height:1.5 ; } .card-content:hover img,.card-content:focus-within img { margin-top:-80px ; } .card-content:hover h3,.card-content:focus-within h3 { padding:8px 12px 0 ; }",
+      "selector" : ".card-content"
+    } ,
+      { 
+      "style" : ".card-content { width:300px ; height:280px ; padding:0 ; box-shadow:0 2px 4px 0 rgba(0,0,0,.1);border-radius:8px ; box-sizing:border-box ; overflow:hidden ; } .card-content * { transition:0.3s ease all ; } .card-content img { margin:0 ; width:300px ; height:224px ; object-fit:cover ; display:block ; } .card-content h3 { margin:0 ; padding:12px 12px 48px ; line-height:32px ; font-weight:500 ; font-size:20px ; } .card-content .focus-content { display:block ; padding:8px 12px ; } .card-content p { margin:0 ; line-height:1.5 ; } .card-content:hover img,.card-content:focus-within img { margin-top:-80px ; } .card-content:hover h3,.card-content:focus-within h3 { padding:8px 12px 0 ; }",
+      "selector" : ".card-content"
+    } ,
+      { 
+      "style" : ".card-content { width:300px ; height:280px ; padding:0 ; box-shadow:0 2px 4px 0 rgba(0,0,0,.1);border-radius:8px ; box-sizing:border-box ; overflow:hidden ; } .card-content * { transition:0.3s ease all ; } .card-content img { margin:0 ; width:300px ; height:224px ; object-fit:cover ; display:block ; } .card-content h3 { margin:0 ; padding:12px 12px 48px ; line-height:32px ; font-weight:500 ; font-size:20px ; } .card-content .focus-content { display:block ; padding:8px 12px ; } .card-content p { margin:0 ; line-height:1.5 ; } .card-content:hover img,.card-content:focus-within img { margin-top:-80px ; } .card-content:hover h3,.card-content:focus-within h3 { padding:8px 12px 0 ; }",
+      "selector" : ".card-content"
+    } ,
+      { 
+      "style" : ".card-content { width:300px ; height:280px ; padding:0 ; box-shadow:0 2px 4px 0 rgba(0,0,0,.1);border-radius:8px ; box-sizing:border-box ; overflow:hidden ; } .card-content * { transition:0.3s ease all ; } .card-content img { margin:0 ; width:300px ; height:224px ; object-fit:cover ; display:block ; } .card-content h3 { margin:0 ; padding:12px 12px 48px ; line-height:32px ; font-weight:500 ; font-size:20px ; } .card-content .focus-content { display:block ; padding:8px 12px ; } .card-content p { margin:0 ; line-height:1.5 ; } .card-content:hover img,.card-content:focus-within img { margin-top:-80px ; } .card-content:hover h3,.card-content:focus-within h3 { padding:8px 12px 0 ; }",
+      "selector" : ".card-content"
+    } ,
+      { 
+      "style" : ".card-content { width:300px ; height:280px ; padding:0 ; box-shadow:0 2px 4px 0 rgba(0,0,0,.1);border-radius:8px ; box-sizing:border-box ; overflow:hidden ; } .card-content * { transition:0.3s ease all ; } .card-content img { margin:0 ; width:300px ; height:224px ; object-fit:cover ; display:block ; } .card-content h3 { margin:0 ; padding:12px 12px 48px ; line-height:32px ; font-weight:500 ; font-size:20px ; } .card-content .focus-content { display:block ; padding:8px 12px ; } .card-content p { margin:0 ; line-height:1.5 ; } .card-content:hover img,.card-content:focus-within img { margin-top:-80px ; } .card-content:hover h3,.card-content:focus-within h3 { padding:8px 12px 0 ; }",
+      "selector" : ".card-content"
+    } ,
+      { 
+      "style" : ".card-content { width:300px ; height:280px ; padding:0 ; box-shadow:0 2px 4px 0 rgba(0,0,0,.1);border-radius:8px ; box-sizing:border-box ; overflow:hidden ; } .card-content * { transition:0.3s ease all ; } .card-content img { margin:0 ; width:300px ; height:224px ; object-fit:cover ; display:block ; } .card-content h3 { margin:0 ; padding:12px 12px 48px ; line-height:32px ; font-weight:500 ; font-size:20px ; } .card-content .focus-content { display:block ; padding:8px 12px ; } .card-content p { margin:0 ; line-height:1.5 ; } .card-content:hover img,.card-content:focus-within img { margin-top:-80px ; } .card-content:hover h3,.card-content:focus-within h3 { padding:8px 12px 0 ; }",
+      "selector" : ".card-content"
+    } ,
+      { 
+      "style" : ".card-content { width:300px ; height:280px ; padding:0 ; box-shadow:0 2px 4px 0 rgba(0,0,0,.1);border-radius:8px ; box-sizing:border-box ; overflow:hidden ; } .card-content * { transition:0.3s ease all ; } .card-content img { margin:0 ; width:300px ; height:224px ; object-fit:cover ; display:block ; } .card-content h3 { margin:0 ; padding:12px 12px 48px ; line-height:32px ; font-weight:500 ; font-size:20px ; } .card-content .focus-content { display:block ; padding:8px 12px ; } .card-content p { margin:0 ; line-height:1.5 ; } .card-content:hover img,.card-content:focus-within img { margin-top:-80px ; } .card-content:hover h3,.card-content:focus-within h3 { padding:8px 12px 0 ; }",
+      "selector" : ".card-content"
+    } ,
+      { 
+      "style" : ".card-content { width:300px ; height:280px ; padding:0 ; box-shadow:0 2px 4px 0 rgba(0,0,0,.1);border-radius:8px ; box-sizing:border-box ; overflow:hidden ; } .card-content * { transition:0.3s ease all ; } .card-content img { margin:0 ; width:300px ; height:224px ; object-fit:cover ; display:block ; } .card-content h3 { margin:0 ; padding:12px 12px 48px ; line-height:32px ; font-weight:500 ; font-size:20px ; } .card-content .focus-content { display:block ; padding:8px 12px ; } .card-content p { margin:0 ; line-height:1.5 ; } .card-content:hover img,.card-content:focus-within img { margin-top:-80px ; } .card-content:hover h3,.card-content:focus-within h3 { padding:8px 12px 0 ; }",
+      "selector" : ".card-content"
+    } ,
+      { 
+      "style" : ".card-content { width:300px ; height:280px ; padding:0 ; box-shadow:0 2px 4px 0 rgba(0,0,0,.1);border-radius:8px ; box-sizing:border-box ; overflow:hidden ; } .card-content * { transition:0.3s ease all ; } .card-content img { margin:0 ; width:300px ; height:224px ; object-fit:cover ; display:block ; } .card-content h3 { margin:0 ; padding:12px 12px 48px ; line-height:32px ; font-weight:500 ; font-size:20px ; } .card-content .focus-content { display:block ; padding:8px 12px ; } .card-content p { margin:0 ; line-height:1.5 ; } .card-content:hover img,.card-content:focus-within img { margin-top:-80px ; } .card-content:hover h3,.card-content:focus-within h3 { padding:8px 12px 0 ; }",
+      "selector" : ".card-content"
+    } ,
+      { 
+      "style" : ".card-content { width:300px ; height:280px ; padding:0 ; box-shadow:0 2px 4px 0 rgba(0,0,0,.1);border-radius:8px ; box-sizing:border-box ; overflow:hidden ; } .card-content * { transition:0.3s ease all ; } .card-content img { margin:0 ; width:300px ; height:224px ; object-fit:cover ; display:block ; } .card-content h3 { margin:0 ; padding:12px 12px 48px ; line-height:32px ; font-weight:500 ; font-size:20px ; } .card-content .focus-content { display:block ; padding:8px 12px ; } .card-content p { margin:0 ; line-height:1.5 ; } .card-content:hover img,.card-content:focus-within img { margin-top:-80px ; } .card-content:hover h3,.card-content:focus-within h3 { padding:8px 12px 0 ; }",
+      "selector" : ".card-content"
+    } ,
+      { 
+      "style" : ".card-content { width:300px ; height:280px ; padding:0 ; box-shadow:0 2px 4px 0 rgba(0,0,0,.1);border-radius:8px ; box-sizing:border-box ; overflow:hidden ; } .card-content * { transition:0.3s ease all ; } .card-content img { margin:0 ; width:300px ; height:224px ; object-fit:cover ; display:block ; } .card-content h3 { margin:0 ; padding:12px 12px 48px ; line-height:32px ; font-weight:500 ; font-size:20px ; } .card-content .focus-content { display:block ; padding:8px 12px ; } .card-content p { margin:0 ; line-height:1.5 ; } .card-content:hover img,.card-content:focus-within img { margin-top:-80px ; } .card-content:hover h3,.card-content:focus-within h3 { padding:8px 12px 0 ; }",
+      "selector" : ".card-content"
+    } ,
+      { 
+      "style" : ".card-content { width:300px ; height:280px ; padding:0 ; box-shadow:0 2px 4px 0 rgba(0,0,0,.1);border-radius:8px ; box-sizing:border-box ; overflow:hidden ; } .card-content * { transition:0.3s ease all ; } .card-content img { margin:0 ; width:300px ; height:224px ; object-fit:cover ; display:block ; } .card-content h3 { margin:0 ; padding:12px 12px 48px ; line-height:32px ; font-weight:500 ; font-size:20px ; } .card-content .focus-content { display:block ; padding:8px 12px ; } .card-content p { margin:0 ; line-height:1.5 ; } .card-content:hover img,.card-content:focus-within img { margin-top:-80px ; } .card-content:hover h3,.card-content:focus-within h3 { padding:8px 12px 0 ; }",
+      "selector" : ".card-content"
+    } ,
+      { 
+      "style" : ".card-content { width:300px ; height:280px ; padding:0 ; box-shadow:0 2px 4px 0 rgba(0,0,0,.1);border-radius:8px ; box-sizing:border-box ; overflow:hidden ; } .card-content * { transition:0.3s ease all ; } .card-content img { margin:0 ; width:300px ; height:224px ; object-fit:cover ; display:block ; } .card-content h3 { margin:0 ; padding:12px 12px 48px ; line-height:32px ; font-weight:500 ; font-size:20px ; } .card-content .focus-content { display:block ; padding:8px 12px ; } .card-content p { margin:0 ; line-height:1.5 ; } .card-content:hover img,.card-content:focus-within img { margin-top:-80px ; } .card-content:hover h3,.card-content:focus-within h3 { padding:8px 12px 0 ; }",
+      "selector" : ".card-content"
+    } ,
+      { 
+      "style" : ".card-content { width:300px ; height:280px ; padding:0 ; box-shadow:0 2px 4px 0 rgba(0,0,0,.1);border-radius:8px ; box-sizing:border-box ; overflow:hidden ; } .card-content * { transition:0.3s ease all ; } .card-content img { margin:0 ; width:300px ; height:224px ; object-fit:cover ; display:block ; } .card-content h3 { margin:0 ; padding:12px 12px 48px ; line-height:32px ; font-weight:500 ; font-size:20px ; } .card-content .focus-content { display:block ; padding:8px 12px ; } .card-content p { margin:0 ; line-height:1.5 ; } .card-content:hover img,.card-content:focus-within img { margin-top:-80px ; } .card-content:hover h3,.card-content:focus-within h3 { padding:8px 12px 0 ; }",
+      "selector" : ".card-content"
+    } ,
+      { 
+      "style" : ".card-content { width:300px ; height:280px ; padding:0 ; box-shadow:0 2px 4px 0 rgba(0,0,0,.1);border-radius:8px ; box-sizing:border-box ; overflow:hidden ; } .card-content * { transition:0.3s ease all ; } .card-content img { margin:0 ; width:300px ; height:224px ; object-fit:cover ; display:block ; } .card-content h3 { margin:0 ; padding:12px 12px 48px ; line-height:32px ; font-weight:500 ; font-size:20px ; } .card-content .focus-content { display:block ; padding:8px 12px ; } .card-content p { margin:0 ; line-height:1.5 ; } .card-content:hover img,.card-content:focus-within img { margin-top:-80px ; } .card-content:hover h3,.card-content:focus-within h3 { padding:8px 12px 0 ; }",
+      "selector" : ".card-content"
+    } ,
+      { 
+      "style" : ".card-content { width:300px ; height:280px ; padding:0 ; box-shadow:0 2px 4px 0 rgba(0,0,0,.1);border-radius:8px ; box-sizing:border-box ; overflow:hidden ; } .card-content * { transition:0.3s ease all ; } .card-content img { margin:0 ; width:300px ; height:224px ; object-fit:cover ; display:block ; } .card-content h3 { margin:0 ; padding:12px 12px 48px ; line-height:32px ; font-weight:500 ; font-size:20px ; } .card-content .focus-content { display:block ; padding:8px 12px ; } .card-content p { margin:0 ; line-height:1.5 ; } .card-content:hover img,.card-content:focus-within img { margin-top:-80px ; } .card-content:hover h3,.card-content:focus-within h3 { padding:8px 12px 0 ; }",
+      "selector" : ".card-content"
+    } ,
+      { 
+      "style" : ".card-content { width:300px ; height:280px ; padding:0 ; box-shadow:0 2px 4px 0 rgba(0,0,0,.1);border-radius:8px ; box-sizing:border-box ; overflow:hidden ; } .card-content * { transition:0.3s ease all ; } .card-content img { margin:0 ; width:300px ; height:224px ; object-fit:cover ; display:block ; } .card-content h3 { margin:0 ; padding:12px 12px 48px ; line-height:32px ; font-weight:500 ; font-size:20px ; } .card-content .focus-content { display:block ; padding:8px 12px ; } .card-content p { margin:0 ; line-height:1.5 ; } .card-content:hover img,.card-content:focus-within img { margin-top:-80px ; } .card-content:hover h3,.card-content:focus-within h3 { padding:8px 12px 0 ; }",
+      "selector" : ".card-content"
+    } ,
+      { 
+      "style" : ".card-content { width:300px ; height:280px ; padding:0 ; box-shadow:0 2px 4px 0 rgba(0,0,0,.1);border-radius:8px ; box-sizing:border-box ; overflow:hidden ; } .card-content * { transition:0.3s ease all ; } .card-content img { margin:0 ; width:300px ; height:224px ; object-fit:cover ; display:block ; } .card-content h3 { margin:0 ; padding:12px 12px 48px ; line-height:32px ; font-weight:500 ; font-size:20px ; } .card-content .focus-content { display:block ; padding:8px 12px ; } .card-content p { margin:0 ; line-height:1.5 ; } .card-content:hover img,.card-content:focus-within img { margin-top:-80px ; } .card-content:hover h3,.card-content:focus-within h3 { padding:8px 12px 0 ; }",
+      "selector" : ".card-content"
+    } ,
+      { 
+      "style" : ".card-content { width:300px ; height:280px ; padding:0 ; box-shadow:0 2px 4px 0 rgba(0,0,0,.1);border-radius:8px ; box-sizing:border-box ; overflow:hidden ; } .card-content * { transition:0.3s ease all ; } .card-content img { margin:0 ; width:300px ; height:224px ; object-fit:cover ; display:block ; } .card-content h3 { margin:0 ; padding:12px 12px 48px ; line-height:32px ; font-weight:500 ; font-size:20px ; } .card-content .focus-content { display:block ; padding:8px 12px ; } .card-content p { margin:0 ; line-height:1.5 ; } .card-content:hover img,.card-content:focus-within img { margin-top:-80px ; } .card-content:hover h3,.card-content:focus-within h3 { padding:8px 12px 0 ; }",
+      "selector" : ".card-content"
+    } ,
+      { 
+      "style" : ".card-content { width:300px ; height:280px ; padding:0 ; box-shadow:0 2px 4px 0 rgba(0,0,0,.1);border-radius:8px ; box-sizing:border-box ; overflow:hidden ; } .card-content * { transition:0.3s ease all ; } .card-content img { margin:0 ; width:300px ; height:224px ; object-fit:cover ; display:block ; } .card-content h3 { margin:0 ; padding:12px 12px 48px ; line-height:32px ; font-weight:500 ; font-size:20px ; } .card-content .focus-content { display:block ; padding:8px 12px ; } .card-content p { margin:0 ; line-height:1.5 ; } .card-content:hover img,.card-content:focus-within img { margin-top:-80px ; } .card-content:hover h3,.card-content:focus-within h3 { padding:8px 12px 0 ; }",
+      "selector" : ".card-content"
+    } ,
+      { 
+      "style" : ".card-content { width:300px ; height:280px ; padding:0 ; box-shadow:0 2px 4px 0 rgba(0,0,0,.1);border-radius:8px ; box-sizing:border-box ; overflow:hidden ; } .card-content * { transition:0.3s ease all ; } .card-content img { margin:0 ; width:300px ; height:224px ; object-fit:cover ; display:block ; } .card-content h3 { margin:0 ; padding:12px 12px 48px ; line-height:32px ; font-weight:500 ; font-size:20px ; } .card-content .focus-content { display:block ; padding:8px 12px ; } .card-content p { margin:0 ; line-height:1.5 ; } .card-content:hover img,.card-content:focus-within img { margin-top:-80px ; } .card-content:hover h3,.card-content:focus-within h3 { padding:8px 12px 0 ; }",
+      "selector" : ".card-content"
+    } ,
+      { 
+      "style" : ".card-content { width:300px ; height:280px ; padding:0 ; box-shadow:0 2px 4px 0 rgba(0,0,0,.1);border-radius:8px ; box-sizing:border-box ; overflow:hidden ; } .card-content * { transition:0.3s ease all ; } .card-content img { margin:0 ; width:300px ; height:224px ; object-fit:cover ; display:block ; } .card-content h3 { margin:0 ; padding:12px 12px 48px ; line-height:32px ; font-weight:500 ; font-size:20px ; } .card-content .focus-content { display:block ; padding:8px 12px ; } .card-content p { margin:0 ; line-height:1.5 ; } .card-content:hover img,.card-content:focus-within img { margin-top:-80px ; } .card-content:hover h3,.card-content:focus-within h3 { padding:8px 12px 0 ; }",
+      "selector" : ".card-content"
+    } ,
+      { 
+      "style" : ".card-content { width:300px ; height:280px ; padding:0 ; box-shadow:0 2px 4px 0 rgba(0,0,0,.1);border-radius:8px ; box-sizing:border-box ; overflow:hidden ; } .card-content * { transition:0.3s ease all ; } .card-content img { margin:0 ; width:300px ; height:224px ; object-fit:cover ; display:block ; } .card-content h3 { margin:0 ; padding:12px 12px 48px ; line-height:32px ; font-weight:500 ; font-size:20px ; } .card-content .focus-content { display:block ; padding:8px 12px ; } .card-content p { margin:0 ; line-height:1.5 ; } .card-content:hover img,.card-content:focus-within img { margin-top:-80px ; } .card-content:hover h3,.card-content:focus-within h3 { padding:8px 12px 0 ; }",
+      "selector" : ".card-content"
+    } ,
+      { 
+      "style" : ".card-content { width:300px ; height:280px ; padding:0 ; box-shadow:0 2px 4px 0 rgba(0,0,0,.1);border-radius:8px ; box-sizing:border-box ; overflow:hidden ; } .card-content * { transition:0.3s ease all ; } .card-content img { margin:0 ; width:300px ; height:224px ; object-fit:cover ; display:block ; } .card-content h3 { margin:0 ; padding:12px 12px 48px ; line-height:32px ; font-weight:500 ; font-size:20px ; } .card-content .focus-content { display:block ; padding:8px 12px ; } .card-content p { margin:0 ; line-height:1.5 ; } .card-content:hover img,.card-content:focus-within img { margin-top:-80px ; } .card-content:hover h3,.card-content:focus-within h3 { padding:8px 12px 0 ; }",
+      "selector" : ".card-content"
+    } ,
+      { 
+      "style" : ".card-content { width:300px ; height:280px ; padding:0 ; box-shadow:0 2px 4px 0 rgba(0,0,0,.1);border-radius:8px ; box-sizing:border-box ; overflow:hidden ; } .card-content * { transition:0.3s ease all ; } .card-content img { margin:0 ; width:300px ; height:224px ; object-fit:cover ; display:block ; } .card-content h3 { margin:0 ; padding:12px 12px 48px ; line-height:32px ; font-weight:500 ; font-size:20px ; } .card-content .focus-content { display:block ; padding:8px 12px ; } .card-content p { margin:0 ; line-height:1.5 ; } .card-content:hover img,.card-content:focus-within img { margin-top:-80px ; } .card-content:hover h3,.card-content:focus-within h3 { padding:8px 12px 0 ; }",
+      "selector" : ".card-content"
+    } ,
+      { 
+      "style" : ".card-content { width:300px ; height:280px ; padding:0 ; box-shadow:0 2px 4px 0 rgba(0,0,0,.1);border-radius:8px ; box-sizing:border-box ; overflow:hidden ; } .card-content * { transition:0.3s ease all ; } .card-content img { margin:0 ; width:300px ; height:224px ; object-fit:cover ; display:block ; } .card-content h3 { margin:0 ; padding:12px 12px 48px ; line-height:32px ; font-weight:500 ; font-size:20px ; } .card-content .focus-content { display:block ; padding:8px 12px ; } .card-content p { margin:0 ; line-height:1.5 ; } .card-content:hover img,.card-content:focus-within img { margin-top:-80px ; } .card-content:hover h3,.card-content:focus-within h3 { padding:8px 12px 0 ; }",
+      "selector" : ".card-content"
+    } ,
+      { 
+      "style" : ".card-content { width:300px ; height:280px ; padding:0 ; box-shadow:0 2px 4px 0 rgba(0,0,0,.1);border-radius:8px ; box-sizing:border-box ; overflow:hidden ; } .card-content * { transition:0.3s ease all ; } .card-content img { margin:0 ; width:300px ; height:224px ; object-fit:cover ; display:block ; } .card-content h3 { margin:0 ; padding:12px 12px 48px ; line-height:32px ; font-weight:500 ; font-size:20px ; } .card-content .focus-content { display:block ; padding:8px 12px ; } .card-content p { margin:0 ; line-height:1.5 ; } .card-content:hover img,.card-content:focus-within img { margin-top:-80px ; } .card-content:hover h3,.card-content:focus-within h3 { padding:8px 12px 0 ; }",
+      "selector" : ".card-content"
+    } ,
+      { 
+      "style" : ".card-content { width:300px ; height:280px ; padding:0 ; box-shadow:0 2px 4px 0 rgba(0,0,0,.1);border-radius:8px ; box-sizing:border-box ; overflow:hidden ; } .card-content * { transition:0.3s ease all ; } .card-content img { margin:0 ; width:300px ; height:224px ; object-fit:cover ; display:block ; } .card-content h3 { margin:0 ; padding:12px 12px 48px ; line-height:32px ; font-weight:500 ; font-size:20px ; } .card-content .focus-content { display:block ; padding:8px 12px ; } .card-content p { margin:0 ; line-height:1.5 ; } .card-content:hover img,.card-content:focus-within img { margin-top:-80px ; } .card-content:hover h3,.card-content:focus-within h3 { padding:8px 12px 0 ; }",
+      "selector" : ".card-content"
+    } ,
+      { 
+      "style" : ".card-content { width:300px ; height:280px ; padding:0 ; box-shadow:0 2px 4px 0 rgba(0,0,0,.1);border-radius:8px ; box-sizing:border-box ; overflow:hidden ; } .card-content * { transition:0.3s ease all ; } .card-content img { margin:0 ; width:300px ; height:224px ; object-fit:cover ; display:block ; } .card-content h3 { margin:0 ; padding:12px 12px 48px ; line-height:32px ; font-weight:500 ; font-size:20px ; } .card-content .focus-content { display:block ; padding:8px 12px ; } .card-content p { margin:0 ; line-height:1.5 ; } .card-content:hover img,.card-content:focus-within img { margin-top:-80px ; } .card-content:hover h3,.card-content:focus-within h3 { padding:8px 12px 0 ; }",
+      "selector" : ".card-content"
+    } ,
+      { 
+      "style" : ".card-content { width:300px ; height:280px ; padding:0 ; box-shadow:0 2px 4px 0 rgba(0,0,0,.1);border-radius:8px ; box-sizing:border-box ; overflow:hidden ; } .card-content * { transition:0.3s ease all ; } .card-content img { margin:0 ; width:300px ; height:224px ; object-fit:cover ; display:block ; } .card-content h3 { margin:0 ; padding:12px 12px 48px ; line-height:32px ; font-weight:500 ; font-size:20px ; } .card-content .focus-content { display:block ; padding:8px 12px ; } .card-content p { margin:0 ; line-height:1.5 ; } .card-content:hover img,.card-content:focus-within img { margin-top:-80px ; } .card-content:hover h3,.card-content:focus-within h3 { padding:8px 12px 0 ; }",
+      "selector" : ".card-content"
+    } ,
+      { 
+      "style" : ".card-content { width:300px ; height:280px ; padding:0 ; box-shadow:0 2px 4px 0 rgba(0,0,0,.1);border-radius:8px ; box-sizing:border-box ; overflow:hidden ; } .card-content * { transition:0.3s ease all ; } .card-content img { margin:0 ; width:300px ; height:224px ; object-fit:cover ; display:block ; } .card-content h3 { margin:0 ; padding:12px 12px 48px ; line-height:32px ; font-weight:500 ; font-size:20px ; } .card-content .focus-content { display:block ; padding:8px 12px ; } .card-content p { margin:0 ; line-height:1.5 ; } .card-content:hover img,.card-content:focus-within img { margin-top:-80px ; } .card-content:hover h3,.card-content:focus-within h3 { padding:8px 12px 0 ; }",
+      "selector" : ".card-content"
+    } ,
+      { 
+      "style" : ".card-content { width:300px ; height:280px ; padding:0 ; box-shadow:0 2px 4px 0 rgba(0,0,0,.1);border-radius:8px ; box-sizing:border-box ; overflow:hidden ; } .card-content * { transition:0.3s ease all ; } .card-content img { margin:0 ; width:300px ; height:224px ; object-fit:cover ; display:block ; } .card-content h3 { margin:0 ; padding:12px 12px 48px ; line-height:32px ; font-weight:500 ; font-size:20px ; } .card-content .focus-content { display:block ; padding:8px 12px ; } .card-content p { margin:0 ; line-height:1.5 ; } .card-content:hover img,.card-content:focus-within img { margin-top:-80px ; } .card-content:hover h3,.card-content:focus-within h3 { padding:8px 12px 0 ; }",
+      "selector" : ".card-content"
+    } ,
+    
+    { 
+      "style" : ".promos { width:800px ; margin:0 auto ; margin-top:50px ; } .promo { width:250px ; background:#5ACD67 ; color:#f9f9f9 ; float:left ; } .deal{ padding:10px 0 0 0 ; } .deal span { display:block ; text-align:center ; } .deal span:first-of-type { font-size:23px ; } .deal span:last-of-type { font-size:13px ; } .promo .price { display:block ; width:250px ; background:#292b2e ; margin:15px 0 10px 0 ; text-align:center ; font-size:23px ; padding:17px 0 17px 0 ; } ul { display:block ; margin:20px 0 10px 0 ; padding:0 ; list-style-type:none ; text-align:center ; color:#999; } li { display:block ; margin:10px 0 0 0 ; } button { border:none ; border-radius:40px ; background:#292b2e ; color:#f9f9f9 ; padding:10px 37px ; margin:10px 0 20px 10px ; } .scale { transform:scale(1.2) ; box-shadow:0 0 4px 1px rgba(20,20,20,.8) ; } .scale button { background:#061C4C ; } .scale .price { color:#0A440B ; } ",
+      "selector" : ".promos"
+    } ,
+      { 
+      "style" : ".promos { width:800px ; margin:0 auto ; margin-top:50px ; } .promo { width:250px ; background:#97B365 ; color:#f9f9f9 ; float:left ; } .deal{ padding:10px 0 0 0 ; } .deal span { display:block ; text-align:center ; } .deal span:first-of-type { font-size:23px ; } .deal span:last-of-type { font-size:13px ; } .promo .price { display:block ; width:250px ; background:#292b2e ; margin:15px 0 10px 0 ; text-align:center ; font-size:23px ; padding:17px 0 17px 0 ; } ul { display:block ; margin:20px 0 10px 0 ; padding:0 ; list-style-type:none ; text-align:center ; color:#999; } li { display:block ; margin:10px 0 0 0 ; } button { border:none ; border-radius:40px ; background:#292b2e ; color:#f9f9f9 ; padding:10px 37px ; margin:10px 0 20px 10px ; } .scale { transform:scale(1.2) ; box-shadow:0 0 4px 1px rgba(20,20,20,.8) ; } .scale button { background:#4C5CC8 ; } .scale .price { color:#D56075 ; } ",
+      "selector" : ".promos"
+    } ,
+      { 
+      "style" : ".promos { width:800px ; margin:0 auto ; margin-top:50px ; } .promo { width:250px ; background:#21D17D ; color:#f9f9f9 ; float:left ; } .deal{ padding:10px 0 0 0 ; } .deal span { display:block ; text-align:center ; } .deal span:first-of-type { font-size:23px ; } .deal span:last-of-type { font-size:13px ; } .promo .price { display:block ; width:250px ; background:#292b2e ; margin:15px 0 10px 0 ; text-align:center ; font-size:23px ; padding:17px 0 17px 0 ; } ul { display:block ; margin:20px 0 10px 0 ; padding:0 ; list-style-type:none ; text-align:center ; color:#999; } li { display:block ; margin:10px 0 0 0 ; } button { border:none ; border-radius:40px ; background:#292b2e ; color:#f9f9f9 ; padding:10px 37px ; margin:10px 0 20px 10px ; } .scale { transform:scale(1.2) ; box-shadow:0 0 4px 1px rgba(20,20,20,.8) ; } .scale button { background:#3C89D5 ; } .scale .price { color:#649323 ; } ",
+      "selector" : ".promos"
+    } ,
+      { 
+      "style" : ".promos { width:800px ; margin:0 auto ; margin-top:50px ; } .promo { width:250px ; background:#494C11 ; color:#f9f9f9 ; float:left ; } .deal{ padding:10px 0 0 0 ; } .deal span { display:block ; text-align:center ; } .deal span:first-of-type { font-size:23px ; } .deal span:last-of-type { font-size:13px ; } .promo .price { display:block ; width:250px ; background:#292b2e ; margin:15px 0 10px 0 ; text-align:center ; font-size:23px ; padding:17px 0 17px 0 ; } ul { display:block ; margin:20px 0 10px 0 ; padding:0 ; list-style-type:none ; text-align:center ; color:#999; } li { display:block ; margin:10px 0 0 0 ; } button { border:none ; border-radius:40px ; background:#292b2e ; color:#f9f9f9 ; padding:10px 37px ; margin:10px 0 20px 10px ; } .scale { transform:scale(1.2) ; box-shadow:0 0 4px 1px rgba(20,20,20,.8) ; } .scale button { background:#105220 ; } .scale .price { color:#8B7C5B ; } ",
+      "selector" : ".promos"
+    } ,
+      { 
+      "style" : ".promos { width:800px ; margin:0 auto ; margin-top:50px ; } .promo { width:250px ; background:#433183 ; color:#f9f9f9 ; float:left ; } .deal{ padding:10px 0 0 0 ; } .deal span { display:block ; text-align:center ; } .deal span:first-of-type { font-size:23px ; } .deal span:last-of-type { font-size:13px ; } .promo .price { display:block ; width:250px ; background:#292b2e ; margin:15px 0 10px 0 ; text-align:center ; font-size:23px ; padding:17px 0 17px 0 ; } ul { display:block ; margin:20px 0 10px 0 ; padding:0 ; list-style-type:none ; text-align:center ; color:#999; } li { display:block ; margin:10px 0 0 0 ; } button { border:none ; border-radius:40px ; background:#292b2e ; color:#f9f9f9 ; padding:10px 37px ; margin:10px 0 20px 10px ; } .scale { transform:scale(1.2) ; box-shadow:0 0 4px 1px rgba(20,20,20,.8) ; } .scale button { background:#B9AA52 ; } .scale .price { color:#31D831 ; } ",
+      "selector" : ".promos"
+    } ,
+      { 
+      "style" : ".promos { width:800px ; margin:0 auto ; margin-top:50px ; } .promo { width:250px ; background:#055304 ; color:#f9f9f9 ; float:left ; } .deal{ padding:10px 0 0 0 ; } .deal span { display:block ; text-align:center ; } .deal span:first-of-type { font-size:23px ; } .deal span:last-of-type { font-size:13px ; } .promo .price { display:block ; width:250px ; background:#292b2e ; margin:15px 0 10px 0 ; text-align:center ; font-size:23px ; padding:17px 0 17px 0 ; } ul { display:block ; margin:20px 0 10px 0 ; padding:0 ; list-style-type:none ; text-align:center ; color:#999; } li { display:block ; margin:10px 0 0 0 ; } button { border:none ; border-radius:40px ; background:#292b2e ; color:#f9f9f9 ; padding:10px 37px ; margin:10px 0 20px 10px ; } .scale { transform:scale(1.2) ; box-shadow:0 0 4px 1px rgba(20,20,20,.8) ; } .scale button { background:#52DB04 ; } .scale .price { color:#BBC192 ; } ",
+      "selector" : ".promos"
+    } ,
+      { 
+      "style" : ".promos { width:800px ; margin:0 auto ; margin-top:50px ; } .promo { width:250px ; background:#0A4597 ; color:#f9f9f9 ; float:left ; } .deal{ padding:10px 0 0 0 ; } .deal span { display:block ; text-align:center ; } .deal span:first-of-type { font-size:23px ; } .deal span:last-of-type { font-size:13px ; } .promo .price { display:block ; width:250px ; background:#292b2e ; margin:15px 0 10px 0 ; text-align:center ; font-size:23px ; padding:17px 0 17px 0 ; } ul { display:block ; margin:20px 0 10px 0 ; padding:0 ; list-style-type:none ; text-align:center ; color:#999; } li { display:block ; margin:10px 0 0 0 ; } button { border:none ; border-radius:40px ; background:#292b2e ; color:#f9f9f9 ; padding:10px 37px ; margin:10px 0 20px 10px ; } .scale { transform:scale(1.2) ; box-shadow:0 0 4px 1px rgba(20,20,20,.8) ; } .scale button { background:#DC5D86 ; } .scale .price { color:#B8C692 ; } ",
+      "selector" : ".promos"
+    } ,
+      { 
+      "style" : ".promos { width:800px ; margin:0 auto ; margin-top:50px ; } .promo { width:250px ; background:#4CC88C ; color:#f9f9f9 ; float:left ; } .deal{ padding:10px 0 0 0 ; } .deal span { display:block ; text-align:center ; } .deal span:first-of-type { font-size:23px ; } .deal span:last-of-type { font-size:13px ; } .promo .price { display:block ; width:250px ; background:#292b2e ; margin:15px 0 10px 0 ; text-align:center ; font-size:23px ; padding:17px 0 17px 0 ; } ul { display:block ; margin:20px 0 10px 0 ; padding:0 ; list-style-type:none ; text-align:center ; color:#999; } li { display:block ; margin:10px 0 0 0 ; } button { border:none ; border-radius:40px ; background:#292b2e ; color:#f9f9f9 ; padding:10px 37px ; margin:10px 0 20px 10px ; } .scale { transform:scale(1.2) ; box-shadow:0 0 4px 1px rgba(20,20,20,.8) ; } .scale button { background:#431524 ; } .scale .price { color:#AB254B ; } ",
+      "selector" : ".promos"
+    } ,
+      { 
+      "style" : ".promos { width:800px ; margin:0 auto ; margin-top:50px ; } .promo { width:250px ; background:#34969A ; color:#f9f9f9 ; float:left ; } .deal{ padding:10px 0 0 0 ; } .deal span { display:block ; text-align:center ; } .deal span:first-of-type { font-size:23px ; } .deal span:last-of-type { font-size:13px ; } .promo .price { display:block ; width:250px ; background:#292b2e ; margin:15px 0 10px 0 ; text-align:center ; font-size:23px ; padding:17px 0 17px 0 ; } ul { display:block ; margin:20px 0 10px 0 ; padding:0 ; list-style-type:none ; text-align:center ; color:#999; } li { display:block ; margin:10px 0 0 0 ; } button { border:none ; border-radius:40px ; background:#292b2e ; color:#f9f9f9 ; padding:10px 37px ; margin:10px 0 20px 10px ; } .scale { transform:scale(1.2) ; box-shadow:0 0 4px 1px rgba(20,20,20,.8) ; } .scale button { background:#92359B ; } .scale .price { color:#0AB155 ; } ",
+      "selector" : ".promos"
+    } ,
+      { 
+      "style" : ".promos { width:800px ; margin:0 auto ; margin-top:50px ; } .promo { width:250px ; background:#3B3406 ; color:#f9f9f9 ; float:left ; } .deal{ padding:10px 0 0 0 ; } .deal span { display:block ; text-align:center ; } .deal span:first-of-type { font-size:23px ; } .deal span:last-of-type { font-size:13px ; } .promo .price { display:block ; width:250px ; background:#292b2e ; margin:15px 0 10px 0 ; text-align:center ; font-size:23px ; padding:17px 0 17px 0 ; } ul { display:block ; margin:20px 0 10px 0 ; padding:0 ; list-style-type:none ; text-align:center ; color:#999; } li { display:block ; margin:10px 0 0 0 ; } button { border:none ; border-radius:40px ; background:#292b2e ; color:#f9f9f9 ; padding:10px 37px ; margin:10px 0 20px 10px ; } .scale { transform:scale(1.2) ; box-shadow:0 0 4px 1px rgba(20,20,20,.8) ; } .scale button { background:#14777A ; } .scale .price { color:#53A538 ; } ",
+      "selector" : ".promos"
+    } ,
+      { 
+      "style" : ".promos { width:800px ; margin:0 auto ; margin-top:50px ; } .promo { width:250px ; background:#4103BB ; color:#f9f9f9 ; float:left ; } .deal{ padding:10px 0 0 0 ; } .deal span { display:block ; text-align:center ; } .deal span:first-of-type { font-size:23px ; } .deal span:last-of-type { font-size:13px ; } .promo .price { display:block ; width:250px ; background:#292b2e ; margin:15px 0 10px 0 ; text-align:center ; font-size:23px ; padding:17px 0 17px 0 ; } ul { display:block ; margin:20px 0 10px 0 ; padding:0 ; list-style-type:none ; text-align:center ; color:#999; } li { display:block ; margin:10px 0 0 0 ; } button { border:none ; border-radius:40px ; background:#292b2e ; color:#f9f9f9 ; padding:10px 37px ; margin:10px 0 20px 10px ; } .scale { transform:scale(1.2) ; box-shadow:0 0 4px 1px rgba(20,20,20,.8) ; } .scale button { background:#A8BC03 ; } .scale .price { color:#244269 ; } ",
+      "selector" : ".promos"
+    } ,
+      { 
+      "style" : ".promos { width:800px ; margin:0 auto ; margin-top:50px ; } .promo { width:250px ; background:#27453C ; color:#f9f9f9 ; float:left ; } .deal{ padding:10px 0 0 0 ; } .deal span { display:block ; text-align:center ; } .deal span:first-of-type { font-size:23px ; } .deal span:last-of-type { font-size:13px ; } .promo .price { display:block ; width:250px ; background:#292b2e ; margin:15px 0 10px 0 ; text-align:center ; font-size:23px ; padding:17px 0 17px 0 ; } ul { display:block ; margin:20px 0 10px 0 ; padding:0 ; list-style-type:none ; text-align:center ; color:#999; } li { display:block ; margin:10px 0 0 0 ; } button { border:none ; border-radius:40px ; background:#292b2e ; color:#f9f9f9 ; padding:10px 37px ; margin:10px 0 20px 10px ; } .scale { transform:scale(1.2) ; box-shadow:0 0 4px 1px rgba(20,20,20,.8) ; } .scale button { background:#9CA057 ; } .scale .price { color:#5D7240 ; } ",
+      "selector" : ".promos"
+    } ,
+      { 
+      "style" : ".promos { width:800px ; margin:0 auto ; margin-top:50px ; } .promo { width:250px ; background:#DB5975 ; color:#f9f9f9 ; float:left ; } .deal{ padding:10px 0 0 0 ; } .deal span { display:block ; text-align:center ; } .deal span:first-of-type { font-size:23px ; } .deal span:last-of-type { font-size:13px ; } .promo .price { display:block ; width:250px ; background:#292b2e ; margin:15px 0 10px 0 ; text-align:center ; font-size:23px ; padding:17px 0 17px 0 ; } ul { display:block ; margin:20px 0 10px 0 ; padding:0 ; list-style-type:none ; text-align:center ; color:#999; } li { display:block ; margin:10px 0 0 0 ; } button { border:none ; border-radius:40px ; background:#292b2e ; color:#f9f9f9 ; padding:10px 37px ; margin:10px 0 20px 10px ; } .scale { transform:scale(1.2) ; box-shadow:0 0 4px 1px rgba(20,20,20,.8) ; } .scale button { background:#12A656 ; } .scale .price { color:#6B627A ; } ",
+      "selector" : ".promos"
+    } ,
+      { 
+      "style" : ".promos { width:800px ; margin:0 auto ; margin-top:50px ; } .promo { width:250px ; background:#613294 ; color:#f9f9f9 ; float:left ; } .deal{ padding:10px 0 0 0 ; } .deal span { display:block ; text-align:center ; } .deal span:first-of-type { font-size:23px ; } .deal span:last-of-type { font-size:13px ; } .promo .price { display:block ; width:250px ; background:#292b2e ; margin:15px 0 10px 0 ; text-align:center ; font-size:23px ; padding:17px 0 17px 0 ; } ul { display:block ; margin:20px 0 10px 0 ; padding:0 ; list-style-type:none ; text-align:center ; color:#999; } li { display:block ; margin:10px 0 0 0 ; } button { border:none ; border-radius:40px ; background:#292b2e ; color:#f9f9f9 ; padding:10px 37px ; margin:10px 0 20px 10px ; } .scale { transform:scale(1.2) ; box-shadow:0 0 4px 1px rgba(20,20,20,.8) ; } .scale button { background:#88ADC3 ; } .scale .price { color:#82C3AD ; } ",
+      "selector" : ".promos"
+    } ,
+      { 
+      "style" : ".promos { width:800px ; margin:0 auto ; margin-top:50px ; } .promo { width:250px ; background:#8DA655 ; color:#f9f9f9 ; float:left ; } .deal{ padding:10px 0 0 0 ; } .deal span { display:block ; text-align:center ; } .deal span:first-of-type { font-size:23px ; } .deal span:last-of-type { font-size:13px ; } .promo .price { display:block ; width:250px ; background:#292b2e ; margin:15px 0 10px 0 ; text-align:center ; font-size:23px ; padding:17px 0 17px 0 ; } ul { display:block ; margin:20px 0 10px 0 ; padding:0 ; list-style-type:none ; text-align:center ; color:#999; } li { display:block ; margin:10px 0 0 0 ; } button { border:none ; border-radius:40px ; background:#292b2e ; color:#f9f9f9 ; padding:10px 37px ; margin:10px 0 20px 10px ; } .scale { transform:scale(1.2) ; box-shadow:0 0 4px 1px rgba(20,20,20,.8) ; } .scale button { background:#C87549 ; } .scale .price { color:#9719A8 ; } ",
+      "selector" : ".promos"
+    } ,
+      { 
+      "style" : ".promos { width:800px ; margin:0 auto ; margin-top:50px ; } .promo { width:250px ; background:#771500 ; color:#f9f9f9 ; float:left ; } .deal{ padding:10px 0 0 0 ; } .deal span { display:block ; text-align:center ; } .deal span:first-of-type { font-size:23px ; } .deal span:last-of-type { font-size:13px ; } .promo .price { display:block ; width:250px ; background:#292b2e ; margin:15px 0 10px 0 ; text-align:center ; font-size:23px ; padding:17px 0 17px 0 ; } ul { display:block ; margin:20px 0 10px 0 ; padding:0 ; list-style-type:none ; text-align:center ; color:#999; } li { display:block ; margin:10px 0 0 0 ; } button { border:none ; border-radius:40px ; background:#292b2e ; color:#f9f9f9 ; padding:10px 37px ; margin:10px 0 20px 10px ; } .scale { transform:scale(1.2) ; box-shadow:0 0 4px 1px rgba(20,20,20,.8) ; } .scale button { background:#23577B ; } .scale .price { color:#064913 ; } ",
+      "selector" : ".promos"
+    } ,
+      { 
+      "style" : ".promos { width:800px ; margin:0 auto ; margin-top:50px ; } .promo { width:250px ; background:#215645 ; color:#f9f9f9 ; float:left ; } .deal{ padding:10px 0 0 0 ; } .deal span { display:block ; text-align:center ; } .deal span:first-of-type { font-size:23px ; } .deal span:last-of-type { font-size:13px ; } .promo .price { display:block ; width:250px ; background:#292b2e ; margin:15px 0 10px 0 ; text-align:center ; font-size:23px ; padding:17px 0 17px 0 ; } ul { display:block ; margin:20px 0 10px 0 ; padding:0 ; list-style-type:none ; text-align:center ; color:#999; } li { display:block ; margin:10px 0 0 0 ; } button { border:none ; border-radius:40px ; background:#292b2e ; color:#f9f9f9 ; padding:10px 37px ; margin:10px 0 20px 10px ; } .scale { transform:scale(1.2) ; box-shadow:0 0 4px 1px rgba(20,20,20,.8) ; } .scale button { background:#D9ACA6 ; } .scale .price { color:#4975A9 ; } ",
+      "selector" : ".promos"
+    } ,
+      { 
+      "style" : ".promos { width:800px ; margin:0 auto ; margin-top:50px ; } .promo { width:250px ; background:#7641BB ; color:#f9f9f9 ; float:left ; } .deal{ padding:10px 0 0 0 ; } .deal span { display:block ; text-align:center ; } .deal span:first-of-type { font-size:23px ; } .deal span:last-of-type { font-size:13px ; } .promo .price { display:block ; width:250px ; background:#292b2e ; margin:15px 0 10px 0 ; text-align:center ; font-size:23px ; padding:17px 0 17px 0 ; } ul { display:block ; margin:20px 0 10px 0 ; padding:0 ; list-style-type:none ; text-align:center ; color:#999; } li { display:block ; margin:10px 0 0 0 ; } button { border:none ; border-radius:40px ; background:#292b2e ; color:#f9f9f9 ; padding:10px 37px ; margin:10px 0 20px 10px ; } .scale { transform:scale(1.2) ; box-shadow:0 0 4px 1px rgba(20,20,20,.8) ; } .scale button { background:#5B87AB ; } .scale .price { color:#315285 ; } ",
+      "selector" : ".promos"
+    } ,
+      { 
+      "style" : ".promos { width:800px ; margin:0 auto ; margin-top:50px ; } .promo { width:250px ; background:#2A9505 ; color:#f9f9f9 ; float:left ; } .deal{ padding:10px 0 0 0 ; } .deal span { display:block ; text-align:center ; } .deal span:first-of-type { font-size:23px ; } .deal span:last-of-type { font-size:13px ; } .promo .price { display:block ; width:250px ; background:#292b2e ; margin:15px 0 10px 0 ; text-align:center ; font-size:23px ; padding:17px 0 17px 0 ; } ul { display:block ; margin:20px 0 10px 0 ; padding:0 ; list-style-type:none ; text-align:center ; color:#999; } li { display:block ; margin:10px 0 0 0 ; } button { border:none ; border-radius:40px ; background:#292b2e ; color:#f9f9f9 ; padding:10px 37px ; margin:10px 0 20px 10px ; } .scale { transform:scale(1.2) ; box-shadow:0 0 4px 1px rgba(20,20,20,.8) ; } .scale button { background:#224507 ; } .scale .price { color:#5121D9 ; } ",
+      "selector" : ".promos"
+    } ,
+      { 
+      "style" : ".promos { width:800px ; margin:0 auto ; margin-top:50px ; } .promo { width:250px ; background:#3CCCD5 ; color:#f9f9f9 ; float:left ; } .deal{ padding:10px 0 0 0 ; } .deal span { display:block ; text-align:center ; } .deal span:first-of-type { font-size:23px ; } .deal span:last-of-type { font-size:13px ; } .promo .price { display:block ; width:250px ; background:#292b2e ; margin:15px 0 10px 0 ; text-align:center ; font-size:23px ; padding:17px 0 17px 0 ; } ul { display:block ; margin:20px 0 10px 0 ; padding:0 ; list-style-type:none ; text-align:center ; color:#999; } li { display:block ; margin:10px 0 0 0 ; } button { border:none ; border-radius:40px ; background:#292b2e ; color:#f9f9f9 ; padding:10px 37px ; margin:10px 0 20px 10px ; } .scale { transform:scale(1.2) ; box-shadow:0 0 4px 1px rgba(20,20,20,.8) ; } .scale button { background:#D01155 ; } .scale .price { color:#8C52A2 ; } ",
+      "selector" : ".promos"
+    } ,
+      { 
+      "style" : ".promos { width:800px ; margin:0 auto ; margin-top:50px ; } .promo { width:250px ; background:#D35839 ; color:#f9f9f9 ; float:left ; } .deal{ padding:10px 0 0 0 ; } .deal span { display:block ; text-align:center ; } .deal span:first-of-type { font-size:23px ; } .deal span:last-of-type { font-size:13px ; } .promo .price { display:block ; width:250px ; background:#292b2e ; margin:15px 0 10px 0 ; text-align:center ; font-size:23px ; padding:17px 0 17px 0 ; } ul { display:block ; margin:20px 0 10px 0 ; padding:0 ; list-style-type:none ; text-align:center ; color:#999; } li { display:block ; margin:10px 0 0 0 ; } button { border:none ; border-radius:40px ; background:#292b2e ; color:#f9f9f9 ; padding:10px 37px ; margin:10px 0 20px 10px ; } .scale { transform:scale(1.2) ; box-shadow:0 0 4px 1px rgba(20,20,20,.8) ; } .scale button { background:#71C671 ; } .scale .price { color:#346997 ; } ",
+      "selector" : ".promos"
+    } ,
+      { 
+      "style" : ".promos { width:800px ; margin:0 auto ; margin-top:50px ; } .promo { width:250px ; background:#56B801 ; color:#f9f9f9 ; float:left ; } .deal{ padding:10px 0 0 0 ; } .deal span { display:block ; text-align:center ; } .deal span:first-of-type { font-size:23px ; } .deal span:last-of-type { font-size:13px ; } .promo .price { display:block ; width:250px ; background:#292b2e ; margin:15px 0 10px 0 ; text-align:center ; font-size:23px ; padding:17px 0 17px 0 ; } ul { display:block ; margin:20px 0 10px 0 ; padding:0 ; list-style-type:none ; text-align:center ; color:#999; } li { display:block ; margin:10px 0 0 0 ; } button { border:none ; border-radius:40px ; background:#292b2e ; color:#f9f9f9 ; padding:10px 37px ; margin:10px 0 20px 10px ; } .scale { transform:scale(1.2) ; box-shadow:0 0 4px 1px rgba(20,20,20,.8) ; } .scale button { background:#D45A11 ; } .scale .price { color:#758002 ; } ",
+      "selector" : ".promos"
+    } ,
+      { 
+      "style" : ".promos { width:800px ; margin:0 auto ; margin-top:50px ; } .promo { width:250px ; background:#CC5B98 ; color:#f9f9f9 ; float:left ; } .deal{ padding:10px 0 0 0 ; } .deal span { display:block ; text-align:center ; } .deal span:first-of-type { font-size:23px ; } .deal span:last-of-type { font-size:13px ; } .promo .price { display:block ; width:250px ; background:#292b2e ; margin:15px 0 10px 0 ; text-align:center ; font-size:23px ; padding:17px 0 17px 0 ; } ul { display:block ; margin:20px 0 10px 0 ; padding:0 ; list-style-type:none ; text-align:center ; color:#999; } li { display:block ; margin:10px 0 0 0 ; } button { border:none ; border-radius:40px ; background:#292b2e ; color:#f9f9f9 ; padding:10px 37px ; margin:10px 0 20px 10px ; } .scale { transform:scale(1.2) ; box-shadow:0 0 4px 1px rgba(20,20,20,.8) ; } .scale button { background:#843D50 ; } .scale .price { color:#0C6563 ; } ",
+      "selector" : ".promos"
+    } ,
+      { 
+      "style" : ".promos { width:800px ; margin:0 auto ; margin-top:50px ; } .promo { width:250px ; background:#55B511 ; color:#f9f9f9 ; float:left ; } .deal{ padding:10px 0 0 0 ; } .deal span { display:block ; text-align:center ; } .deal span:first-of-type { font-size:23px ; } .deal span:last-of-type { font-size:13px ; } .promo .price { display:block ; width:250px ; background:#292b2e ; margin:15px 0 10px 0 ; text-align:center ; font-size:23px ; padding:17px 0 17px 0 ; } ul { display:block ; margin:20px 0 10px 0 ; padding:0 ; list-style-type:none ; text-align:center ; color:#999; } li { display:block ; margin:10px 0 0 0 ; } button { border:none ; border-radius:40px ; background:#292b2e ; color:#f9f9f9 ; padding:10px 37px ; margin:10px 0 20px 10px ; } .scale { transform:scale(1.2) ; box-shadow:0 0 4px 1px rgba(20,20,20,.8) ; } .scale button { background:#6CC595 ; } .scale .price { color:#97548A ; } ",
+      "selector" : ".promos"
+    } ,
+      { 
+      "style" : ".promos { width:800px ; margin:0 auto ; margin-top:50px ; } .promo { width:250px ; background:#C3AA29 ; color:#f9f9f9 ; float:left ; } .deal{ padding:10px 0 0 0 ; } .deal span { display:block ; text-align:center ; } .deal span:first-of-type { font-size:23px ; } .deal span:last-of-type { font-size:13px ; } .promo .price { display:block ; width:250px ; background:#292b2e ; margin:15px 0 10px 0 ; text-align:center ; font-size:23px ; padding:17px 0 17px 0 ; } ul { display:block ; margin:20px 0 10px 0 ; padding:0 ; list-style-type:none ; text-align:center ; color:#999; } li { display:block ; margin:10px 0 0 0 ; } button { border:none ; border-radius:40px ; background:#292b2e ; color:#f9f9f9 ; padding:10px 37px ; margin:10px 0 20px 10px ; } .scale { transform:scale(1.2) ; box-shadow:0 0 4px 1px rgba(20,20,20,.8) ; } .scale button { background:#860558 ; } .scale .price { color:#965913 ; } ",
+      "selector" : ".promos"
+    } ,
+      { 
+      "style" : ".promos { width:800px ; margin:0 auto ; margin-top:50px ; } .promo { width:250px ; background:#7A05B1 ; color:#f9f9f9 ; float:left ; } .deal{ padding:10px 0 0 0 ; } .deal span { display:block ; text-align:center ; } .deal span:first-of-type { font-size:23px ; } .deal span:last-of-type { font-size:13px ; } .promo .price { display:block ; width:250px ; background:#292b2e ; margin:15px 0 10px 0 ; text-align:center ; font-size:23px ; padding:17px 0 17px 0 ; } ul { display:block ; margin:20px 0 10px 0 ; padding:0 ; list-style-type:none ; text-align:center ; color:#999; } li { display:block ; margin:10px 0 0 0 ; } button { border:none ; border-radius:40px ; background:#292b2e ; color:#f9f9f9 ; padding:10px 37px ; margin:10px 0 20px 10px ; } .scale { transform:scale(1.2) ; box-shadow:0 0 4px 1px rgba(20,20,20,.8) ; } .scale button { background:#3639C1 ; } .scale .price { color:#D198D5 ; } ",
+      "selector" : ".promos"
+    } ,
+      { 
+      "style" : ".promos { width:800px ; margin:0 auto ; margin-top:50px ; } .promo { width:250px ; background:#B675B5 ; color:#f9f9f9 ; float:left ; } .deal{ padding:10px 0 0 0 ; } .deal span { display:block ; text-align:center ; } .deal span:first-of-type { font-size:23px ; } .deal span:last-of-type { font-size:13px ; } .promo .price { display:block ; width:250px ; background:#292b2e ; margin:15px 0 10px 0 ; text-align:center ; font-size:23px ; padding:17px 0 17px 0 ; } ul { display:block ; margin:20px 0 10px 0 ; padding:0 ; list-style-type:none ; text-align:center ; color:#999; } li { display:block ; margin:10px 0 0 0 ; } button { border:none ; border-radius:40px ; background:#292b2e ; color:#f9f9f9 ; padding:10px 37px ; margin:10px 0 20px 10px ; } .scale { transform:scale(1.2) ; box-shadow:0 0 4px 1px rgba(20,20,20,.8) ; } .scale button { background:#955B2D ; } .scale .price { color:#1513C4 ; } ",
+      "selector" : ".promos"
+    } ,
+      { 
+      "style" : ".promos { width:800px ; margin:0 auto ; margin-top:50px ; } .promo { width:250px ; background:#8855B5 ; color:#f9f9f9 ; float:left ; } .deal{ padding:10px 0 0 0 ; } .deal span { display:block ; text-align:center ; } .deal span:first-of-type { font-size:23px ; } .deal span:last-of-type { font-size:13px ; } .promo .price { display:block ; width:250px ; background:#292b2e ; margin:15px 0 10px 0 ; text-align:center ; font-size:23px ; padding:17px 0 17px 0 ; } ul { display:block ; margin:20px 0 10px 0 ; padding:0 ; list-style-type:none ; text-align:center ; color:#999; } li { display:block ; margin:10px 0 0 0 ; } button { border:none ; border-radius:40px ; background:#292b2e ; color:#f9f9f9 ; padding:10px 37px ; margin:10px 0 20px 10px ; } .scale { transform:scale(1.2) ; box-shadow:0 0 4px 1px rgba(20,20,20,.8) ; } .scale button { background:#245D88 ; } .scale .price { color:#95038C ; } ",
+      "selector" : ".promos"
+    } ,
+      { 
+      "style" : ".promos { width:800px ; margin:0 auto ; margin-top:50px ; } .promo { width:250px ; background:#0B4771 ; color:#f9f9f9 ; float:left ; } .deal{ padding:10px 0 0 0 ; } .deal span { display:block ; text-align:center ; } .deal span:first-of-type { font-size:23px ; } .deal span:last-of-type { font-size:13px ; } .promo .price { display:block ; width:250px ; background:#292b2e ; margin:15px 0 10px 0 ; text-align:center ; font-size:23px ; padding:17px 0 17px 0 ; } ul { display:block ; margin:20px 0 10px 0 ; padding:0 ; list-style-type:none ; text-align:center ; color:#999; } li { display:block ; margin:10px 0 0 0 ; } button { border:none ; border-radius:40px ; background:#292b2e ; color:#f9f9f9 ; padding:10px 37px ; margin:10px 0 20px 10px ; } .scale { transform:scale(1.2) ; box-shadow:0 0 4px 1px rgba(20,20,20,.8) ; } .scale button { background:#517443 ; } .scale .price { color:#65871B ; } ",
+      "selector" : ".promos"
+    } ,
+      { 
+      "style" : ".promos { width:800px ; margin:0 auto ; margin-top:50px ; } .promo { width:250px ; background:#9C5405 ; color:#f9f9f9 ; float:left ; } .deal{ padding:10px 0 0 0 ; } .deal span { display:block ; text-align:center ; } .deal span:first-of-type { font-size:23px ; } .deal span:last-of-type { font-size:13px ; } .promo .price { display:block ; width:250px ; background:#292b2e ; margin:15px 0 10px 0 ; text-align:center ; font-size:23px ; padding:17px 0 17px 0 ; } ul { display:block ; margin:20px 0 10px 0 ; padding:0 ; list-style-type:none ; text-align:center ; color:#999; } li { display:block ; margin:10px 0 0 0 ; } button { border:none ; border-radius:40px ; background:#292b2e ; color:#f9f9f9 ; padding:10px 37px ; margin:10px 0 20px 10px ; } .scale { transform:scale(1.2) ; box-shadow:0 0 4px 1px rgba(20,20,20,.8) ; } .scale button { background:#2D44B1 ; } .scale .price { color:#9649D6 ; } ",
+      "selector" : ".promos"
+    } ,
+      { 
+      "style" : ".promos { width:800px ; margin:0 auto ; margin-top:50px ; } .promo { width:250px ; background:#73C668 ; color:#f9f9f9 ; float:left ; } .deal{ padding:10px 0 0 0 ; } .deal span { display:block ; text-align:center ; } .deal span:first-of-type { font-size:23px ; } .deal span:last-of-type { font-size:13px ; } .promo .price { display:block ; width:250px ; background:#292b2e ; margin:15px 0 10px 0 ; text-align:center ; font-size:23px ; padding:17px 0 17px 0 ; } ul { display:block ; margin:20px 0 10px 0 ; padding:0 ; list-style-type:none ; text-align:center ; color:#999; } li { display:block ; margin:10px 0 0 0 ; } button { border:none ; border-radius:40px ; background:#292b2e ; color:#f9f9f9 ; padding:10px 37px ; margin:10px 0 20px 10px ; } .scale { transform:scale(1.2) ; box-shadow:0 0 4px 1px rgba(20,20,20,.8) ; } .scale button { background:#352029 ; } .scale .price { color:#8165DD ; } ",
+      "selector" : ".promos"
+    } ,
+      { 
+      "style" : ".promos { width:800px ; margin:0 auto ; margin-top:50px ; } .promo { width:250px ; background:#5D8CCC ; color:#f9f9f9 ; float:left ; } .deal{ padding:10px 0 0 0 ; } .deal span { display:block ; text-align:center ; } .deal span:first-of-type { font-size:23px ; } .deal span:last-of-type { font-size:13px ; } .promo .price { display:block ; width:250px ; background:#292b2e ; margin:15px 0 10px 0 ; text-align:center ; font-size:23px ; padding:17px 0 17px 0 ; } ul { display:block ; margin:20px 0 10px 0 ; padding:0 ; list-style-type:none ; text-align:center ; color:#999; } li { display:block ; margin:10px 0 0 0 ; } button { border:none ; border-radius:40px ; background:#292b2e ; color:#f9f9f9 ; padding:10px 37px ; margin:10px 0 20px 10px ; } .scale { transform:scale(1.2) ; box-shadow:0 0 4px 1px rgba(20,20,20,.8) ; } .scale button { background:#54B778 ; } .scale .price { color:#296815 ; } ",
+      "selector" : ".promos"
+    } ,
+      { 
+      "style" : ".promos { width:800px ; margin:0 auto ; margin-top:50px ; } .promo { width:250px ; background:#9C1925 ; color:#f9f9f9 ; float:left ; } .deal{ padding:10px 0 0 0 ; } .deal span { display:block ; text-align:center ; } .deal span:first-of-type { font-size:23px ; } .deal span:last-of-type { font-size:13px ; } .promo .price { display:block ; width:250px ; background:#292b2e ; margin:15px 0 10px 0 ; text-align:center ; font-size:23px ; padding:17px 0 17px 0 ; } ul { display:block ; margin:20px 0 10px 0 ; padding:0 ; list-style-type:none ; text-align:center ; color:#999; } li { display:block ; margin:10px 0 0 0 ; } button { border:none ; border-radius:40px ; background:#292b2e ; color:#f9f9f9 ; padding:10px 37px ; margin:10px 0 20px 10px ; } .scale { transform:scale(1.2) ; box-shadow:0 0 4px 1px rgba(20,20,20,.8) ; } .scale button { background:#0C9B84 ; } .scale .price { color:#479A8A ; } ",
+      "selector" : ".promos"
+    } ,
+      { 
+      "style" : ".promos { width:800px ; margin:0 auto ; margin-top:50px ; } .promo { width:250px ; background:#085169 ; color:#f9f9f9 ; float:left ; } .deal{ padding:10px 0 0 0 ; } .deal span { display:block ; text-align:center ; } .deal span:first-of-type { font-size:23px ; } .deal span:last-of-type { font-size:13px ; } .promo .price { display:block ; width:250px ; background:#292b2e ; margin:15px 0 10px 0 ; text-align:center ; font-size:23px ; padding:17px 0 17px 0 ; } ul { display:block ; margin:20px 0 10px 0 ; padding:0 ; list-style-type:none ; text-align:center ; color:#999; } li { display:block ; margin:10px 0 0 0 ; } button { border:none ; border-radius:40px ; background:#292b2e ; color:#f9f9f9 ; padding:10px 37px ; margin:10px 0 20px 10px ; } .scale { transform:scale(1.2) ; box-shadow:0 0 4px 1px rgba(20,20,20,.8) ; } .scale button { background:#068614 ; } .scale .price { color:#D5C40D ; } ",
+      "selector" : ".promos"
+    } ,
+      { 
+      "style" : ".promos { width:800px ; margin:0 auto ; margin-top:50px ; } .promo { width:250px ; background:#7A5865 ; color:#f9f9f9 ; float:left ; } .deal{ padding:10px 0 0 0 ; } .deal span { display:block ; text-align:center ; } .deal span:first-of-type { font-size:23px ; } .deal span:last-of-type { font-size:13px ; } .promo .price { display:block ; width:250px ; background:#292b2e ; margin:15px 0 10px 0 ; text-align:center ; font-size:23px ; padding:17px 0 17px 0 ; } ul { display:block ; margin:20px 0 10px 0 ; padding:0 ; list-style-type:none ; text-align:center ; color:#999; } li { display:block ; margin:10px 0 0 0 ; } button { border:none ; border-radius:40px ; background:#292b2e ; color:#f9f9f9 ; padding:10px 37px ; margin:10px 0 20px 10px ; } .scale { transform:scale(1.2) ; box-shadow:0 0 4px 1px rgba(20,20,20,.8) ; } .scale button { background:#65D724 ; } .scale .price { color:#555852 ; } ",
+      "selector" : ".promos"
+    } ,
+      { 
+      "style" : ".promos { width:800px ; margin:0 auto ; margin-top:50px ; } .promo { width:250px ; background:#2D6C1C ; color:#f9f9f9 ; float:left ; } .deal{ padding:10px 0 0 0 ; } .deal span { display:block ; text-align:center ; } .deal span:first-of-type { font-size:23px ; } .deal span:last-of-type { font-size:13px ; } .promo .price { display:block ; width:250px ; background:#292b2e ; margin:15px 0 10px 0 ; text-align:center ; font-size:23px ; padding:17px 0 17px 0 ; } ul { display:block ; margin:20px 0 10px 0 ; padding:0 ; list-style-type:none ; text-align:center ; color:#999; } li { display:block ; margin:10px 0 0 0 ; } button { border:none ; border-radius:40px ; background:#292b2e ; color:#f9f9f9 ; padding:10px 37px ; margin:10px 0 20px 10px ; } .scale { transform:scale(1.2) ; box-shadow:0 0 4px 1px rgba(20,20,20,.8) ; } .scale button { background:#71060D ; } .scale .price { color:#16C995 ; } ",
+      "selector" : ".promos"
+    } ,
+      { 
+      "style" : ".promos { width:800px ; margin:0 auto ; margin-top:50px ; } .promo { width:250px ; background:#8C03DA ; color:#f9f9f9 ; float:left ; } .deal{ padding:10px 0 0 0 ; } .deal span { display:block ; text-align:center ; } .deal span:first-of-type { font-size:23px ; } .deal span:last-of-type { font-size:13px ; } .promo .price { display:block ; width:250px ; background:#292b2e ; margin:15px 0 10px 0 ; text-align:center ; font-size:23px ; padding:17px 0 17px 0 ; } ul { display:block ; margin:20px 0 10px 0 ; padding:0 ; list-style-type:none ; text-align:center ; color:#999; } li { display:block ; margin:10px 0 0 0 ; } button { border:none ; border-radius:40px ; background:#292b2e ; color:#f9f9f9 ; padding:10px 37px ; margin:10px 0 20px 10px ; } .scale { transform:scale(1.2) ; box-shadow:0 0 4px 1px rgba(20,20,20,.8) ; } .scale button { background:#2D548A ; } .scale .price { color:#C859AC ; } ",
+      "selector" : ".promos"
+    } ,
+      { 
+      "style" : ".promos { width:800px ; margin:0 auto ; margin-top:50px ; } .promo { width:250px ; background:#13465B ; color:#f9f9f9 ; float:left ; } .deal{ padding:10px 0 0 0 ; } .deal span { display:block ; text-align:center ; } .deal span:first-of-type { font-size:23px ; } .deal span:last-of-type { font-size:13px ; } .promo .price { display:block ; width:250px ; background:#292b2e ; margin:15px 0 10px 0 ; text-align:center ; font-size:23px ; padding:17px 0 17px 0 ; } ul { display:block ; margin:20px 0 10px 0 ; padding:0 ; list-style-type:none ; text-align:center ; color:#999; } li { display:block ; margin:10px 0 0 0 ; } button { border:none ; border-radius:40px ; background:#292b2e ; color:#f9f9f9 ; padding:10px 37px ; margin:10px 0 20px 10px ; } .scale { transform:scale(1.2) ; box-shadow:0 0 4px 1px rgba(20,20,20,.8) ; } .scale button { background:#660A31 ; } .scale .price { color:#105A2C ; } ",
+      "selector" : ".promos"
+    } ,
+      { 
+      "style" : ".promos { width:800px ; margin:0 auto ; margin-top:50px ; } .promo { width:250px ; background:#5D8C00 ; color:#f9f9f9 ; float:left ; } .deal{ padding:10px 0 0 0 ; } .deal span { display:block ; text-align:center ; } .deal span:first-of-type { font-size:23px ; } .deal span:last-of-type { font-size:13px ; } .promo .price { display:block ; width:250px ; background:#292b2e ; margin:15px 0 10px 0 ; text-align:center ; font-size:23px ; padding:17px 0 17px 0 ; } ul { display:block ; margin:20px 0 10px 0 ; padding:0 ; list-style-type:none ; text-align:center ; color:#999; } li { display:block ; margin:10px 0 0 0 ; } button { border:none ; border-radius:40px ; background:#292b2e ; color:#f9f9f9 ; padding:10px 37px ; margin:10px 0 20px 10px ; } .scale { transform:scale(1.2) ; box-shadow:0 0 4px 1px rgba(20,20,20,.8) ; } .scale button { background:#D5B35D ; } .scale .price { color:#935703 ; } ",
+      "selector" : ".promos"
+    } ,
+      { 
+      "style" : ".promos { width:800px ; margin:0 auto ; margin-top:50px ; } .promo { width:250px ; background:#6ABC85 ; color:#f9f9f9 ; float:left ; } .deal{ padding:10px 0 0 0 ; } .deal span { display:block ; text-align:center ; } .deal span:first-of-type { font-size:23px ; } .deal span:last-of-type { font-size:13px ; } .promo .price { display:block ; width:250px ; background:#292b2e ; margin:15px 0 10px 0 ; text-align:center ; font-size:23px ; padding:17px 0 17px 0 ; } ul { display:block ; margin:20px 0 10px 0 ; padding:0 ; list-style-type:none ; text-align:center ; color:#999; } li { display:block ; margin:10px 0 0 0 ; } button { border:none ; border-radius:40px ; background:#292b2e ; color:#f9f9f9 ; padding:10px 37px ; margin:10px 0 20px 10px ; } .scale { transform:scale(1.2) ; box-shadow:0 0 4px 1px rgba(20,20,20,.8) ; } .scale button { background:#4AA5D3 ; } .scale .price { color:#880B90 ; } ",
+      "selector" : ".promos"
+    } ,
+      { 
+      "style" : ".promos { width:800px ; margin:0 auto ; margin-top:50px ; } .promo { width:250px ; background:#98082C ; color:#f9f9f9 ; float:left ; } .deal{ padding:10px 0 0 0 ; } .deal span { display:block ; text-align:center ; } .deal span:first-of-type { font-size:23px ; } .deal span:last-of-type { font-size:13px ; } .promo .price { display:block ; width:250px ; background:#292b2e ; margin:15px 0 10px 0 ; text-align:center ; font-size:23px ; padding:17px 0 17px 0 ; } ul { display:block ; margin:20px 0 10px 0 ; padding:0 ; list-style-type:none ; text-align:center ; color:#999; } li { display:block ; margin:10px 0 0 0 ; } button { border:none ; border-radius:40px ; background:#292b2e ; color:#f9f9f9 ; padding:10px 37px ; margin:10px 0 20px 10px ; } .scale { transform:scale(1.2) ; box-shadow:0 0 4px 1px rgba(20,20,20,.8) ; } .scale button { background:#8C255D ; } .scale .price { color:#539BD6 ; } ",
+      "selector" : ".promos"
+    } ,
+      { 
+      "style" : ".promos { width:800px ; margin:0 auto ; margin-top:50px ; } .promo { width:250px ; background:#5C3362 ; color:#f9f9f9 ; float:left ; } .deal{ padding:10px 0 0 0 ; } .deal span { display:block ; text-align:center ; } .deal span:first-of-type { font-size:23px ; } .deal span:last-of-type { font-size:13px ; } .promo .price { display:block ; width:250px ; background:#292b2e ; margin:15px 0 10px 0 ; text-align:center ; font-size:23px ; padding:17px 0 17px 0 ; } ul { display:block ; margin:20px 0 10px 0 ; padding:0 ; list-style-type:none ; text-align:center ; color:#999; } li { display:block ; margin:10px 0 0 0 ; } button { border:none ; border-radius:40px ; background:#292b2e ; color:#f9f9f9 ; padding:10px 37px ; margin:10px 0 20px 10px ; } .scale { transform:scale(1.2) ; box-shadow:0 0 4px 1px rgba(20,20,20,.8) ; } .scale button { background:#528613 ; } .scale .price { color:#95DBB5 ; } ",
+      "selector" : ".promos"
+    } ,
+      { 
+      "style" : ".promos { width:800px ; margin:0 auto ; margin-top:50px ; } .promo { width:250px ; background:#3DC5D5 ; color:#f9f9f9 ; float:left ; } .deal{ padding:10px 0 0 0 ; } .deal span { display:block ; text-align:center ; } .deal span:first-of-type { font-size:23px ; } .deal span:last-of-type { font-size:13px ; } .promo .price { display:block ; width:250px ; background:#292b2e ; margin:15px 0 10px 0 ; text-align:center ; font-size:23px ; padding:17px 0 17px 0 ; } ul { display:block ; margin:20px 0 10px 0 ; padding:0 ; list-style-type:none ; text-align:center ; color:#999; } li { display:block ; margin:10px 0 0 0 ; } button { border:none ; border-radius:40px ; background:#292b2e ; color:#f9f9f9 ; padding:10px 37px ; margin:10px 0 20px 10px ; } .scale { transform:scale(1.2) ; box-shadow:0 0 4px 1px rgba(20,20,20,.8) ; } .scale button { background:#B0A1D4 ; } .scale .price { color:#07C315 ; } ",
+      "selector" : ".promos"
+    } ,
+      { 
+      "style" : ".promos { width:800px ; margin:0 auto ; margin-top:50px ; } .promo { width:250px ; background:#178B64 ; color:#f9f9f9 ; float:left ; } .deal{ padding:10px 0 0 0 ; } .deal span { display:block ; text-align:center ; } .deal span:first-of-type { font-size:23px ; } .deal span:last-of-type { font-size:13px ; } .promo .price { display:block ; width:250px ; background:#292b2e ; margin:15px 0 10px 0 ; text-align:center ; font-size:23px ; padding:17px 0 17px 0 ; } ul { display:block ; margin:20px 0 10px 0 ; padding:0 ; list-style-type:none ; text-align:center ; color:#999; } li { display:block ; margin:10px 0 0 0 ; } button { border:none ; border-radius:40px ; background:#292b2e ; color:#f9f9f9 ; padding:10px 37px ; margin:10px 0 20px 10px ; } .scale { transform:scale(1.2) ; box-shadow:0 0 4px 1px rgba(20,20,20,.8) ; } .scale button { background:#DC5542 ; } .scale .price { color:#503046 ; } ",
+      "selector" : ".promos"
+    } ,
+      { 
+      "style" : ".promos { width:800px ; margin:0 auto ; margin-top:50px ; } .promo { width:250px ; background:#7D7B0D ; color:#f9f9f9 ; float:left ; } .deal{ padding:10px 0 0 0 ; } .deal span { display:block ; text-align:center ; } .deal span:first-of-type { font-size:23px ; } .deal span:last-of-type { font-size:13px ; } .promo .price { display:block ; width:250px ; background:#292b2e ; margin:15px 0 10px 0 ; text-align:center ; font-size:23px ; padding:17px 0 17px 0 ; } ul { display:block ; margin:20px 0 10px 0 ; padding:0 ; list-style-type:none ; text-align:center ; color:#999; } li { display:block ; margin:10px 0 0 0 ; } button { border:none ; border-radius:40px ; background:#292b2e ; color:#f9f9f9 ; padding:10px 37px ; margin:10px 0 20px 10px ; } .scale { transform:scale(1.2) ; box-shadow:0 0 4px 1px rgba(20,20,20,.8) ; } .scale button { background:#124067 ; } .scale .price { color:#592C66 ; } ",
+      "selector" : ".promos"
+    } ,
+      { 
+      "style" : ".promos { width:800px ; margin:0 auto ; margin-top:50px ; } .promo { width:250px ; background:#10808C ; color:#f9f9f9 ; float:left ; } .deal{ padding:10px 0 0 0 ; } .deal span { display:block ; text-align:center ; } .deal span:first-of-type { font-size:23px ; } .deal span:last-of-type { font-size:13px ; } .promo .price { display:block ; width:250px ; background:#292b2e ; margin:15px 0 10px 0 ; text-align:center ; font-size:23px ; padding:17px 0 17px 0 ; } ul { display:block ; margin:20px 0 10px 0 ; padding:0 ; list-style-type:none ; text-align:center ; color:#999; } li { display:block ; margin:10px 0 0 0 ; } button { border:none ; border-radius:40px ; background:#292b2e ; color:#f9f9f9 ; padding:10px 37px ; margin:10px 0 20px 10px ; } .scale { transform:scale(1.2) ; box-shadow:0 0 4px 1px rgba(20,20,20,.8) ; } .scale button { background:#C51596 ; } .scale .price { color:#D59302 ; } ",
+      "selector" : ".promos"
+    } ,
+      { 
+      "style" : ".promos { width:800px ; margin:0 auto ; margin-top:50px ; } .promo { width:250px ; background:#75CA45 ; color:#f9f9f9 ; float:left ; } .deal{ padding:10px 0 0 0 ; } .deal span { display:block ; text-align:center ; } .deal span:first-of-type { font-size:23px ; } .deal span:last-of-type { font-size:13px ; } .promo .price { display:block ; width:250px ; background:#292b2e ; margin:15px 0 10px 0 ; text-align:center ; font-size:23px ; padding:17px 0 17px 0 ; } ul { display:block ; margin:20px 0 10px 0 ; padding:0 ; list-style-type:none ; text-align:center ; color:#999; } li { display:block ; margin:10px 0 0 0 ; } button { border:none ; border-radius:40px ; background:#292b2e ; color:#f9f9f9 ; padding:10px 37px ; margin:10px 0 20px 10px ; } .scale { transform:scale(1.2) ; box-shadow:0 0 4px 1px rgba(20,20,20,.8) ; } .scale button { background:#C66552 ; } .scale .price { color:#B10145 ; } ",
+      "selector" : ".promos"
+    } ,
+      { 
+      "style" : ".promos { width:800px ; margin:0 auto ; margin-top:50px ; } .promo { width:250px ; background:#57632C ; color:#f9f9f9 ; float:left ; } .deal{ padding:10px 0 0 0 ; } .deal span { display:block ; text-align:center ; } .deal span:first-of-type { font-size:23px ; } .deal span:last-of-type { font-size:13px ; } .promo .price { display:block ; width:250px ; background:#292b2e ; margin:15px 0 10px 0 ; text-align:center ; font-size:23px ; padding:17px 0 17px 0 ; } ul { display:block ; margin:20px 0 10px 0 ; padding:0 ; list-style-type:none ; text-align:center ; color:#999; } li { display:block ; margin:10px 0 0 0 ; } button { border:none ; border-radius:40px ; background:#292b2e ; color:#f9f9f9 ; padding:10px 37px ; margin:10px 0 20px 10px ; } .scale { transform:scale(1.2) ; box-shadow:0 0 4px 1px rgba(20,20,20,.8) ; } .scale button { background:#3D80A4 ; } .scale .price { color:#5A3870 ; } ",
+      "selector" : ".promos"
+    } ,
+      { 
+      "style" : ".promos { width:800px ; margin:0 auto ; margin-top:50px ; } .promo { width:250px ; background:#54B189 ; color:#f9f9f9 ; float:left ; } .deal{ padding:10px 0 0 0 ; } .deal span { display:block ; text-align:center ; } .deal span:first-of-type { font-size:23px ; } .deal span:last-of-type { font-size:13px ; } .promo .price { display:block ; width:250px ; background:#292b2e ; margin:15px 0 10px 0 ; text-align:center ; font-size:23px ; padding:17px 0 17px 0 ; } ul { display:block ; margin:20px 0 10px 0 ; padding:0 ; list-style-type:none ; text-align:center ; color:#999; } li { display:block ; margin:10px 0 0 0 ; } button { border:none ; border-radius:40px ; background:#292b2e ; color:#f9f9f9 ; padding:10px 37px ; margin:10px 0 20px 10px ; } .scale { transform:scale(1.2) ; box-shadow:0 0 4px 1px rgba(20,20,20,.8) ; } .scale button { background:#9C124A ; } .scale .price { color:#A5D013 ; } ",
+      "selector" : ".promos"
+    } ,
+      { 
+      "style" : ".promos { width:800px ; margin:0 auto ; margin-top:50px ; } .promo { width:250px ; background:#0D6570 ; color:#f9f9f9 ; float:left ; } .deal{ padding:10px 0 0 0 ; } .deal span { display:block ; text-align:center ; } .deal span:first-of-type { font-size:23px ; } .deal span:last-of-type { font-size:13px ; } .promo .price { display:block ; width:250px ; background:#292b2e ; margin:15px 0 10px 0 ; text-align:center ; font-size:23px ; padding:17px 0 17px 0 ; } ul { display:block ; margin:20px 0 10px 0 ; padding:0 ; list-style-type:none ; text-align:center ; color:#999; } li { display:block ; margin:10px 0 0 0 ; } button { border:none ; border-radius:40px ; background:#292b2e ; color:#f9f9f9 ; padding:10px 37px ; margin:10px 0 20px 10px ; } .scale { transform:scale(1.2) ; box-shadow:0 0 4px 1px rgba(20,20,20,.8) ; } .scale button { background:#035B12 ; } .scale .price { color:#D45146 ; } ",
+      "selector" : ".promos"
     }
 ]
 }   
