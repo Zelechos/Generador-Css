@@ -1,2 +1,1 @@
-# Este documento es una explicacion y observacion del modelo GeneradorCss
-
+# Este documento es una explicacion y observacion del modelo GeneradorCs
