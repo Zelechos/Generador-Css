@@ -1,4 +1,3 @@
-
 'use strict';
 import stylesData from "./model.js";
 window.addEventListener('load', ()=> {
@@ -8,7 +7,6 @@ window.addEventListener('load', ()=> {
     
 });
 
-
 //======================== Exportando el Modelo Generador_Css========================
 let model = null;
 // Cargamos el Modelo 
@@ -17,8 +15,6 @@ const loadModel = async ()=> {
     model = await tf.loadLayersModel("./model.json");
     console.log("Cargando el Modelo ...");
 }
-
-
 
 const generatorCss = (data)=>{
     const styleArea = document.querySelector('#code-generator');
@@ -34,10 +30,8 @@ const generatorColors = () =>{
     for (let index = 0; index < 6; index++) {
         color += digitColors.charAt(Math.floor(Math.random() * (15-0)+0));
     }
-    console.log(color);
     return color
 }
-
 
 //Subrutina para Copiar el estilo CSS
 const copyStyle = () => {
@@ -56,7 +50,6 @@ const copyStyle = () => {
     input.classList.toggle('animation');
 }
 
-
 const obtenerHTML = ()=>{
     const btn = document.querySelector("#btnGenerator");
     const input = document.querySelector("#code");
@@ -67,22 +60,18 @@ const obtenerHTML = ()=>{
         input.focus();
         alert.innerHTML = "Generando Codigo";
         setTimeout(()=> alert.innerHTML = "" , 4000);
-        console.log(input.value);
+        // console.log(input.value);
 
         let selector = selectorCss(input.value);
-        console.log("ests ",selector);
         generatorCss(selector);
         
     });
 }
 
-// obtenemos selector
 const selectorCss = (value)=>{
 
     for (const key in stylesData.styles) {
-        console.error(stylesData.styles[key].selector);
-        
-        // console.error(stylesData[key].selector);
+        // console.error(stylesData.styles[key].selector);
 
         if (value.includes(stylesData.styles[key].selector)) {
             return stylesData.styles[key].selector;
@@ -90,11 +79,10 @@ const selectorCss = (value)=>{
         // console.log(stylesData[key].selector);
     }
 
-    console.warn((value.substr(value.indexOf('"')+1), (value.indexOf('">')-value.indexOf('"'))));
+    // console.warn((value.substr(value.indexOf('"')+1), (value.indexOf('">')-value.indexOf('"'))));
     return value.substr((value.indexOf('"')+1), (value.indexOf('">')-(value.indexOf('"')+1)));
 }
 
-// generamos estilos
 const generator = (data)=>{
     for (const key in stylesData.styles) {
         if (stylesData.styles[key].selector == data) {
@@ -198,9 +186,9 @@ const random = (selector)=>{
 }
 
 const load = async ()=> {
-    console.log("Cargando el Modelo ...");
+    console.warn("Cargando el Modelo ...");
     setTimeout(()=>{
-        console.log("Modelo Listo!!!");
+        console.warn("Modelo Listo!!!");
     }, 4000);
 }
 load();
