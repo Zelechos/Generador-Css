@@ -9,6 +9,8 @@
     <style>
     @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
     </style>
+
+    
 </head>
 <body>
     
@@ -16,12 +18,31 @@
       <blockquote>
         <br><h1><b>Generador Css</b></h1>
       </blockquote>
-    </div>
-    <div class="right">
-        
+
+      <textarea id="code" class="code-to-copy"></textarea>
+
+      <h2 id="aviso"></h2>
+  
+      <button id="btnGenerator" class="btn-generar" alt="">Generar Css</button>
     </div>
 
-    
+
+    <div class="right">
+
+      <blockquote>
+        <h1>Codigo generado
+          <button id="btnCopy" class="btn-copy" alt="">Copiar</button>
+        </h1>
+      </blockquote>
+      <textarea id="code" class="code-generator"></textarea>
+      <h2 id="aviso"></h2>
+    </div>
+
+
+
+    <!-- Importamos la libreria TensorFlow JS para usar nuestro modelo -->
+    <script type="module" src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@2.0.0/dist/tf.min.js"></script>
+    <script type="module" src="./main.js"></script>
 
 </body>
 </html>
