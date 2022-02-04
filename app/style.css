@@ -63,7 +63,7 @@ a{
 
 .btn-copy{
     background-color: #ffff;
-    width: 200px;
+    width: 150px;
     height: 50px;
     font-size: 25px;
     color: #3927cc;
@@ -94,3 +94,18 @@ a{
 .btn-generar:hover { 
     transform:scale(.8);
 } 
+
+
+.button-transparent {
+    color: #5C794B;
+    border: 1px solid #175231;
+    background-color: transparent;
+    border-radius: 5px;
+    padding: 0 16px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  .button-transparent:hover {
+    transform: scale(.8)
+  }
+  
