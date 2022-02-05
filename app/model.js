@@ -167,10 +167,13 @@ let card_content = `.cards{
 `;
 
 let form = `form {
+  width: 27%;
   border: 2px solid ${generatorColors()};
   border-radius: 10px;
   padding: 8px;
-  border-radius: 2px;
+  background: ${generatorColors()};
+  margin-left: auto;
+  margin-right: auto;
 }
 form:focus-within {
   background: ${generatorColors()};
@@ -178,9 +181,14 @@ form:focus-within {
 label {
   display: inline-block;
   width: 72px;
+  font-size: 20px;
 }
 input {
   margin: 4px 12px;
+  width: 400px;
+  height: 30px;
+  border-radius: 10px;
+  font-size: 20px;
 }
 `;
 
@@ -335,6 +343,9 @@ let image_rotate = `.image-rotate {
   min-width: 240px;
   max-width: 320px;
   width: 100%;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .image-rotate img {
   transition: all 0.3s;
@@ -362,13 +373,18 @@ let parent = `.parent {
 `;
 
 let button_tranparent = `.button-transparent {
+  width: 150px;
+  height: 45px;
   color: ${generatorColors()};
-  border: 1px solid ${generatorColors()};
+  border: 5px solid ${generatorColors()};
   background-color: transparent;
   border-radius: 5px;
   padding: 0 16px;
   cursor: pointer;
   transition: all 0.3s ease-in-out;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 20px;
 }
 .button-transparent:hover {
   transform: scale(.8)
@@ -377,13 +393,15 @@ let button_tranparent = `.button-transparent {
 
 let grid_aside = `.grid-aside {
   display: grid;
+  padding-top: 40px;
   grid-template-columns: 1fr minmax(343px, 67%);
-  height: 350px;
+  height: 90vh;
 }
 main,
 aside {
   padding: 12px;
   text-align: center
+  border-radius: 5px;
 }
 main {
   background: ${generatorColors()};
@@ -468,7 +486,7 @@ header li {
   margin: 92px;
 }
 header li a {
-  color: ${generatorColors()};
+  color: #ffffff;
   text-decoration: none;
 }
 `;
@@ -511,7 +529,8 @@ let btn_hamburger = `.btn-hamburger {
   justify-content: space-between;
   height: 2.5rem;
   width: 2.5rem;
-  cursor: pointer
+  cursor: pointer;
+  margin-left: 43%;
 }
 .btn-hamburger .bar {
   height: 5px;
@@ -594,6 +613,7 @@ let hero = `.hero {
   margin-bottom: 45px;
   padding: 50px 0 0 0;
   overflow: hidden;
+  top: 100px;
   background: ${generatorColors()};
   background-position: center;
   background-repeat: no-repeat;
@@ -609,7 +629,7 @@ let hero = `.hero {
   width: 40%;
   text-align: right;
   padding-left: 53%;
-  bottom: 250px;
+  bottom: 330px;
 }
 
 .hero .hero-image img {
