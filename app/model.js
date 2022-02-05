@@ -575,7 +575,105 @@ let btn = `.btn {
 }
 `;
 
+let h = `h1, h2, h3, h4, h5, h6 {
+  letter-spacing: 0;
+  font-weight: normal;
+  position: relative;
+  padding: 0 0 10px 0;
+  font-weight: normal;
+  line-height: normal;
+  color: ${generatorColors()};
+  margin: 0;
+}
+`;
 
+let hero = `.hero {
+  position: relative;
+  width: 100%;
+  height: 70vh;
+  margin-bottom: 45px;
+  padding: 50px 0 0 0;
+  overflow: hidden;
+  background: ${generatorColors()};
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero .container-fluid {
+  padding: 0;
+}
+
+.hero .hero-image {
+  position: relative;
+  width: 40%;
+  text-align: right;
+  padding-left: 53%;
+  bottom: 250px;
+}
+
+.hero .hero-image img {
+  max-width: 80%;
+  max-height: 80%;
+  border-radius: 10px;
+}
+
+.hero .hero-content {
+  width: 40%;
+  position: relative;
+  padding-left: 75px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  z-index: 1;
+}
+
+.hero .hero-text p {
+  color: #ffffff;
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.hero .hero-text h1 {
+  color: #ffffff;
+  font-size: 70px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  margin-bottom: 40px;
+}
+
+.hero .hero-text h2 {
+  display: inline-block;
+  margin: 0;
+  height: 35px;
+  color: #ffffff;
+  font-size: 35px;
+  font-weight: 600;
+}
+
+.hero .hero-links .link {
+  margin-top: 35px;
+  color: ${generatorColors()};
+  box-shadow: inset 0 0 0 50px #ffffff;
+  text-decoration: none;
+  border: 3px solid #ffffff;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.hero .hero-links .link:hover {
+  color: #ffffff;
+  background: transparent;
+  box-shadow: inset 0 0 0 0 #ffffff;
+  border-color: #ffffff;
+}
+
+.hero .hero-links .link:first-child {
+  margin-right: 10px;
+}
+`;
 
 const stylesData = {
 
@@ -677,7 +775,16 @@ const stylesData = {
           style : btn
         },
 
-        
+        hero : {
+          selector : "hero",
+          style : hero
+        },
+
+        h : {
+          selector : "h",
+          style : h
+        },
+
 
     }
 }

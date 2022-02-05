@@ -1,44 +1,54 @@
 .left{
-    width: 50%;
-    height:750px;
+    width: 49%;
     background-color: #ffff;
     float: left;
-    margin-left: -10px;
-    margin-top: -10px;
     position: fixed;
     color: #3927cc;
     font-family: 'Montserrat', sans-serif;
+    bottom: 40px;
+
 }
 
 .right{
-    width: 50.6%;
-    height: 2000px;
+    width: 49%;
+    height: 1600px;
     background-color: #5f41f4;
     float: right;
-    margin-right: -10px;
     margin-top: -10px;
     font-family: 'Montserrat', sans-serif;
     color: #ffffff;
 }
 
-h1{
-    font-size: 60px;
+a{
+    text-decoration: none;
+    color: #3927cc;
+    border: 1px solid #3927cc;
+    border-radius: 10px;
+    padding: 5px;
 }
 
+a:hover{
+    color: #ffffff;
+    background-color: #3927cc;
+}
 
-a{
-    margin-left: 300px;
+h1{
+    font-size: 30px;
+}
+
+h2{
+    margin-left: 270px;
 }
 
 .code-to-copy{
-    width: 80%;
+    width: 90%;
     height: 60vh;
     border: 5px solid #3927cc ;
-    border-radius: 5px ;
+    border-radius: 10px ;
     background-color: #ffffff;
     color: #3927cc;
-    margin-left: 70px;
-    font-size: 25px;
+    margin-left: 25px;
+    font-size: 17px;
     padding: 10px;
     transition:all 0.3s ease-in-out ;
 }
@@ -46,9 +56,9 @@ a{
 
 .code-generator{
     width: 80%;
-    height: 210vh;
+    height: 1400px;
     border: 5px solid #3927cc ;
-    border-radius: 5px ;
+    border-radius: 10px ;
     background-color: #ffffff;
     color: #3927cc;
     margin-left: 70px;
@@ -64,11 +74,11 @@ a{
 .btn-copy{
     background-color: #ffff;
     width: 150px;
-    height: 50px;
+    height: 40px;
     font-size: 25px;
     color: #3927cc;
     border: 3px solid #ffff;
-    border-radius: 5px;
+    border-radius: 10px;
     cursor:pointer;
     transition:all 0.3s ease-in-out ;
 }
@@ -85,27 +95,12 @@ a{
     font-size: 25px;
     color: #ffff;
     border: 3px solid #ffffff;
-    border-radius: 5px;
+    border-radius: 10px;
     cursor:pointer;
     transition:all 0.3s ease-in-out ;
-    margin-left: 330px;
+    margin-left: 300px;
 }
     
 .btn-generar:hover { 
     transform:scale(.8);
 } 
-
-
-.button-transparent {
-    color: #5C794B;
-    border: 1px solid #175231;
-    background-color: transparent;
-    border-radius: 5px;
-    padding: 0 16px;
-    cursor: pointer;
-    transition: all 0.3s ease-in-out;
-  }
-  .button-transparent:hover {
-    transform: scale(.8)
-  }
-  
