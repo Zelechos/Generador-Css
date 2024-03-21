@@ -1,32 +1,19 @@
-
 const Page = () => {
-  const showMenu1 = (flag: boolean) => { console.log(flag) }
-  const showMenu2 = (flag: boolean) => { console.log(flag) }
-  const showMenu3 = (flag: boolean) => { console.log(flag) }
-  const showNav = (flag: boolean) => { return flag };
-  // let icon1 = document.getElementById("icon1");
-  // let menu1 = document.getElementById("menu1");
-  // const showMenu1 = (flag) => {
-  //   if (flag) {
-  //     icon1.classList.toggle("rotate-180");
-  //     menu1.classList.toggle("hidden");
-  //   }
-  // };
+  document.addEventListener('DOMContentLoaded', function() {
+  let Main = document.getElementById("Main");
 
-  // let Main = document.getElementById("Main");
-  // let open = document.getElementById("open");
-  // let close = document.getElementById("close");
+  const showNav:any = (flag:boolean) => {
+    if (flag) {
+      Main.classList.toggle("-translate-x-full");
+      Main.classList.toggle("translate-x-0");
+      // open.classList.toggle("hidden");
+      // close.classList.toggle("hidden");
+    }}
+        });
 
-  // const showNav:any = (flag) => {
-  //   if (flag) {
-  //     Main.classList.toggle("-translate-x-full");
-  //     Main.classList.toggle("translate-x-0");
-  //     open.classList.toggle("hidden");
-  //     close.classList.toggle("hidden");
-  //   }
-  // };
   return (
     <div>
+    <button className="bg-red-600 pt-5" onClick={showNav(true)}>Toggle button</button>
       <div id="Main" className="xl:rounded-r transform  xl:translate-x-0  ease-in-out transition duration-500 flex justify-start items-start h-full  w-full sm:w-64 bg-gray-900 flex-col my-4">
 
         <div className="hidden xl:flex justify-start p-6 items-center space-x-3">
@@ -136,7 +123,7 @@ const Page = () => {
 
           </div>
         </div>
-      </div>
+      but</div>
       {
       }
     </div>
