@@ -523,32 +523,50 @@ input[type='checkbox']:checked+.switch {
 }
 `;
 
-let btn_hamburger = `.btn-hamburger {
-  display: flex;
-  flex-flow: column wrap;
-  justify-content: space-between;
-  height: 2.5rem;
-  width: 2.5rem;
-  cursor: pointer;
-  margin-left: 43%;
+let btn_hamburger = `.btn-checkbox {
+    display: none;  
 }
-.btn-hamburger .bar {
-  height: 5px;
-  background: ${generatorColors()};
-  border-radius: 5px;
-  margin: 3px 0;
-  transform-origin: left;
-  transition: all 0.5s
+
+.btn-hamburger {
+    background-color: transparent; 
+    width: 40px;
+    height: 30px;
+    display: block;
+    cursor: pointer;
+    position: relative;
 }
-.btn-hamburger:hover .top {
-  transform: rotate(45deg)
+
+.btn-hamburger::before,
+.btn-hamburger::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    background-color: #ffffff; 
+    border-radius: 4px;        
+    transition: transform 0.3s ease; 
 }
-.btn-hamburger:hover .middle {
-  opacity: 0
+
+.btn-hamburger::before {
+    top: 0;
 }
-.btn-hamburger:hover .bottom {
-  transform: rotate(-45deg)
+
+.btn-hamburger::after {
+    bottom: 0;
 }
+
+.btn-checkbox:checked + .btn-hamburger::before {
+    transform: translateY(13px) rotate(50deg);
+}
+
+.btn-checkbox:checked + .btn-hamburger::after {
+    transform: translateY(-13px) rotate(-50deg);
+}
+
+.btn-checkbox:checked + .btn-hamburger:hover {
+    background-color: rgba(255, 255, 255, 0.1); /* Color de fondo al pasar el mouse */
+}
+
 `;
 
 let body = `body {
@@ -571,6 +589,23 @@ let box = `.box {
   border-radius: 4px
 }
 `;
+
+let btn1 = `.btn {
+    background-color: #007bff; 
+    color: #ffffff;            
+    border: none;              
+    padding: 12px 24px;        
+    font-size: 16px;           
+    cursor: pointer;           
+    border-radius: 4px;        
+    transition: background-color 0.3s ease; 
+}
+
+.btn:hover {
+    background-color: #0056b3; 
+}
+
+    `;
 
 let btn = `.btn {
   display: inline-block;
@@ -695,9 +730,54 @@ let hero = `.hero {
 }
 `;
 
+let button = `
+button{
+    background-color: #28a745; 
+    color: #ffffff;            
+    border: none;              
+    padding: 12px 24px;        
+    font-size: 16px;          
+    font-family: Arial, sans-serif; 
+    letter-spacing: 1px;       
+    font-weight: bold;         
+    cursor: pointer;            
+    border-radius: 4px;        
+    transition: background-color 0.3s ease; 
+}
+
+button:hover {
+    background-color: ${generatorColors()}; 
+}
+`;
+
+let table_hover = `
+.table-hover {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: 'Roboto', sans-serif;
+}
+
+.table-hover th, .table-hover td {
+    border: 1px solid #ccc;
+    padding: 8px 12px;
+    text-align: left;
+    font-size: 16px;
+}
+
+.table-hover tr:hover {
+    background-color: ${generatorColors()};
+}
+
+`;
+
 const stylesData = {
 
     styles:{
+
+        table_hover : {
+            selector : "table-hover",
+            style : table_hover
+        },
 
         image_mosaic : {
             selector : "image-mosaic",
@@ -780,6 +860,26 @@ const stylesData = {
           style : btn_hamburger
         },
 
+        btn_hamburger1 : {
+          selector : "input",
+          style : btn_hamburger
+        },
+
+        btn_checbox1 : {
+          selector : "btn-checkbox",
+          style : btn_hamburger
+        },
+
+        btn_hamburger : {
+          selector : "label",
+          style : btn_hamburger
+        },
+
+        btn_hamburger_checkbox : {
+          selector : "btn-checkbox btn-hamburger",
+          style : btn_hamburger
+        },
+
         body : {
           selector : "body",
           style : body
@@ -795,9 +895,18 @@ const stylesData = {
           style : btn
         },
 
+        btn : {
+          selector : "btn",
+          style : btn1
+        },
         hero : {
           selector : "hero",
           style : hero
+        },
+
+        button: {
+          selector: "button",
+          style: button
         },
 
         h : {
