@@ -3,7 +3,6 @@ import { Visualizer } from "./components/visualizer";
 import { NavBar } from "./components/navbar";
 import { History } from "./components/history";
 import { Login } from "./components/login";
-import { Connection } from "./components/connection";
 
 export default function Home() {
   return (
@@ -18,7 +17,6 @@ export default function Home() {
         <NavBar/>
         <History/>
         <Login/>
-        <Connection/>
       </div>
     </main>
   );
