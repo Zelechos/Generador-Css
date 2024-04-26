@@ -25,7 +25,7 @@ const Visualizador = () => {
   };
 
   const handleCodeCSSChange = (newCodeCSS: any) => {
-    console.log('Código actualizado:', newCodeCSS);
+    // console.log('Código actualizado:', newCodeCSS);
     setStyleCSS(newCodeCSS)
   };
   
