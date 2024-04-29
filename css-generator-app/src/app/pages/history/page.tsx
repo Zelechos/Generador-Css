@@ -1,11 +1,13 @@
-import CodeEditor from '../visualizer/code_editor';
+import View from "./view";
 
 const Page = () => {
+  const ho = "10:00pm"
+  const sty = "vistaVy"
+  const html = "<button>"
+  const css = ".button{}"
   return (
-    <div>
-      <h1>History</h1>
-      <p>This is the Histroyt Compenent  page content.</p>
-      <CodeEditor />
+    <div className="flex grid grid-cols-3 p-5">
+      <View hour={ho} style={sty} codeHtml={html} codeCss={css}/>
     </div>
   );
 };
