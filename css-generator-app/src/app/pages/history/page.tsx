@@ -1,11 +1,9 @@
-import CodeEditor from '../visualizer/code_editor';
+import View from "./view";
 
-const Page = () => {
+const Page = (props:any) => {
   return (
-    <div>
-      <h1>History</h1>
-      <p>This is the Histroyt Compenent  page content.</p>
-      <CodeEditor />
+    <div className="flex grid grid-cols-3 p-5 h-[40.3rem]">
+      <View hour={props.hour} codeHtml={props.textValue} codeCss={props.styleCss}/>
     </div>
   );
 };
