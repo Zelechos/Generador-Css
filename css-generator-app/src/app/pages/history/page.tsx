@@ -1,13 +1,9 @@
 import View from "./view";
 
-const Page = () => {
-  const ho = "10:00pm"
-  const sty = "vistaVy"
-  const html = "<button>"
-  const css = ".button{}"
+const Page = (props:any) => {
   return (
-    <div className="flex grid grid-cols-3 p-5">
-      <View hour={ho} style={sty} codeHtml={html} codeCss={css}/>
+    <div className="flex grid grid-cols-3 p-5 h-[40.3rem]">
+      <View hour={props.hour} codeHtml={props.textValue} codeCss={props.styleCss}/>
     </div>
   );
 };
