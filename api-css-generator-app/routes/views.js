@@ -5,7 +5,6 @@ const View = require("../models/view");
 // create a CRUD OF HISTORIAL
 // GET ALL VIEWS
 router.get("/", async (req, res) => {
-    res.send("hello")
   try {
     const views = await View.find();
     res.json(views);
@@ -15,7 +14,20 @@ router.get("/", async (req, res) => {
 });
 
 // CREATE A VIEW
-router.post("/", (req, res) => {});
+router.post("/", async (req, res) => {
+  const view = new View({
+    user: req.body.user,
+    codeCss: req.body.codeCss,
+    codeHtml: req.body.codeHtml,
+  });
+
+  try {
+    const newView = await view.save();
+    res.status(201).json(newView);
+  } catch (error) {
+    res.status(400).json({ message: error.message });
+  }
+});
 
 // UPDATE A VIEW
 router.patch("/:id", (req, res) => {});
