@@ -52,7 +52,7 @@ router.patch("/:id", getView, async (req, res) => {
 // DELETE A VIEW
 router.delete("/:id", getView, async (req, res) => {
   try {
-    await res.view.remove();
+    // await res.view.remove();
     res.json({ message: "Deleted View" });
   } catch (error) {
     res.status(500).json({ message: error.message });

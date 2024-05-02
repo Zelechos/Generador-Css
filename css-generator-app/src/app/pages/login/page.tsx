@@ -5,7 +5,7 @@ const Page = () => {
       <div className="flex justify-center items-center h-screen">
         <a href="https://flowbite.com/" className="flex absolute top-5 left-3">
           <img src="https://flowbite.com/docs/images/logo.svg" className="h-6 me-3 sm:h-7" alt="CSS Generator  Logo" />
-          <span className="self-center text-xl font-semibold whitespace-nowrap dark:text-white">Css Generator AI</span>
+          <span className="self-center text-xl font-semibold whitespace-nowrap dark:text-white">Login</span>
         </a>
         <form className="max-w-sm mx-auto">
           <button type="button" className="text-white bg-[#24292F] hover:bg-[#24292F]/90 focus:ring-4 focus:outline-none focus:ring-[#24292F]/50 font-medium rounded-lg text-sm px-4 py-2.5 text-center inline-flex items-center dark:focus:ring-gray-500 dark:hover:bg-[#050708]/30 me-2 mb-2">
