@@ -1,4 +1,18 @@
+import { useState } from "react";
+import Visualizer from "../visualizer/page";
+
 const View = (props: any) => {
+
+
+  const copyToClipboard = async (text: string): Promise<void> => {
+    try {
+      await navigator.clipboard.writeText(text);
+      console.log('Texto copiado al portapapeles');
+    } catch (err) {
+      console.error('Error al copiar al portapapeles: ', err);
+    }
+  };
+
 
   const createContainerCSS = `
 .container{
@@ -28,6 +42,12 @@ const View = (props: any) => {
   </html>
 `;
   console.log("DESDE VIEW :", iframeContent);
+
+  // COPY CODE
+  const handleCopyStyle = () => {
+    copyToClipboard(iframeContent);
+  }
+
   return (
     <>
       <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 m-3 h-[17rem]">
@@ -39,12 +59,13 @@ const View = (props: any) => {
             className="flex items-center justify-center h-[10rem] w-full col-end-12 col-span-9  rounded bg-gray-50 dark:bg-gray-800"
           />
           <p className="mb-1 font-normal text-gray-700 dark:text-gray-400">Hora: {props.date} <br></br> Usuario : {props.user}</p>
-          <a href="#" className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-           Copiar Estilo
+          <button className="inline-flex justify-center items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800" onClick={handleCopyStyle}>
+            Copiar Estilo
             <svg className="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
             </svg>
-          </a>
+          </button>
+
         </div>
       </div>
     </>
