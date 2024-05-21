@@ -2,14 +2,16 @@
 import View from "./view";
 import { useState, useEffect } from 'react';
 
-const Page = () => {
+const Historial = (userEmail: string) => {
   const [data, setData] = useState([]);
+  const url = `http://localhost:3000/views/${userEmail['userEmail']}`;
+  console.log(url);
 
   useEffect(() => {
     // Función asincrónica para realizar la solicitud GET
     const fetchData = async () => {
       try {
-        const response = await fetch('http://localhost:3000/views/', {
+        const response = await fetch(url, {
           method: 'get',
           headers: {
             'content-type': 'application/json'
@@ -32,7 +34,7 @@ const Page = () => {
 
   return (
     <>
-      <a href="https://flowbite.com/" className="flex absolute top-5 left-3">
+      <a href="" className="flex justify-center pt-5 pl-3">
         <img src="https://flowbite.com/docs/images/logo.svg" className="h-6 me-3 sm:h-7" alt="CSS Generator  Logo" />
         <span className="self-center text-xl font-semibold whitespace-nowrap dark:text-white">Historial</span>
       </a>
@@ -51,4 +53,4 @@ const Page = () => {
   );
 };
 
-export default Page;
+export default Historial;
