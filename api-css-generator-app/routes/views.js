@@ -13,6 +13,21 @@ router.get("/", async (req, res) => {
   }
 });
 
+// create a CRUD OF HISTORIAL
+// GET ALL VIEWS BY EMAIL
+router.get("/:user", async (req, res) => {
+  try {
+    const user = req.params.user;
+    const views = await View.find({ user: user });
+    if (!views.length) {
+      return res.status(404).json({ message: "Cannot find View" });
+    }
+    res.json(views);
+  } catch (error) {
+    res.status(500).json({ message: error.message });
+  }
+});
+
 // CREATE A VIEW
 router.post("/", async (req, res) => {
   const view = new View({

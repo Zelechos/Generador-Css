@@ -1,9 +1,8 @@
 "use client"
 import { useRef, useState } from 'react';
 import { obtenerHTML } from "./ia-generator-css.js";
-import Router from 'next/router';
 
-const Visualizador = () => {
+const Visualizer = (userEmail: string) => {
   const [isModalVisible, setModalVisible] = useState(true);
 
   const toggleModalVisibility = () => {
@@ -23,6 +22,7 @@ const Visualizador = () => {
     setStyleCSS(event.target.value);
   };
 
+
   // Iframe
   let iframeContent = `
   <html>
@@ -40,10 +40,11 @@ const Visualizador = () => {
   // Send Code to BD 
   const [view, setView] = useState({});
   const data = {
-    user: "alanTuring@gmail.com",
+    user: userEmail['userEmail'],
     codeCss: styleCSS,
     codeHtml: textValue,
   }
+  console.log(data);
   const sendCode = async (event: any) => {
     setView(data);
     event.preventDefault();
@@ -228,4 +229,4 @@ const Visualizador = () => {
   );
 };
 
-export default Visualizador;
+export default Visualizer;
