@@ -1,8 +1,9 @@
 "use client"
 import { useRef, useState } from 'react';
-import { obtenerHTML } from "./ia-generator-css.js";
+import { getGeneratedCSSStyle } from "./ia-generator-css.js";
 
 const Visualizer = (userEmail: string) => {
+
   const [isModalVisible, setModalVisible] = useState(true);
 
   const toggleModalVisibility = () => {
@@ -13,7 +14,11 @@ const Visualizer = (userEmail: string) => {
 
   const handleTextareaChange = (event: any) => {
     setTextValue(event.target.value);
-    setStyleCSS(obtenerHTML(event.target.value))
+    const generatedStyleCSS =
+      setTimeout(async () => {
+        setStyleCSS(await getGeneratedCSSStyle(event.target.value))
+      }, 900);
+
   };
 
   // Text Area event OUTPUT CSS   
@@ -36,6 +41,7 @@ const Visualizer = (userEmail: string) => {
     </body>
   </html>
 `;
+
 
   // Send Code to BD 
   const [view, setView] = useState({});
@@ -65,6 +71,7 @@ const Visualizer = (userEmail: string) => {
         setStyleCSS('');
         setTextValue('');
         window.location.reload();
+
       } else {
         // Manejar errores de la solicitud
         console.error('Error al realizar la solicitud POST');
@@ -73,6 +80,7 @@ const Visualizer = (userEmail: string) => {
       // Manejar errores de red u otros errores
       console.error('Error de red:', error);
     }
+
   };
 
   // Copy HTML CODE
