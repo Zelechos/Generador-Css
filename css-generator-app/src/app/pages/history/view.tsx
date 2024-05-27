@@ -41,7 +41,7 @@ const View = (props: any) => {
     </body>
   </html>
 `;
-  console.log("DESDE VIEW :", iframeContent);
+  // console.log("DESDE VIEW :", iframeContent);
 
   // COPY CODE
   const handleCopyStyle = () => {
