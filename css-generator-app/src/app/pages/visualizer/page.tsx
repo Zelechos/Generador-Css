@@ -157,7 +157,7 @@ const Visualizer = (userEmail: string) => {
             <textarea value={textValue}
               onChange={handleTextareaChange}
               placeholder="Escribe codigo <HTML> ..."
-              className="h-[35rem] w-[27rem] flex items-center justify-center w-96 p-2 rounded bg-gray-50 dark:bg-gray-800"
+              className="h-[35rem] w-[27rem] flex items-center justify-center w-96 p-2 rounded bg-gray-50 dark:bg-gray-800 text-sm"
               ref={textAreaRef}>
             </textarea>
           </div>
@@ -182,7 +182,7 @@ const Visualizer = (userEmail: string) => {
               value={styleCSS}
               onChange={handleCssAreaChange}
               placeholder="Genera codigo CSS ..."
-              className="h-[35rem] w-[27rem] flex items-center justify-center w-96 p-2 rounded bg-gray-50 dark:bg-gray-800"
+              className="h-[35rem] w-[27rem] flex items-center justify-center w-96 p-2 rounded bg-gray-50 dark:bg-gray-800 text-sm text-green-400"
               ref={textAreaRefCSS}>
             </textarea>
           </div>
