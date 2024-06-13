@@ -5,7 +5,7 @@ export const getGeneratedCSSStyle = async (codeHtml, color) => {
   // Model Implementation
   let response = "";
   if (codeHtml != null) {
-    let realRequest = `Generame con la paleta ${randomPalette()} de colores en base al color ${color} y implementa esta paleta de colores en un solo estilo CSS para este codigo HTML sin generar codigo HTML, y que el estilo css generado tenga un enfoque de estilo Responsive Design : ${codeHtml}`;
+    let realRequest = `Generame con la paleta ${randomPalette()} de colores en base al color ${color} y implementa esta paleta de colores en un solo estilo CSS para este codigo HTML sin generar codigo HTML: ${codeHtml}`;
     console.warn("GROK PREGUNTA ==> ", realRequest);
     response = await main(realRequest);
     console.warn(response);
