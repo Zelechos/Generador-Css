@@ -1,0 +1,60 @@
+<html>
+  <head>
+    <style>
+      .table-hover {
+        border-collapse: collapse;
+        border-spacing: 0;
+      }
+
+      th,
+      td {
+        border: 1px solid #ddd;
+        padding: 10px;
+        text-align: left;
+      }
+
+      th {
+        background-color: #f9f9f9;
+        font-weight: bold;
+      }
+
+      tr:hover {
+        background-color: #f2f2f2;
+      }
+
+      tr:nth-child(2n + 1) {
+        background-color: #eee;
+      }
+
+      .container {
+        display: flex;
+        justify-content: center; /* Centrar horizontalmente */
+        align-items: center; /* Centrar verticalmente */
+        width: 100%;
+        height: 50vh; /* Opcional: ajusta la altura según necesites */
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <table class="table-hover">
+        <tr>
+          <th>Nombre</th>
+          <th>Edad</th>
+          <th>Email</th>
+          <th>Home</th>
+        </tr>
+        <tr>
+          <td>Carlos</td>
+          <td>25</td>
+          <td>juan@example.com</td>
+        </tr>
+        <tr>
+          <td>Ana</td>
+          <td>30</td>
+          <td>ana@example.com</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>
