@@ -17,6 +17,7 @@ async function main(codeToModel) {
   const matches = [...codeResponse.matchAll(regex)];
   const contents = matches.map(match => match[1].replace(/css/g, ''));
   console.log(contents[0]);
+  // console.log(contents[1]);
 
   return contents[0];
 }

@@ -1,5 +1,5 @@
 "use client"
-import { useRef, useState } from 'react';
+import { useRef, useState, useEffect } from 'react';
 import { getGeneratedCSSStyle } from "./ia-generator-css.js";
 
 const Visualizer = (userEmail: string) => {
@@ -9,17 +9,39 @@ const Visualizer = (userEmail: string) => {
   const toggleModalVisibility = () => {
     setModalVisible(!isModalVisible);
   }
+
   //Text Area event INPUT HTML
   const [textValue, setTextValue] = useState('');
 
-  const handleTextareaChange = (event: any) => {
-    setTextValue(event.target.value);
-    const generatedStyleCSS =
-      setTimeout(async () => {
-        setStyleCSS(await getGeneratedCSSStyle(event.target.value))
-      }, 900);
+  // Obtener el color seleccionado el color seleccionado
+  // Ref para almacenar la referencia al input de color
+  const [selectedColor, setSelectedColor] = useState('#ffffff');
+  let generatedStyleCSS = null
+  const handleChangeHTML = (event: any) => {
+
+    console.log("EVENT TARGET =>", event.target.id)
+    if (event.target.id === "textArea") {
+      setTextValue(event.target.value);
+      generatedStyleCSS =
+        setTimeout(async () => {
+          setStyleCSS(await getGeneratedCSSStyle(event.target.value, selectedColor))
+        }, 900);
+    }
+    if (event.target.id === "colorPicker") {
+      setSelectedColor(event.target.value);
+      generatedStyleCSS =
+        setTimeout(async () => {
+          setStyleCSS(await getGeneratedCSSStyle(textValue, event.target.value))
+        }, 900);
+    }
+    console.log('Color seleccionado:', selectedColor);
+    console.error("TEXT VALUE -> ", textValue)
 
   };
+
+
+  console.log('Color seleccionado:', selectedColor);
+
 
   // Text Area event OUTPUT CSS   
   const [styleCSS, setStyleCSS] = useState('');
@@ -134,11 +156,24 @@ const Visualizer = (userEmail: string) => {
     }
   }
 
+
   return (
     <div className="p-0 h-full">
       <div className="p-4 dark:border-gray-700 h-full">
         <div className="flex grid grid-cols-3 gap-4 h-full">
           <div>
+
+            <div className="flex items-center justify-center bg-gray-50 dark:bg-gray-800 rounded">
+              <label htmlFor="colorPicker" className="mr-2">Selecciona un color:</label>
+              <input
+                id="colorPicker"
+                type="color"
+                className="p-2 bg-gray-50 rounded-md border border-gray-300 focus:outline-none focus:border-blue-500"
+                // ref={colorPickerRef}
+                value={selectedColor} // Establece el valor del color seleccionado
+                onChange={handleChangeHTML} // Manejador para el cambio de color
+              />
+            </div>
             <button data-copy-to-clipboard-target="code-block" data-copy-to-clipboard-content-type="innerHTML" data-copy-to-clipboard-html-entities="true" className="absolute text-gray-900 dark:text-gray-400 ml-[23rem] hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-600 dark:hover:bg-gray-700 rounded-lg py-2 px-1 inline-flex items-center justify-center bg-white border-gray-200" onClick={handleCopyHtmlCode}>
               <span id="default-message" className="inline-flex items-center">
                 <svg className="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 -2 18 24">
@@ -155,11 +190,13 @@ const Visualizer = (userEmail: string) => {
               </span>
             </button>
             <textarea value={textValue}
-              onChange={handleTextareaChange}
+              onChange={handleChangeHTML}
               placeholder="Escribe codigo <HTML> ..."
-              className="h-[35rem] w-[27rem] flex items-center justify-center w-96 p-2 rounded bg-gray-50 dark:bg-gray-800 text-sm"
+              className="h-[33.3rem] w-[27rem] flex items-center justify-center w-96 p-2 rounded bg-gray-50 dark:bg-gray-800 text-sm"
+              id="textArea"
               ref={textAreaRef}>
             </textarea>
+
           </div>
 
           <div>

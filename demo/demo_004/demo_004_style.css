@@ -1,0 +1,97 @@
+
+:root {
+  --primary-color: #542871;
+  --secondary-color: #8E78A1;
+  --contrast-color: #75556E;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9; /* Fondo claro */
+}
+
+.navbar {
+  background-color: var(--primary-color);
+  color: #fff; /* Blanco */
+  padding: 1em;
+  text-align: center;
+  font-weight: bold;
+}
+
+.menu a {
+  color: #fff; /* Blanco */
+  text-decoration: none;
+}
+
+.menu a:hover {
+  color: #ccc; /* Gris claro */
+}
+
+.header {
+  background-color: var(--primary-color);
+  padding: 2em;
+  text-align: center;
+  color: #fff; /* Blanco */
+}
+
+.header h1 {
+  font-size: 2.5em;
+  font-weight: bold;
+}
+
+.header p {
+  font-size: 1.2em;
+}
+
+.features h2 {
+  color: var(--contrast-color); /* Marrón claro */
+}
+
+.feature {
+  padding: 1em;
+  border-bottom: 1px solid #ddd; /* Píxeles gruesos */
+}
+
+.feature:last-child {
+  border-bottom: none; /* Quitar línea de separación al último feature */
+}
+
+.testimonials h2 {
+  color: var(--primary-color); /* Azul oscuro */
+}
+
+.testimonial p {
+  font-size: 1.2em;
+  margin-bottom: 1em;
+}
+
+.testimonial p:last-child {
+  margin-bottom: 0; /* Eliminar espacio al final del testimonio */
+}
+
+.cta h2 {
+  font-size: 2em;
+  font-weight: bold;
+  color: #fff; /* Blanco */
+}
+
+.cta button {
+  background-color: var(--primary-color);
+  color: #fff; /* Blanco */
+  padding: 0.5em 1em;
+  border: none;
+  border-radius: 0.2em;
+  cursor: pointer;
+}
+
+.cta button:hover {
+  background-color: #454545; /* Gris oscuro */
+}
+
+.footer p {
+  font-size: 0.8em;
+  color: #777; /* Gris moyen */
+}
