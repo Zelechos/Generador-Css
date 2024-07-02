@@ -158,17 +158,17 @@ const Visualizer = (userEmail: string) => {
 
 
   return (
-    <div className="p-0 h-full">
+    <div className="p-0 h-[45rem]">
       <div className="p-4 dark:border-gray-700 h-full">
         <div className="flex grid grid-cols-3 gap-4 h-full">
           <div>
 
-            <div className="flex items-center justify-center bg-gray-50 dark:bg-gray-800 rounded">
+            <div className="flex items-center justify-center bg-gray-50 dark:bg-gray-800 rounded  w-[27rem]">
               <label htmlFor="colorPicker" className="mr-2">Selecciona un color:</label>
               <input
                 id="colorPicker"
                 type="color"
-                className="p-2 bg-gray-50 rounded-md border border-gray-300 focus:outline-none focus:border-blue-500"
+                className="p-1 bg-gray-50 rounded-md border border-gray-300 focus:outline-none focus:border-blue-500"
                 // ref={colorPickerRef}
                 value={selectedColor} // Establece el valor del color seleccionado
                 onChange={handleChangeHTML} // Manejador para el cambio de color
@@ -242,7 +242,7 @@ const Visualizer = (userEmail: string) => {
             />
           </div>
 
-          <button className="inline-flex w-[15rem] items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800" onClick={sendCode}>
+          <button className="inline-flex h-[3rem] w-[15rem] items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800" onClick={sendCode}>
             Save the Style
             <svg className="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
               <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
